@@ -1,0 +1,20 @@
+{
+  "//": "Banco de consejos de taller para los posts de valor (regla 80/20). El bot los rota. Añade los tuyos: cuantos más personales, mejor funcionan.",
+  "tips": [
+    { "id": "linea-cuchillo", "texto": "Una línea de cuchillo de marcar es 10 veces más precisa que un lápiz. Y además guía la sierra en el primer corte: el filo cae en la muesca y no baila.", "guia": "como-elegir-sierra-japonesa" },
+    { "id": "afilado-barato", "texto": "Un formón barato bien afilado corta mejor que uno caro sin filo. Siempre. El 80% del rendimiento de una herramienta de corte está en el afilado, no en la marca.", "guia": "kit-basico-taller-100-euros" },
+    { "id": "medir-dos-veces", "texto": "Mide dos veces, corta una. Pero mejor aún: no midas — presenta la pieza en su sitio y marca directamente. El error de lectura desaparece cuando no hay números de por medio.", "guia": "" },
+    { "id": "sargentos-nunca-sobran", "texto": "La regla más vieja del taller: nunca hay sargentos de sobra. Cuando creas que tienes suficientes, compra dos más. Los usarás.", "guia": "kit-basico-taller-100-euros" },
+    { "id": "sierra-japonesa-tirar", "texto": "Si tu sierra japonesa se clava, estás empujando. Corta SOLO al tirar, con el peso de la propia sierra. La mano que empuja solo acompaña, sin presión ninguna.", "guia": "como-elegir-sierra-japonesa" },
+    { "id": "escuadra-comprobar", "texto": "Antes de fiarte de una escuadra nueva: traza una línea, gira la escuadra y traza sobre la misma línea. Si las dos líneas no coinciden, tu escuadra no es una escuadra.", "guia": "" },
+    { "id": "grano-madera", "texto": "Lee el grano antes de cepillar o cortar: trabajar contra el grano arranca fibras y deja la superficie a saltos. Si el cepillo escupe en vez de rizar, da la vuelta a la pieza.", "guia": "" },
+    { "id": "cola-menos-es-mas", "texto": "En un encolado, más cola no es más fuerte: es más limpieza y juntas más gordas. Una película fina y uniforme en ambas caras, presión, y a esperar. La prisa es el enemigo del encolado.", "guia": "" },
+    { "id": "no-compres-maquina", "texto": "No compres la máquina hasta que un proyecto te la pida dos veces. El taller se amplía cuando el trabajo lo exige, no cuando el catálogo te tienta.", "guia": "kit-basico-taller-100-euros" },
+    { "id": "banco-altura", "texto": "La altura correcta del banco de trabajo: la muñeca con el puño cerrado, de pie y con el brazo caído. Más alto te cansa los hombros; más bajo, la espalda. Tu cuerpo es la primera herramienta.", "guia": "" },
+    { "id": "cera-tornillos", "texto": "Pasa un tornillo por cera (o jabón seco) antes de atornillar en madera dura: entra con la mitad de esfuerzo y no revienta la cabeza. Truco de viejo que no falla.", "guia": "" },
+    { "id": "luz-rasante", "texto": "Para ver si una superficie está realmente plana, mírala con luz rasante: una lámpara casi a ras de la madera delata cada onda y cada arañazo que la luz de techo esconde.", "guia": "" },
+    { "id": "primera-pasada-sierra", "texto": "Los tres primeros centímetros del corte deciden todo el corte. Empieza lento, con golpes cortos, hasta que la hoja tenga camino. Luego ya puedes dar la zancada completa.", "guia": "como-elegir-sierra-japonesa" },
+    { "id": "retales-pruebas", "texto": "Nunca estrenes un ajuste, una cuchilla o un tinte en la pieza buena. El retal es el laboratorio del taller: guarda siempre recortes de cada madera que trabajes.", "guia": "" },
+    { "id": "piedra-plana", "texto": "Una piedra de afilar hundida por el centro afila en curva y te miente. Aplánala regularmente (o usa piedra de diamante, que no se deforma). Piedra plana = filo recto.", "guia": "kit-basico-taller-100-euros" }
+  ]
+}

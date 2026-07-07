@@ -1,11 +1,17 @@
 {
   "publicadosRecientes": [
-    "escuadra-combinada-300"
+    "escuadra-combinada-300",
+    "sierra-japonesa-ryoba"
   ],
   "ultimo": {
     "fecha": "2026-07-07",
-    "productoId": "escuadra-combinada-300",
-    "urlFicha": "https://RELLENAR_USUARIO_GITHUB.github.io/tienda-taller/producto/escuadra-combinada-300.html",
+    "modo": "producto",
+    "productoId": "sierra-japonesa-ryoba",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/sierra-japonesa-ryoba.html",
     "dir": "social/out/2026-07-07"
-  }
+  },
+  "tipsRecientes": [
+    "linea-cuchillo"
+  ]
 }

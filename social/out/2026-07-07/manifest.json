@@ -1,8 +1,9 @@
 {
   "fecha": "2026-07-07",
-  "productoId": "escuadra-combinada-300",
-  "titulo": "Escuadra combinada 300 mm acero inox",
-  "urlFicha": "https://RELLENAR_USUARIO_GITHUB.github.io/tienda-taller/producto/escuadra-combinada-300.html",
+  "modo": "producto",
+  "id": "sierra-japonesa-ryoba",
+  "titulo": "Sierra japonesa Ryoba 240 mm doble filo",
+  "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/sierra-japonesa-ryoba.html",
   "textos": [
     "x",
     "facebook",

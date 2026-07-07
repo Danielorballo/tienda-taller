@@ -22,29 +22,54 @@ const STATE_FILE = path.join(ROOT, 'social', 'state.json');
 const state = fs.existsSync(STATE_FILE) ? JSON.parse(fs.readFileSync(STATE_FILE, 'utf8')) : { publicadosRecientes: [] };
 
 const publicables = data.productos.filter(p => p.affiliateUrl || process.env.BUILD_PREVIEW === '1');
-if (!publicables.length) { console.log('ℹ️ No hay productos con enlace de afiliado: nada que publicar.'); process.exit(0); }
-
-// Producto del día: tendencia primero, y de esos el que lleve más tiempo sin salir
-const recientes = new Set(state.publicadosRecientes.slice(-Math.max(publicables.length - 1, 0)));
-const pool = publicables.filter(p => !recientes.has(p.id));
-const candidato = pool.find(p => p.tendencia) || pool[0] || publicables[0];
-const p = candidato;
-const urlFicha = `${cfg.tienda.url}/producto/${p.id}.html`;
 const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
 const HASHTAGS = '#carpintería #bricolaje #herramientas #taller #DIY #woodworking';
-const gancho = p.tendencia
-  ? `🔥 En tendencia esta semana: ${p.titulo}`
-  : `🪵 Herramienta probada en taller: ${p.titulo}`;
-const proTop = p.pros[0] || '';
 
-const textos = {
-  x: `${gancho}\n\n${proTop ? '✔ ' + proTop + '\n' : ''}💶 ${p.precio}\n\n👉 Veredicto completo y enlace: ${urlFicha}\n\n${HASHTAGS}`.slice(0, 279),
-  facebook: `${gancho}\n\n${p.veredicto}\n\n${p.pros.map(x => '✔ ' + x).join('\n')}\n\n💶 Precio: ${p.precio}\n👉 Ficha completa con pros y contras: ${urlFicha}\n\n${HASHTAGS}`,
-  instagram: `${gancho}\n\n${p.veredicto}\n\n💶 ${p.precio}\n🔗 Enlace en la bio y en ${urlFicha}\n\n${HASHTAGS} #aliexpressfinds #herramientasdecalidad`,
-  tiktok: `[GUION VÍDEO 20-30s]\n1. Plano de la herramienta: "${gancho}"\n2. En uso: "${proTop}"\n3. El pero, a la cara: "${p.contras[0] || 'sin peros graves'}"\n4. Cierre: "Precio: ${p.precio}. Ficha completa en el enlace del perfil."\n\nCAPTION: ${gancho} 🔗 en bio ${HASHTAGS} #aliexpress`,
-  youtube: `[YouTube Short — mismo guion que TikTok]\n\nTÍTULO: ${p.titulo} — ¿merece la pena? (opinión de carpintero)\nDESCRIPCIÓN:\n${p.veredicto}\n\nFicha completa con pros/contras y enlace: ${urlFicha}\n\n${HASHTAGS}`,
-};
+// Regla 80/20: martes (2) y viernes (5) = post de producto (venta);
+// el resto de días = consejo de taller (valor, capta seguidores).
+const hoy = new Date();
+const DIAS_PRODUCTO = [2, 5];
+let modo = DIAS_PRODUCTO.includes(hoy.getUTCDay()) && publicables.length ? 'producto' : 'consejo';
+if (process.env.POST_MODO) modo = process.env.POST_MODO; // forzar en pruebas: POST_MODO=consejo|producto
+
+let p = null, tip = null, urlFicha, textos, tituloCard;
+
+if (modo === 'producto') {
+  // Producto del día: tendencia primero, y de esos el que lleve más tiempo sin salir
+  const recientes = new Set(state.publicadosRecientes.slice(-Math.max(publicables.length - 1, 0)));
+  const pool = publicables.filter(x => !recientes.has(x.id));
+  p = pool.find(x => x.tendencia) || pool[0] || publicables[0];
+  urlFicha = `${cfg.tienda.url}/producto/${p.id}.html`;
+  const gancho = p.tendencia
+    ? `🔥 En tendencia esta semana: ${p.titulo}`
+    : `🪵 Herramienta probada en taller: ${p.titulo}`;
+  const proTop = p.pros[0] || '';
+  tituloCard = p.titulo;
+  textos = {
+    x: `${gancho}\n\n${proTop ? '✔ ' + proTop + '\n' : ''}💶 ${p.precio}\n\n👉 Veredicto completo y enlace: ${urlFicha}\n\n${HASHTAGS}`.slice(0, 279),
+    facebook: `${gancho}\n\n${p.veredicto}\n\n${p.pros.map(x => '✔ ' + x).join('\n')}\n\n💶 Precio: ${p.precio}\n👉 Ficha completa con pros y contras: ${urlFicha}\n\n${HASHTAGS}`,
+    instagram: `${gancho}\n\n${p.veredicto}\n\n💶 ${p.precio}\n🔗 Enlace en la bio y en ${urlFicha}\n\n${HASHTAGS} #aliexpressfinds #herramientasdecalidad`,
+    tiktok: `[GUION VÍDEO 20-30s]\n1. Plano de la herramienta: "${gancho}"\n2. En uso: "${proTop}"\n3. El pero, a la cara: "${p.contras[0] || 'sin peros graves'}"\n4. Cierre: "Precio: ${p.precio}. Ficha completa en el enlace del perfil."\n\nCAPTION: ${gancho} 🔗 en bio ${HASHTAGS} #aliexpress`,
+    youtube: `[YouTube Short — mismo guion que TikTok]\n\nTÍTULO: ${p.titulo} — ¿merece la pena? (opinión de carpintero)\nDESCRIPCIÓN:\n${p.veredicto}\n\nFicha completa con pros/contras y enlace: ${urlFicha}\n\n${HASHTAGS}`,
+  };
+} else {
+  // Consejo de taller rotando (los menos usados primero)
+  const { tips } = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'tips.json'), 'utf8'));
+  if (!tips.length) { console.log('ℹ️ Sin consejos en data/tips.json.'); process.exit(0); }
+  const usados = state.tipsRecientes || [];
+  tip = tips.find(t => !usados.slice(-(tips.length - 1)).includes(t.id)) || tips[0];
+  urlFicha = tip.guia ? `${cfg.tienda.url}/guias/${tip.guia}.html` : cfg.tienda.url;
+  const gancho = '🪵 Consejo de taller (16 años de oficio)';
+  tituloCard = tip.texto;
+  const cierre = tip.guia ? `📖 Guía completa: ${urlFicha}` : `📖 Más consejos y herramientas probadas: ${urlFicha}`;
+  textos = {
+    x: `${gancho}\n\n${tip.texto}\n\n${HASHTAGS}`.slice(0, 279),
+    facebook: `${gancho}\n\n${tip.texto}\n\n${cierre}\n\n${HASHTAGS}`,
+    instagram: `${gancho}\n\n${tip.texto}\n\n🔗 Enlace en la bio\n\n${HASHTAGS} #aprendecarpinteria #trucosdetaller`,
+    tiktok: `[GUION VÍDEO 15-20s]\n1. A cámara o manos trabajando: "${tip.texto.split('.')[0]}."\n2. Demostración o explicación: "${tip.texto}"\n3. Cierre: "Sígueme para un consejo de taller cada día."\n\nCAPTION: ${gancho} ${HASHTAGS} #trucosdetaller`,
+    youtube: `[YouTube Short — mismo guion que TikTok]\n\nTÍTULO: ${tip.texto.split('.')[0]} (consejo de carpintero)\nDESCRIPCIÓN:\n${tip.texto}\n\n${cierre}\n\n${HASHTAGS}`,
+  };
+}
 
 const cardCSS = (w, h) => `
 *{margin:0;padding:0;box-sizing:border-box}
@@ -58,12 +83,18 @@ h1{font-family:Georgia,serif;font-size:${w > h ? 56 : 60}px;line-height:1.2;marg
 .pro{font-size:38px;opacity:.95;margin-bottom:14px}
 .marca{position:absolute;bottom:44px;left:0;right:0;font-size:32px;opacity:.85;font-style:italic}`;
 
-const cardHTML = (w, h) => `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${cardCSS(w, h)}</style></head><body>
+const cardHTML = (w, h) => modo === 'producto' ? `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${cardCSS(w, h)}</style></head><body>
 ${p.tendencia ? '<div class="badge">🔥 EN TENDENCIA</div>' : '<div class="badge">🪵 PROBADA EN TALLER</div>'}
 ${p.imagen ? `<img src="${esc(p.imagen)}">` : ''}
 <h1>${esc(p.titulo)}</h1>
 <div class="precio">${esc(p.precio)}</div>
 ${p.pros.slice(0, 2).map(x => `<div class="pro">✔ ${esc(x)}</div>`).join('')}
+<div class="marca">${esc(cfg.tienda.nombre)} — ${esc(cfg.tienda.eslogan)}</div>
+</body></html>` : `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${cardCSS(w, h)}
+h1{font-size:${w > h ? 48 : 52}px;font-style:italic}</style></head><body>
+<div class="badge">🪵 CONSEJO DE TALLER</div>
+<h1>«${esc(tip.texto)}»</h1>
+<div class="pro">16 años de oficio detrás de cada consejo</div>
 <div class="marca">${esc(cfg.tienda.nombre)} — ${esc(cfg.tienda.eslogan)}</div>
 </body></html>`;
 
@@ -98,11 +129,15 @@ if (nav) {
 }
 
 // estado de rotación + manifiesto para publish.js
-state.publicadosRecientes = [...state.publicadosRecientes, p.id].slice(-50);
-state.ultimo = { fecha, productoId: p.id, urlFicha, dir: `social/out/${fecha}` };
+if (modo === 'producto') {
+  state.publicadosRecientes = [...state.publicadosRecientes, p.id].slice(-50);
+} else {
+  state.tipsRecientes = [...(state.tipsRecientes || []), tip.id].slice(-50);
+}
+state.ultimo = { fecha, modo, productoId: p?.id || null, tipId: tip?.id || null, urlFicha, dir: `social/out/${fecha}` };
 fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
 fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
-fs.writeFileSync(path.join(OUT, 'manifest.json'), JSON.stringify({ fecha, productoId: p.id, titulo: p.titulo, urlFicha, textos: Object.keys(textos), png }, null, 2));
+fs.writeFileSync(path.join(OUT, 'manifest.json'), JSON.stringify({ fecha, modo, id: p?.id || tip?.id, titulo: tituloCard, urlFicha, textos: Object.keys(textos), png }, null, 2));
 
-console.log(`✅ Pack del día generado en social/out/${fecha}/ — producto: "${p.titulo}"${p.tendencia ? ' (🔥 tendencia)' : ''}`);
+console.log(`✅ Pack del día (${modo}) generado en social/out/${fecha}/ — "${tituloCard.slice(0, 70)}"${p?.tendencia ? ' (🔥 tendencia)' : ''}`);
 console.log(`   Texto para: X, Facebook, Instagram, TikTok, YouTube. Imágenes: ${png ? 'PNG 1080² y 1080×1920 ✔' : 'solo HTML (sin navegador headless)'}`);
