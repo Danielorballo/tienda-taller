@@ -5,13 +5,14 @@
   ],
   "ultimo": {
     "fecha": "2026-07-07",
-    "modo": "producto",
-    "productoId": "sierra-japonesa-ryoba",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/sierra-japonesa-ryoba.html",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "afilado-barato",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
     "dir": "social/out/2026-07-07"
   },
   "tipsRecientes": [
-    "linea-cuchillo"
+    "linea-cuchillo",
+    "afilado-barato"
   ]
 }

@@ -98,11 +98,18 @@ h1{font-size:${w > h ? 48 : 52}px;font-style:italic}</style></head><body>
 <div class="marca">${esc(cfg.tienda.nombre)} — ${esc(cfg.tienda.eslogan)}</div>
 </body></html>`;
 
+// Prompt de imagen IA (pegar en Bing Image Creator / Gemini / Grok, o vía API si hay clave)
+const escena = modo === 'producto'
+  ? `${p.titulo} sobre un banco de carpintero con virutas de madera`
+  : `manos curtidas de carpintero demostrando: ${tip.texto.split('.')[0].toLowerCase()}`;
+const promptImagen = `Fotografía cinematográfica realista en un taller de carpintería tradicional español: ${escena}. Luz cálida de atardecer entrando por una ventana lateral, polvo de madera flotando en el aire, herramientas colgadas desenfocadas al fondo, tonos madera y ámbar, profundidad de campo corta, estilo documental artesano. Sin texto, sin marcas de agua, sin rostros reconocibles.`;
+
 // --- salida
 const fecha = new Date().toISOString().slice(0, 10);
 const OUT = path.join(ROOT, 'social', 'out', fecha);
 fs.mkdirSync(OUT, { recursive: true });
 for (const [red, txt] of Object.entries(textos)) fs.writeFileSync(path.join(OUT, `${red}.txt`), txt);
+fs.writeFileSync(path.join(OUT, 'prompt-imagen.txt'), promptImagen + '\n\n--- Pegar en: Bing Image Creator (bing.com/create), Gemini (gemini.google.com) o Grok. Guardar la imagen como foto-ia.png en esta carpeta si quieres usarla en vez de la tarjeta.');
 fs.writeFileSync(path.join(OUT, 'card-cuadrada.html'), cardHTML(1080, 1080));
 fs.writeFileSync(path.join(OUT, 'card-vertical.html'), cardHTML(1080, 1920));
 

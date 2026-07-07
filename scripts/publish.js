@@ -76,9 +76,10 @@ async function publicarFacebook() {
 async function publicarInstagram() {
   const { IG_USER_ID: id, FB_PAGE_TOKEN: token, SOCIAL_IMAGE_BASE: base } = process.env;
   if (!id || !token) return console.log('⏭️ Instagram: sin credenciales (IG_USER_ID/FB_PAGE_TOKEN). Saltada.');
-  if (!fs.existsSync(path.join(OUT, 'card-cuadrada.png'))) return console.log('⏭️ Instagram: no hay PNG del día (falta navegador headless).');
+  const imagen = fs.existsSync(path.join(OUT, 'foto-ia.png')) ? 'foto-ia.png' : 'card-cuadrada.png';
+  if (!fs.existsSync(path.join(OUT, imagen))) return console.log('⏭️ Instagram: no hay imagen del día.');
   if (!base) return console.log('⏭️ Instagram: falta SOCIAL_IMAGE_BASE (URL pública base del repo para servir el PNG).');
-  const imageUrl = `${base.replace(/\/$/, '')}/${state.ultimo.dir}/card-cuadrada.png`;
+  const imageUrl = `${base.replace(/\/$/, '')}/${state.ultimo.dir}/${imagen}`;
   const crear = await pedir(`https://graph.facebook.com/v21.0/${id}/media`, {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({ image_url: imageUrl, caption: leer('instagram'), access_token: token }).toString(),

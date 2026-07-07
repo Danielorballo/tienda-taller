@@ -30,6 +30,9 @@ jobs:
       - name: Generar pack de publicaciones (con Chrome headless del runner)
         run: node scripts/make-posts.js
 
+      - name: Fotos IA del día (Pollinations, gratis — si falla, siguen las tarjetas)
+        run: node scripts/gen-image.js || true
+
       - name: Guardar catálogo y pack en el repo
         run: |
           git config user.name "bot-tienda"
