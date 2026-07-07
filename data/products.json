@@ -1,0 +1,56 @@
+{
+  "//": "Catálogo. Añade productos con: node scripts/add-product.js — o edita a mano. affiliateUrl = enlace generado en Portals (Herramientas > Enlace profundo). Si está vacío, el producto NO se publica.",
+  "categorias": [
+    { "id": "medicion", "nombre": "Medición y trazado", "descripcion": "Escuadras, gramiles, calibres y marcado de precisión" },
+    { "id": "corte", "nombre": "Corte y afilado", "descripcion": "Sierras japonesas, formones, cuchillas y piedras de afilar" },
+    { "id": "sujecion", "nombre": "Sujeción y encolado", "descripcion": "Sargentos, prensas y accesorios de banco" },
+    { "id": "electricas", "nombre": "Herramienta eléctrica y accesorios", "descripcion": "Brocas, fresas, discos y pequeñas eléctricas" }
+  ],
+  "productos": [
+    {
+      "id": "escuadra-combinada-300",
+      "categoria": "medicion",
+      "titulo": "Escuadra combinada 300 mm acero inox",
+      "precio": "12,99 €",
+      "precioAntes": "19,84 €",
+      "valoracion": 4.7,
+      "ventas": 1240,
+      "imagen": "",
+      "urlProducto": "https://es.aliexpress.com/item/EJEMPLO.html",
+      "affiliateUrl": "",
+      "veredicto": "La escuadra combinada es la herramienta de trazado que más uso en el banco. Con una de 300 mm en inox tienes escuadra, falsa escuadra a 45° y gramil de profundidad en una sola pieza. Comprueba al recibirla que el cabezal no baila: si aprieta firme, es compra ganadora por este precio.",
+      "pros": ["3 herramientas en 1", "Acero inoxidable, no coge óxido en el taller", "Precio imbatible frente a ferretería local"],
+      "contras": ["Control de calidad variable: verificar el ángulo al recibirla"]
+    },
+    {
+      "id": "sierra-japonesa-ryoba",
+      "categoria": "corte",
+      "titulo": "Sierra japonesa Ryoba 240 mm doble filo",
+      "precio": "18,50 €",
+      "precioAntes": "27,90 €",
+      "valoracion": 4.8,
+      "ventas": 3100,
+      "imagen": "",
+      "urlProducto": "https://es.aliexpress.com/item/EJEMPLO2.html",
+      "affiliateUrl": "",
+      "veredicto": "Corta al tirar, no al empujar: la hoja puede ser finísima y el corte queda limpio sin esfuerzo. Un filo para hilo y otro para través. Para cajeados y espigas a mano no hay herramienta occidental a este precio que se le acerque.",
+      "pros": ["Corte limpio con kerf mínimo", "Doble dentado hilo/través", "Hojas de repuesto baratas"],
+      "contras": ["La hoja se clava si fuerzas al empujar: técnica nueva si vienes de serrucho occidental"]
+    },
+    {
+      "id": "sargentos-rapidos-pack",
+      "categoria": "sujecion",
+      "titulo": "Pack 4 sargentos de apriete rápido 150 mm",
+      "precio": "15,99 €",
+      "precioAntes": "24,60 €",
+      "valoracion": 4.6,
+      "ventas": 890,
+      "imagen": "",
+      "urlProducto": "https://es.aliexpress.com/item/EJEMPLO3.html",
+      "affiliateUrl": "",
+      "veredicto": "En el taller nunca sobran sargentos. Estos de apriete rápido no sustituyen a un sargento de husillo para encolados serios, pero para sujetar plantillas, topes y piezas mientras trabajas son los que más veces coges al día.",
+      "pros": ["Apriete con una mano", "4 unidades por el precio de 1 de marca", "Mordazas con protector, no marcan la madera"],
+      "contras": ["Presión limitada: para encolados de tablero usa husillo"]
+    }
+  ]
+}
