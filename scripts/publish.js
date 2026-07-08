@@ -86,6 +86,14 @@ async function publicarInstagram() {
   });
   const creationId = JSON.parse(crear.body || '{}').id;
   if (!creationId) return console.log(`❌ Instagram (contenedor): ${crear.status} ${crear.body.slice(0, 300)}`);
+  // esperar a que el contenedor procese la imagen (hasta ~60s)
+  for (let i = 0; i < 12; i++) {
+    const st = await pedir(`https://graph.instagram.com/v23.0/${creationId}?fields=status_code&access_token=${encodeURIComponent(token)}`, { method: 'GET' });
+    const status = JSON.parse(st.body || '{}').status_code;
+    if (status === 'FINISHED') break;
+    if (status === 'ERROR') return console.log(`❌ Instagram: el contenedor falló al procesar la imagen: ${st.body.slice(0, 200)}`);
+    await new Promise(r => setTimeout(r, 5000));
+  }
   const pub = await pedir(`https://graph.instagram.com/v23.0/${id}/media_publish`, {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({ creation_id: creationId, access_token: token }).toString(),
