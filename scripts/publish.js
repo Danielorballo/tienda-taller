@@ -72,21 +72,21 @@ async function publicarFacebook() {
   console.log(r.status === 200 ? '✅ Facebook: publicado.' : `❌ Facebook: ${r.status} ${r.body.slice(0, 300)}`);
 }
 
-// ---------- Instagram (necesita imagen en URL pública) ----------
+// ---------- Instagram (API de Instagram con login de Instagram; imagen en URL pública) ----------
 async function publicarInstagram() {
-  const { IG_USER_ID: id, FB_PAGE_TOKEN: token, SOCIAL_IMAGE_BASE: base } = process.env;
-  if (!id || !token) return console.log('⏭️ Instagram: sin credenciales (IG_USER_ID/FB_PAGE_TOKEN). Saltada.');
+  const { IG_USER_ID: id, IG_ACCESS_TOKEN: token, SOCIAL_IMAGE_BASE: base } = process.env;
+  if (!id || !token) return console.log('⏭️ Instagram: sin credenciales (IG_USER_ID/IG_ACCESS_TOKEN). Saltada.');
   const imagen = fs.existsSync(path.join(OUT, 'foto-ia.png')) ? 'foto-ia.png' : 'card-cuadrada.png';
   if (!fs.existsSync(path.join(OUT, imagen))) return console.log('⏭️ Instagram: no hay imagen del día.');
   if (!base) return console.log('⏭️ Instagram: falta SOCIAL_IMAGE_BASE (URL pública base del repo para servir el PNG).');
   const imageUrl = `${base.replace(/\/$/, '')}/${state.ultimo.dir}/${imagen}`;
-  const crear = await pedir(`https://graph.facebook.com/v21.0/${id}/media`, {
+  const crear = await pedir(`https://graph.instagram.com/v23.0/${id}/media`, {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({ image_url: imageUrl, caption: leer('instagram'), access_token: token }).toString(),
   });
   const creationId = JSON.parse(crear.body || '{}').id;
   if (!creationId) return console.log(`❌ Instagram (contenedor): ${crear.status} ${crear.body.slice(0, 300)}`);
-  const pub = await pedir(`https://graph.facebook.com/v21.0/${id}/media_publish`, {
+  const pub = await pedir(`https://graph.instagram.com/v23.0/${id}/media_publish`, {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({ creation_id: creationId, access_token: token }).toString(),
   });
