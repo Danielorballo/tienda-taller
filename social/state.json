@@ -4,16 +4,17 @@
     "sierra-japonesa-ryoba"
   ],
   "ultimo": {
-    "fecha": "2026-07-08",
+    "fecha": "2026-07-09",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "medir-dos-veces",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-07-08"
+    "tipId": "sargentos-nunca-sobran",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-07-09"
   },
   "tipsRecientes": [
     "linea-cuchillo",
     "afilado-barato",
-    "medir-dos-veces"
+    "medir-dos-veces",
+    "sargentos-nunca-sobran"
   ]
 }
