@@ -30,11 +30,20 @@ const APP_KEY = process.env.ALIEXPRESS_APP_KEY || (cfg.afiliado.appKey.startsWit
 const APP_SECRET = process.env.ALIEXPRESS_APP_SECRET || '';
 const TRACKING = cfg.afiliado.trackingId.startsWith('RELLENAR') ? '' : cfg.afiliado.trackingId;
 
-// Palabras clave del nicho: se rotan, edítalas a gusto
+// Palabras clave del nicho con su categoría de la tienda: se rotan, edítalas a gusto
 const KEYWORDS = [
-  'woodworking tools', 'japanese saw', 'carpenter square', 'wood chisel set',
-  'router bit', 'clamp woodworking', 'dowel jig', 'pocket hole jig',
-  'sharpening stone', 'marking gauge', 'digital caliper', 'workbench vise',
+  { kw: 'woodworking tools', cat: 'electricas' },
+  { kw: 'japanese saw', cat: 'corte' },
+  { kw: 'carpenter square', cat: 'medicion' },
+  { kw: 'wood chisel set', cat: 'corte' },
+  { kw: 'router bit', cat: 'electricas' },
+  { kw: 'clamp woodworking', cat: 'sujecion' },
+  { kw: 'dowel jig', cat: 'sujecion' },
+  { kw: 'pocket hole jig', cat: 'sujecion' },
+  { kw: 'sharpening stone', cat: 'corte' },
+  { kw: 'marking gauge', cat: 'medicion' },
+  { kw: 'digital caliper', cat: 'medicion' },
+  { kw: 'workbench vise', cat: 'sujecion' },
 ];
 const MAX_NUEVOS_POR_RUN = 3;    // no inflar el catálogo con morralla
 const MIN_RATING = 4.6;          // evaluación mínima
@@ -54,12 +63,17 @@ function firmar(params) {
   return crypto.createHash('md5').update(APP_SECRET + base + APP_SECRET, 'utf8').digest('hex').toUpperCase();
 }
 
+// La pasarela TOP exige el timestamp en hora de China (GMT+8), no en UTC
+function timestampChina() {
+  return new Date(Date.now() + 8 * 3600e3).toISOString().replace('T', ' ').slice(0, 19);
+}
+
 function llamarAPI(metodo, extra) {
   const params = {
     method: metodo,
     app_key: APP_KEY,
     sign_method: 'md5',
-    timestamp: new Date().toISOString().replace('T', ' ').slice(0, 19),
+    timestamp: timestampChina(),
     format: 'json',
     v: '2.0',
     ...extra,
@@ -101,14 +115,37 @@ function slug(s) {
   return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 }
 
+const MODO_TEST = process.argv.includes('--test');
+
 (async () => {
+  if (MODO_TEST) {
+    // Prueba de credenciales: una sola llamada, no escribe nada
+    console.log('🧪 Modo test: comprobando credenciales contra la API…');
+    const r = await llamarAPI('aliexpress.affiliate.hotproduct.query', {
+      keywords: 'woodworking tools',
+      target_currency: 'EUR',
+      target_language: 'ES',
+      tracking_id: TRACKING,
+      page_size: '5',
+      ship_to_country: 'ES',
+    });
+    if (r.error_response) {
+      console.error('❌ La API devuelve error:', JSON.stringify(r.error_response, null, 2));
+      process.exit(1);
+    }
+    const lista = r?.aliexpress_affiliate_hotproduct_query_response?.resp_result?.result?.products?.product || [];
+    console.log(`✅ Credenciales OK — la API devuelve ${lista.length} producto(s).`);
+    lista.slice(0, 3).forEach(p => console.log(`   · ${p.product_title} — ${p.target_sale_price || p.sale_price} | enlace afiliado: ${p.promotion_link ? 'SÍ' : 'NO'}`));
+    process.exit(0);
+  }
+
   caducarTendencias();
   // rota keywords según el día del año para variar la búsqueda diaria
   const dia = Math.floor(Date.now() / 864e5);
   const kws = [KEYWORDS[dia % KEYWORDS.length], KEYWORDS[(dia + 5) % KEYWORDS.length]];
   const candidatos = [];
 
-  for (const kw of kws) {
+  for (const { kw, cat } of kws) {
     console.log(`🔎 Buscando tendencias: "${kw}"…`);
     try {
       const r = await llamarAPI('aliexpress.affiliate.hotproduct.query', {
@@ -127,7 +164,7 @@ function slug(s) {
         if (rating < MIN_RATING * 20 || ventas < MIN_VENTAS) continue; // 4.6/5 ≈ 92%
         candidatos.push({
           id: slug(it.product_title),
-          categoria: 'electricas',
+          categoria: cat,
           titulo: it.product_title,
           precio: `${it.target_sale_price || it.sale_price} €`,
           precioAntes: (it.target_original_price || it.original_price) && (it.target_original_price || it.original_price) !== (it.target_sale_price || it.sale_price) ? `${it.target_original_price || it.original_price} €` : '',
