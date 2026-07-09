@@ -10,7 +10,7 @@
   },
 
   "afiliado": {
-    "trackingId": "RELLENAR_TRACKING_ID_PORTALS",
+    "trackingId": "rincontaller",
     "appKey": "RELLENAR_APP_KEY_SI_USAS_API",
     "appSecret": "PONLO_EN_SECRETS_DE_GITHUB_NO_AQUI"
   },
