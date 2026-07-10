@@ -4,17 +4,18 @@
     "sierra-japonesa-ryoba"
   ],
   "ultimo": {
-    "fecha": "2026-07-09",
+    "fecha": "2026-07-10",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "sargentos-nunca-sobran",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-07-09"
+    "tipId": "sierra-japonesa-tirar",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
+    "dir": "social/out/2026-07-10"
   },
   "tipsRecientes": [
     "linea-cuchillo",
     "afilado-barato",
     "medir-dos-veces",
-    "sargentos-nunca-sobran"
+    "sargentos-nunca-sobran",
+    "sierra-japonesa-tirar"
   ]
 }
