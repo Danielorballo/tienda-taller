@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-07-11",
+  "modo": "consejo",
+  "id": "escuadra-comprobar",
+  "titulo": "Antes de fiarte de una escuadra nueva: traza una línea, gira la escuadra y traza sobre la misma línea. Si las dos líneas no coinciden, tu escuadra no es una escuadra.",
+  "urlFicha": "https://danielorballo.github.io/tienda-taller",
+  "textos": [
+    "x",
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "png": true
+}
