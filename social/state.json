@@ -4,12 +4,12 @@
     "sierra-japonesa-ryoba"
   ],
   "ultimo": {
-    "fecha": "2026-07-12",
+    "fecha": "2026-07-13",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "grano-madera",
+    "tipId": "cola-menos-es-mas",
     "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-07-12"
+    "dir": "social/out/2026-07-13"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -18,6 +18,7 @@
     "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
     "escuadra-comprobar",
-    "grano-madera"
+    "grano-madera",
+    "cola-menos-es-mas"
   ]
 }
