@@ -56,75 +56,95 @@ const mediaDe = (p, alto = 190) => p.imagen
 
 // ---------- estilos ----------
 const CSS = `
-:root{--madera:#7a5230;--madera-osc:#3d2512;--crema:#faf6f0;--tinta:#2b2420;--acento:#c77b30;--acento-vivo:#e08a2e;--rojo:#d9534f;--borde:#e5dcd0;--sombra:0 2px 10px rgba(61,37,18,.10)}
+:root{--madera:#6b4423;--madera-osc:#2a1a0e;--crema:#f7f2ea;--papel:#fffdfa;--tinta:#241d17;--suave:#5c4f43;--acento:#c9782e;--acento-vivo:#e0913a;--rojo:#c0472e;--borde:#e9e0d3;--sombra:0 6px 22px rgba(42,26,14,.08);--sombra-alta:0 14px 40px rgba(42,26,14,.16)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.65}
-h1,h2,h3,h4{font-family:Georgia,'Times New Roman',serif}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.68;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Fraunces','Georgia',serif;font-weight:600;letter-spacing:-.01em}
 a{color:var(--madera)}
-.promo-bar{background:var(--rojo);color:#fff;text-align:center;padding:.45rem .8rem;font-size:.88rem;font-weight:600}
-header{background:linear-gradient(160deg,#3d2512 0%,#5a3a1e 55%,#7a5230 100%);color:#f5ead9;padding:2.2rem 1rem 1.8rem;text-align:center;position:relative;overflow:hidden}
-header::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 34px,rgba(255,255,255,.03) 34px 36px);pointer-events:none}
-header h1{font-size:2.3rem;letter-spacing:1px;text-shadow:0 2px 8px rgba(0,0,0,.35)}
-header p{opacity:.9;font-style:italic;margin-top:.4rem;font-size:1.05rem}
-nav{background:var(--madera-osc);text-align:center;padding:.6rem;position:sticky;top:0;z-index:10;box-shadow:var(--sombra)}
-nav a{color:#f5ead9;text-decoration:none;margin:0 .8rem;font-size:.95rem;padding:.25rem .5rem;border-radius:4px;transition:background .15s}
-nav a:hover{background:rgba(255,255,255,.12)}
-main{max-width:1020px;margin:0 auto;padding:1.8rem 1rem}
-.aviso-afiliado{background:#fdf3e3;border:1px solid var(--borde);border-radius:8px;padding:.6rem .9rem;font-size:.83rem;margin-bottom:1.5rem;color:#6b5138}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.3rem}
-.card{background:#fff;border:1px solid var(--borde);border-radius:12px;padding:1.15rem;display:flex;flex-direction:column;position:relative;box-shadow:var(--sombra);transition:transform .15s,box-shadow .15s}
-.card:hover{transform:translateY(-4px);box-shadow:0 8px 22px rgba(61,37,18,.16)}
-.card h3{font-size:1.08rem;margin-bottom:.4rem;line-height:1.35}
+img{max-width:100%}
+.promo-bar{background:var(--madera-osc);color:#f3e6d4;text-align:center;padding:.5rem .8rem;font-size:.86rem;font-weight:500;letter-spacing:.01em}
+.promo-bar a{color:#ffcf8a;font-weight:700}
+/* Hero portada */
+.hero{position:relative;min-height:64vh;display:flex;align-items:flex-end;background-size:cover;background-position:center;color:#fff}
+.hero-inner{position:relative;z-index:2;max-width:1080px;margin:0 auto;width:100%;padding:2.6rem 1.3rem 3rem}
+.hero h1{font-size:clamp(2.4rem,5vw,4rem);line-height:1.02;text-shadow:0 2px 24px rgba(0,0,0,.45);max-width:15ch}
+.hero .lema{font-size:clamp(1.05rem,2vw,1.35rem);margin-top:.9rem;max-width:44ch;color:#f3e7d7;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.hero-cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.6rem}
+/* Header interior */
+.topbar{background:var(--madera-osc);color:#f3e6d4;padding:1.1rem 1.3rem;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.topbar .brand{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:600;color:#fff;text-decoration:none}
+.topbar .tagline{font-size:.9rem;color:#c9b7a0;font-style:italic}
+nav{background:var(--papel);border-bottom:1px solid var(--borde);text-align:center;padding:.55rem;position:sticky;top:0;z-index:20;box-shadow:0 2px 12px rgba(42,26,14,.05)}
+nav a{color:var(--madera);text-decoration:none;margin:0 .5rem;font-size:.92rem;font-weight:500;padding:.35rem .7rem;border-radius:99px;transition:background .15s,color .15s}
+nav a:hover{background:var(--madera);color:#fff}
+main{max-width:1080px;margin:0 auto;padding:2.2rem 1.3rem}
+.aviso-afiliado{background:#fbf1e0;border:1px solid var(--borde);border-radius:12px;padding:.7rem 1rem;font-size:.82rem;margin-bottom:1.5rem;color:#6b5138}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(266px,1fr));gap:1.4rem}
+.card{background:var(--papel);border:1px solid var(--borde);border-radius:16px;padding:1.2rem;display:flex;flex-direction:column;position:relative;box-shadow:var(--sombra);transition:transform .18s,box-shadow .18s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--sombra-alta)}
+.card h3{font-size:1.12rem;margin-bottom:.4rem;line-height:1.3}
 .card h3 a{text-decoration:none}
-.card p{font-size:.9rem;flex:1;color:#4f4238}
-.card img,.card .art{width:100%;object-fit:cover;border-radius:8px;margin-bottom:.7rem;background:#eee;overflow:hidden}
+.card p{font-size:.9rem;flex:1;color:var(--suave)}
+.card img,.card .art{width:100%;object-fit:cover;border-radius:11px;margin-bottom:.8rem;background:#eee;overflow:hidden}
 .art svg{width:100%;height:100%;display:block}
-.precio-linea{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap;margin:.3rem 0}
-.precio{color:var(--acento);font-weight:800;font-size:1.35rem}
-.precio-antes{color:#9a8a7a;text-decoration:line-through;font-size:.95rem}
-.dto{background:var(--rojo);color:#fff;font-size:.78rem;font-weight:800;padding:.12rem .5rem;border-radius:6px}
-.stars{color:#e0a52e;font-size:.92rem}.stars b{color:#6b5138}
-.ventas{font-size:.82rem;color:#7a6a58}
+.precio-linea{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap;margin:.35rem 0}
+.precio{color:var(--acento);font-weight:800;font-size:1.4rem;font-family:'Inter',sans-serif}
+.precio-antes{color:#a8998a;text-decoration:line-through;font-size:.95rem}
+.dto{background:var(--rojo);color:#fff;font-size:.76rem;font-weight:800;padding:.14rem .5rem;border-radius:6px}
+.stars{color:#e0a52e;font-size:.9rem}.stars b{color:#6b5138}
+.ventas{font-size:.8rem;color:#8a7a68}
 .social-row{display:flex;gap:.8rem;align-items:center;font-size:.85rem;margin-bottom:.35rem;flex-wrap:wrap}
-.badge{position:absolute;top:.7rem;right:.7rem;background:linear-gradient(135deg,#d9534f,#e08a2e);color:#fff;font-size:.72rem;font-weight:700;padding:.22rem .6rem;border-radius:99px;letter-spacing:.4px;box-shadow:0 2px 6px rgba(0,0,0,.25);z-index:2}
-.btn{display:inline-block;background:linear-gradient(135deg,var(--acento),var(--acento-vivo));color:#fff;text-decoration:none;padding:.65rem 1.2rem;border-radius:8px;margin-top:.9rem;text-align:center;font-weight:600;box-shadow:0 3px 8px rgba(199,123,48,.35);transition:filter .15s}
-.btn:hover{filter:brightness(1.08)}
+.badge{position:absolute;top:.8rem;right:.8rem;background:rgba(42,26,14,.82);backdrop-filter:blur(4px);color:#fff;font-size:.72rem;font-weight:700;padding:.28rem .7rem;border-radius:99px;letter-spacing:.3px;box-shadow:0 2px 8px rgba(0,0,0,.25);z-index:2}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--acento),var(--acento-vivo));color:#fff;text-decoration:none;padding:.72rem 1.35rem;border-radius:10px;margin-top:.9rem;text-align:center;font-weight:600;font-size:.95rem;box-shadow:0 4px 14px rgba(201,120,46,.34);transition:transform .15s,filter .15s}
+.btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
 .btn.secundario{background:transparent;color:var(--madera);border:2px solid var(--acento);box-shadow:none}
-h2.seccion{margin:2.2rem 0 1.1rem;padding-bottom:.45rem;border-bottom:3px solid var(--acento);display:inline-block;font-size:1.45rem}
+.btn.claro{background:rgba(255,255,255,.14);color:#fff;border:2px solid rgba(255,255,255,.55);backdrop-filter:blur(3px)}
+h2.seccion{margin:2.6rem 0 1.2rem;font-size:1.7rem;position:relative;padding-left:.9rem}
+h2.seccion::before{content:"";position:absolute;left:0;top:.15em;bottom:.15em;width:5px;border-radius:4px;background:linear-gradient(var(--acento),var(--acento-vivo))}
 /* Chollo de la semana */
-.chollo{display:grid;grid-template-columns:340px 1fr;gap:1.6rem;background:linear-gradient(135deg,#fff 60%,#fdf0dd);border:2px solid var(--acento);border-radius:14px;padding:1.5rem;margin:1.4rem 0 2rem;box-shadow:0 6px 24px rgba(199,123,48,.18);position:relative}
-.chollo .cinta{position:absolute;top:-14px;left:22px;background:var(--rojo);color:#fff;font-weight:800;padding:.35rem 1rem;border-radius:8px;font-size:.95rem;box-shadow:0 3px 8px rgba(0,0,0,.25)}
-.chollo img,.chollo .art{width:100%;border-radius:10px;object-fit:cover;overflow:hidden}
-.chollo h3{font-size:1.5rem;margin-bottom:.5rem}
-.chollo .precio{font-size:2rem}
-.chollo p{color:#4f4238;margin:.5rem 0}
+.chollo{display:grid;grid-template-columns:minmax(280px,380px) 1fr;gap:1.8rem;background:linear-gradient(135deg,var(--papel) 55%,#fbeed9);border:1px solid var(--borde);border-radius:20px;padding:1.7rem;margin:0 0 2.2rem;box-shadow:var(--sombra-alta);position:relative}
+.chollo .cinta{position:absolute;top:-15px;left:24px;background:linear-gradient(135deg,var(--rojo),#d9663f);color:#fff;font-weight:800;padding:.4rem 1.1rem;border-radius:99px;font-size:.85rem;letter-spacing:.03em;box-shadow:0 4px 12px rgba(0,0,0,.22)}
+.chollo img,.chollo .art{width:100%;border-radius:14px;object-fit:cover;overflow:hidden}
+.chollo h3{font-size:1.7rem;margin-bottom:.5rem;line-height:1.12}
+.chollo .precio{font-size:2.2rem}
+.chollo p{color:var(--suave);margin:.5rem 0}
 /* Confianza */
-.confianza{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.6rem 0}
-.confianza div{background:#fff;border:1px solid var(--borde);border-radius:10px;padding:.9rem 1rem;text-align:center;font-size:.88rem;box-shadow:var(--sombra)}
-.confianza b{display:block;font-size:1.05rem;margin-bottom:.2rem}
+.confianza{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1rem;margin:1.8rem 0}
+.confianza div{background:var(--papel);border:1px solid var(--borde);border-radius:14px;padding:1.1rem 1rem;text-align:center;font-size:.86rem;color:var(--suave);box-shadow:var(--sombra)}
+.confianza b{display:block;font-family:'Fraunces',serif;font-size:1.02rem;color:var(--tinta);margin-bottom:.25rem}
+/* Categorías con foto */
+.cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1.3rem}
+.cat-tile{position:relative;display:block;height:190px;border-radius:16px;overflow:hidden;text-decoration:none;box-shadow:var(--sombra);transition:transform .18s,box-shadow .18s}
+.cat-tile:hover{transform:translateY(-5px);box-shadow:var(--sombra-alta)}
+.cat-tile img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.cat-tile:hover img{transform:scale(1.06)}
+.cat-tile .capa{position:absolute;inset:0;background:linear-gradient(to top,rgba(20,12,6,.82) 8%,rgba(20,12,6,.15) 55%,transparent);display:flex;flex-direction:column;justify-content:flex-end;padding:1.1rem}
+.cat-tile h3{color:#fff;font-size:1.22rem;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.cat-tile span{color:#e9d9c5;font-size:.82rem;margin-top:.2rem}
 /* Historia */
-.historia{background:linear-gradient(160deg,#3d2512,#5a3a1e);color:#f0e4d2;border-radius:14px;padding:1.8rem;margin:2.2rem 0;display:grid;grid-template-columns:64px 1fr;gap:1.2rem;align-items:start}
-.historia .icono{font-size:2.6rem;line-height:1}
-.historia h3{color:#ffcf8a;margin-bottom:.5rem;font-size:1.3rem}
-.historia p{font-size:.95rem;opacity:.95}
-.ficha{background:#fff;border:1px solid var(--borde);border-radius:12px;padding:1.8rem;box-shadow:var(--sombra)}
-.ficha .precio{font-size:1.9rem}
-.ficha img,.ficha .art{max-width:420px;border-radius:10px;overflow:hidden}
-.pros-contras{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.2rem 0}
-.pros,.contras{border-radius:8px;padding:.9rem 1rem}
-.pros{background:#f0f7f0;border:1px solid #d3e6d3}.contras{background:#fbf2ea;border:1px solid #eddcc8}
+.historia{background:linear-gradient(150deg,#2a1a0e,#553venue);background:linear-gradient(150deg,#2a1a0e,#553318);color:#f0e4d2;border-radius:20px;padding:2.2rem;margin:2.6rem 0;display:grid;grid-template-columns:70px 1fr;gap:1.4rem;align-items:start;box-shadow:var(--sombra-alta)}
+.historia .icono{font-size:3rem;line-height:1}
+.historia h3{color:#ffcf8a;margin-bottom:.6rem;font-size:1.5rem}
+.historia p{font-size:.98rem;opacity:.95}
+.ficha{background:var(--papel);border:1px solid var(--borde);border-radius:18px;padding:2rem;box-shadow:var(--sombra)}
+.ficha .precio{font-size:2rem}
+.ficha img,.ficha .art{max-width:440px;border-radius:14px;overflow:hidden}
+.pros-contras{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.3rem 0}
+.pros,.contras{border-radius:12px;padding:1rem 1.1rem}
+.pros{background:#eef6ee;border:1px solid #d3e6d3}.contras{background:#fbf1e8;border:1px solid #eddcc8}
 .pros-contras ul{padding-left:1.2rem;font-size:.92rem;margin-top:.4rem}
 .pros h4{color:#2e7d32}.contras h4{color:#b3541e}
-article.post{background:#fff;border:1px solid var(--borde);border-radius:12px;padding:1.8rem;box-shadow:var(--sombra)}
-article.post h2,article.post h3{margin:1.2rem 0 .5rem}
-article.post p,article.post li{margin-bottom:.7rem}
-footer{background:var(--madera-osc);color:#d9c9b3;text-align:center;padding:1.8rem 1rem;margin-top:3rem;font-size:.85rem}
-footer a{color:#f5ead9;margin:0 .5rem}
-@media(max-width:720px){.chollo{grid-template-columns:1fr}.pros-contras{grid-template-columns:1fr}header h1{font-size:1.7rem}.historia{grid-template-columns:1fr}}
+article.post{background:var(--papel);border:1px solid var(--borde);border-radius:18px;padding:2.2rem;box-shadow:var(--sombra);font-size:1.02rem}
+article.post h2,article.post h3{margin:1.4rem 0 .6rem}
+article.post p,article.post li{margin-bottom:.75rem}
+footer{background:var(--madera-osc);color:#c9b7a0;text-align:center;padding:2.4rem 1rem;margin-top:3.5rem;font-size:.85rem}
+footer a{color:#f3e6d4;margin:0 .5rem}
+@media(max-width:720px){.chollo{grid-template-columns:1fr}.pros-contras{grid-template-columns:1fr}.historia{grid-template-columns:1fr}.hero{min-height:56vh}}
 `;
 
-function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '' } = {}) {
+function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '', hero = '' } = {}) {
   const prefix = ruta.includes('/') ? '../' : '';
+  const cabecera = hero || `<header class="topbar"><a class="brand" href="${prefix}index.html">${esc(cfg.tienda.nombre)}</a><span class="tagline">${esc(cfg.tienda.eslogan)}</span></header>`;
   return `<!DOCTYPE html>
 <html lang="${cfg.tienda.idioma}">
 <head>
@@ -133,11 +153,14 @@ function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '' 
 <title>${esc(titulo)} — ${esc(cfg.tienda.nombre)}</title>
 <meta name="description" content="${esc(descripcion)}">
 <link rel="canonical" href="${cfg.tienda.url}/${ruta}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>${CSS}</style>
 </head>
 <body>
-<div class="promo-bar">⚡ Chollo de la semana: ${esc(chollo?.titulo || 'próximamente')}${chollo && descuento(chollo) ? ` — ${descuento(chollo)}% de descuento` : ''} · <a href="${prefix}producto/${chollo?.id}.html" style="color:#fff">verlo →</a></div>
-<header><h1>${esc(cfg.tienda.nombre)}</h1><p>${esc(cfg.tienda.eslogan)}</p></header>
+<div class="promo-bar">⚡ Chollo de la semana: ${esc(chollo?.titulo || 'próximamente')}${chollo && descuento(chollo) ? ` — ${descuento(chollo)}% de descuento` : ''} · <a href="${prefix}producto/${chollo?.id}.html">verlo →</a></div>
+${cabecera}
 <nav><a href="${prefix}index.html">Inicio</a>${data.categorias.map(c => `<a href="${prefix}categoria/${c.id}.html">${esc(c.nombre)}</a>`).join('')}<a href="${prefix}guias.html">Guías</a></nav>
 <main>
 ${cuerpo}
@@ -166,7 +189,22 @@ ${p.tendencia ? '<span class="badge">🔥 Tendencia</span>' : (dto >= 30 ? `<spa
 
 // --- Generación ---
 fs.rmSync(DIST, { recursive: true, force: true });
-for (const d of ['', 'categoria', 'producto', 'legal', 'guias']) fs.mkdirSync(path.join(DIST, d), { recursive: true });
+for (const d of ['', 'categoria', 'producto', 'legal', 'guias', 'assets', 'assets/cat']) fs.mkdirSync(path.join(DIST, d), { recursive: true });
+
+// Copiar imágenes de marca (hero + categorías) a dist/assets si existen
+const BRAND = path.join(ROOT, 'social', 'brand');
+const heroSrc = path.join(BRAND, 'hero', 'hero-taller.png');
+const hayHero = fs.existsSync(heroSrc);
+if (hayHero) fs.copyFileSync(heroSrc, path.join(DIST, 'assets', 'hero-taller.png'));
+const catFoto = {};
+for (const c of data.categorias) {
+  const src = path.join(BRAND, 'cat', `${c.id}.png`);
+  if (fs.existsSync(src)) { fs.copyFileSync(src, path.join(DIST, 'assets', 'cat', `${c.id}.png`)); catFoto[c.id] = true; }
+}
+// Tarjeta de categoría: foto real con capa de texto, o SVG de reserva
+const catTile = (c, prefix = '') => catFoto[c.id]
+  ? `<a class="cat-tile" href="${prefix}categoria/${c.id}.html"><img src="${prefix}assets/cat/${c.id}.png" alt="${esc(c.nombre)}" loading="lazy"><span class="capa"><h3>${esc(c.nombre)}</h3><span>${esc(c.descripcion)}</span></span></a>`
+  : `<div class="card">${artSVG(c.id, 150)}<h3><a href="${prefix}categoria/${c.id}.html">${esc(c.nombre)}</a></h3><p>${esc(c.descripcion)}</p></div>`;
 
 // Guías (leídas antes para poder destacarlas en la portada)
 const artDir = path.join(ROOT, 'content', 'articles');
@@ -221,16 +259,23 @@ const bloqueGuias = indiceGuias.length ? `
   <div class="card"><h3><a href="guias/${a.slug}.html">${esc(a.titulo)}</a></h3><p>${esc(a.extracto)}…</p><a class="btn secundario" href="guias/${a.slug}.html">Leer guía →</a></div>`).join('')}
 </div>` : '';
 
+const heroPortada = `<header class="hero" style="background-image:linear-gradient(90deg,rgba(20,12,6,.55),rgba(20,12,6,.15)),${hayHero ? "url('assets/hero-taller.png')" : 'linear-gradient(150deg,#2a1a0e,#6b4423)'}">
+  <div class="hero-inner">
+    <h1>${esc(cfg.tienda.nombre)}</h1>
+    <p class="lema">${esc(cfg.tienda.eslogan)}</p>
+    <div class="hero-cta"><a class="btn" href="#seleccion">Ver la selección</a><a class="btn claro" href="guias.html">Guías del taller</a></div>
+  </div>
+</header>`;
+
 fs.writeFileSync(path.join(DIST, 'index.html'), page('Inicio',
   `${bloqueChollo}
    ${bloqueConfianza}
    ${enTendencia.length ? `<h2 class="seccion">🔥 En tendencia ahora</h2><div class="grid">${enTendencia.map(p => cardProducto(p)).join('')}</div>` : ''}
-   <h2 class="seccion">🧰 Selección del taller</h2><div class="grid">${resto.map(p => cardProducto(p)).join('') || '<p>Catálogo en construcción — pronto habrá productos.</p>'}</div>
+   <h2 class="seccion" id="seleccion">🧰 Selección del taller</h2><div class="grid">${resto.map(p => cardProducto(p)).join('') || '<p>Catálogo en construcción — pronto habrá productos.</p>'}</div>
    ${bloqueHistoria}
    ${bloqueGuias}
-   <h2 class="seccion">Categorías</h2><div class="grid">${data.categorias.map(c =>
-    `<div class="card">${artSVG(c.id, 120)}<h3><a href="categoria/${c.id}.html">${esc(c.nombre)}</a></h3><p>${esc(c.descripcion)}</p></div>`).join('')}</div>`,
-  { ruta: 'index.html' }));
+   <h2 class="seccion">Explora por categoría</h2><div class="cats">${data.categorias.map(c => catTile(c)).join('')}</div>`,
+  { ruta: 'index.html', hero: heroPortada }));
 
 // Categorías
 for (const c of data.categorias) {
