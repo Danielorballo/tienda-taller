@@ -4,12 +4,12 @@
     "sierra-japonesa-ryoba"
   ],
   "ultimo": {
-    "fecha": "2026-07-14",
+    "fecha": "2026-07-15",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "no-compres-maquina",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-07-14"
+    "tipId": "banco-altura",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-07-15"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -20,6 +20,7 @@
     "escuadra-comprobar",
     "grano-madera",
     "cola-menos-es-mas",
-    "no-compres-maquina"
+    "no-compres-maquina",
+    "banco-altura"
   ]
 }
