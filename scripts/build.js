@@ -99,6 +99,8 @@ main{max-width:1080px;margin:0 auto;padding:2.2rem 1.3rem}
 .btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
 .btn.secundario{background:transparent;color:var(--madera);border:2px solid var(--acento);box-shadow:none}
 .btn.claro{background:rgba(255,255,255,.14);color:#fff;border:2px solid rgba(255,255,255,.55);backdrop-filter:blur(3px)}
+.page-title{font-size:clamp(1.8rem,3.5vw,2.5rem);margin:.4rem 0 1.2rem;line-height:1.12}
+.page-title+p,.lead{color:var(--suave);font-size:1.05rem;margin-bottom:1rem;max-width:65ch}
 h2.seccion{margin:2.6rem 0 1.2rem;font-size:1.7rem;position:relative;padding-left:.9rem}
 h2.seccion::before{content:"";position:absolute;left:0;top:.15em;bottom:.15em;width:5px;border-radius:4px;background:linear-gradient(var(--acento),var(--acento-vivo))}
 /* Chollo de la semana */
@@ -142,20 +144,41 @@ footer a{color:#f3e6d4;margin:0 .5rem}
 @media(max-width:720px){.chollo{grid-template-columns:1fr}.pros-contras{grid-template-columns:1fr}.historia{grid-template-columns:1fr}.hero{min-height:56vh}}
 `;
 
-function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '', hero = '' } = {}) {
+const jsonLd = obj => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
+
+function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '', hero = '', h1 = '', tituloSEO = '', imagen = '', schema = [] } = {}) {
   const prefix = ruta.includes('/') ? '../' : '';
   const cabecera = hero || `<header class="topbar"><a class="brand" href="${prefix}index.html">${esc(cfg.tienda.nombre)}</a><span class="tagline">${esc(cfg.tienda.eslogan)}</span></header>`;
+  // Título: usa override SEO; si no, "Título — Marca" salvo que pase de 60 car. (Google lo corta) → solo el título
+  const completo = `${titulo} — ${cfg.tienda.nombre}`;
+  const titleTag = tituloSEO || (completo.length > 60 ? titulo : completo);
+  const urlAbs = `${cfg.tienda.url}/${ruta}`;
+  const imgAbs = imagen || `${cfg.tienda.url}/assets/hero-taller.png`;
+  const encabezado = h1 ? `<h1 class="page-title">${esc(h1)}</h1>` : '';
+  const bloquesSchema = schema.length ? schema.map(jsonLd).join('\n') : '';
   return `<!DOCTYPE html>
 <html lang="${cfg.tienda.idioma}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(titulo)} — ${esc(cfg.tienda.nombre)}</title>
+<title>${esc(titleTag)}</title>
 <meta name="description" content="${esc(descripcion)}">
-<link rel="canonical" href="${cfg.tienda.url}/${ruta}">
+<link rel="canonical" href="${urlAbs}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(cfg.tienda.nombre)}">
+<meta property="og:title" content="${esc(titleTag)}">
+<meta property="og:description" content="${esc(descripcion)}">
+<meta property="og:url" content="${urlAbs}">
+<meta property="og:image" content="${imgAbs}">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(titleTag)}">
+<meta name="twitter:description" content="${esc(descripcion)}">
+<meta name="twitter:image" content="${imgAbs}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+${bloquesSchema}
 <style>${CSS}</style>
 </head>
 <body>
@@ -163,6 +186,7 @@ function page(titulo, cuerpo, { descripcion = cfg.tienda.descripcion, ruta = '',
 ${cabecera}
 <nav><a href="${prefix}index.html">Inicio</a>${data.categorias.map(c => `<a href="${prefix}categoria/${c.id}.html">${esc(c.nombre)}</a>`).join('')}<a href="${prefix}guias.html">Guías</a></nav>
 <main>
+${encabezado}
 ${cuerpo}
 <div class="aviso-afiliado">ℹ️ Este sitio contiene enlaces de afiliado de AliExpress: si compras a través de ellos recibimos una pequeña comisión sin coste extra para ti. Solo recomendamos herramientas que compraríamos para nuestro propio taller.</div>
 </main>
@@ -275,23 +299,34 @@ fs.writeFileSync(path.join(DIST, 'index.html'), page('Inicio',
    ${bloqueHistoria}
    ${bloqueGuias}
    <h2 class="seccion">Explora por categoría</h2><div class="cats">${data.categorias.map(c => catTile(c)).join('')}</div>`,
-  { ruta: 'index.html', hero: heroPortada }));
+  { ruta: 'index.html', hero: heroPortada,
+    tituloSEO: 'Herramientas de carpintería probadas por un carpintero | El Rincón del Taller',
+    schema: [
+      { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.tienda.nombre, url: cfg.tienda.url, logo: `${cfg.tienda.url}/assets/hero-taller.png`, description: cfg.tienda.descripcion, founder: { '@type': 'Person', name: cfg.titular.nombre } },
+      { '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.tienda.nombre, url: cfg.tienda.url, inLanguage: 'es-ES' },
+    ] }));
 
 // Categorías
 for (const c of data.categorias) {
   const prods = publicados.filter(p => p.categoria === c.id).map(p => cardProducto(p, '../')).join('');
+  const metaCat = `${c.descripcion}. Selección honesta de un carpintero con 16 años de oficio: pros y contras de cada herramienta antes de que compres.`;
+  const imgCat = catFoto[c.id] ? `${cfg.tienda.url}/assets/cat/${c.id}.png` : '';
   fs.writeFileSync(path.join(DIST, 'categoria', `${c.id}.html`), page(c.nombre,
-    `<h2 class="seccion">${esc(c.nombre)}</h2><p>${esc(c.descripcion)}</p><div class="grid">${prods || '<p>Pronto añadiremos herramientas en esta categoría.</p>'}</div>`,
-    { descripcion: c.descripcion, ruta: `categoria/${c.id}.html` }));
+    `<p class="lead">${esc(c.descripcion)}</p><div class="grid">${prods || '<p>Pronto añadiremos herramientas en esta categoría.</p>'}</div>`,
+    { descripcion: metaCat, ruta: `categoria/${c.id}.html`, h1: c.nombre, imagen: imgCat,
+      schema: [{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${cfg.tienda.url}/index.html` },
+        { '@type': 'ListItem', position: 2, name: c.nombre, item: `${cfg.tienda.url}/categoria/${c.id}.html` },
+      ] }] }));
 }
 
 // Fichas de producto
 for (const p of publicados) {
   const dto = descuento(p);
+  const catP = data.categorias.find(c => c.id === p.categoria);
   fs.writeFileSync(path.join(DIST, 'producto', `${p.id}.html`), page(p.titulo,
     `<div class="ficha">
       ${mediaDe(p, 280)}
-      <h2>${esc(p.titulo)}</h2>
       <div class="social-row">${estrellas(p.valoracion)}${ventasTxt(p)}</div>
       <div class="precio-linea"><span class="precio">${esc(p.precio)}</span>${p.precioAntes ? `<span class="precio-antes">${esc(p.precioAntes)}</span>` : ''}${dto ? `<span class="dto">-${dto}%</span>` : ''}</div>
       <p style="margin:1rem 0">${esc(p.veredicto)}</p>
@@ -301,18 +336,36 @@ for (const p of publicados) {
       </div>
       <a class="btn" href="${esc(linkDe(p))}" rel="nofollow sponsored noopener" target="_blank">Ver precio en AliExpress →</a>
     </div>`,
-    { descripcion: p.veredicto.slice(0, 155), ruta: `producto/${p.id}.html` }));
+    { descripcion: p.veredicto.slice(0, 155), ruta: `producto/${p.id}.html`, h1: p.titulo, imagen: p.imagen || '',
+      schema: [
+        { '@context': 'https://schema.org', '@type': 'Product', name: p.titulo, description: p.veredicto.slice(0, 300), ...(p.imagen ? { image: p.imagen } : {}), ...(p.valoracion ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: p.valoracion, reviewCount: p.ventas || 1 } } : {}), offers: { '@type': 'Offer', price: num(p.precio), priceCurrency: 'EUR', availability: 'https://schema.org/InStock', url: linkDe(p) } },
+        { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${cfg.tienda.url}/index.html` },
+          ...(catP ? [{ '@type': 'ListItem', position: 2, name: catP.nombre, item: `${cfg.tienda.url}/categoria/${catP.id}.html` }] : []),
+          { '@type': 'ListItem', position: catP ? 3 : 2, name: p.titulo, item: `${cfg.tienda.url}/producto/${p.id}.html` },
+        ] },
+      ] }));
 }
 
-// Guías
+// Guías (el título del artículo va como H1 de página → se quita el <h2> inicial del cuerpo para no duplicar)
 for (const a of indiceGuias) {
+  const cuerpoGuia = a.html.replace(/<h2>.*?<\/h2>/s, '');
   fs.writeFileSync(path.join(DIST, 'guias', `${a.slug}.html`),
-    page(a.titulo, `<article class="post">${a.html}</article>`, { descripcion: a.extracto, ruta: `guias/${a.slug}.html` }));
+    page(a.titulo, `<article class="post">${cuerpoGuia}</article>`,
+      { descripcion: a.extracto, ruta: `guias/${a.slug}.html`, h1: a.titulo,
+        schema: [
+          { '@context': 'https://schema.org', '@type': 'Article', headline: a.titulo, description: a.extracto, author: { '@type': 'Person', name: cfg.titular.nombre }, publisher: { '@type': 'Organization', name: cfg.tienda.nombre, logo: { '@type': 'ImageObject', url: `${cfg.tienda.url}/assets/hero-taller.png` } }, mainEntityOfPage: `${cfg.tienda.url}/guias/${a.slug}.html`, inLanguage: 'es-ES' },
+          { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${cfg.tienda.url}/index.html` },
+            { '@type': 'ListItem', position: 2, name: 'Guías', item: `${cfg.tienda.url}/guias.html` },
+            { '@type': 'ListItem', position: 3, name: a.titulo, item: `${cfg.tienda.url}/guias/${a.slug}.html` },
+          ] },
+        ] }));
 }
 fs.writeFileSync(path.join(DIST, 'guias.html'), page('Guías del taller',
-  `<h2 class="seccion">Guías del taller</h2><div class="grid">${indiceGuias.map(a =>
+  `<p class="lead">Consejos y comparativas de taller escritos por un carpintero con 16 años de oficio, sin postureo: lo que de verdad importa al elegir cada herramienta.</p><div class="grid">${indiceGuias.map(a =>
     `<div class="card"><h3><a href="guias/${a.slug}.html">${esc(a.titulo)}</a></h3><p>${esc(a.extracto)}…</p><a class="btn secundario" href="guias/${a.slug}.html">Leer guía →</a></div>`).join('') || '<p>Próximamente.</p>'}</div>`,
-  { ruta: 'guias.html' }));
+  { ruta: 'guias.html', h1: 'Guías del taller', descripcion: 'Guías de compra y consejos de carpintería de un carpintero con 16 años de oficio: sierras japonesas, formones, afilado y kit básico de taller.' }));
 
 // Páginas legales (se rellenan con config/settings.json)
 const t = cfg.titular;
@@ -338,7 +391,7 @@ const legales = {
 <p>Los precios y descuentos mostrados provienen de AliExpress y son orientativos; el precio válido es siempre el que muestre AliExpress en el momento de la compra.</p>`],
 };
 for (const [slug, [titulo, cuerpo]] of Object.entries(legales)) {
-  fs.writeFileSync(path.join(DIST, 'legal', `${slug}.html`), page(titulo, cuerpo, { ruta: `legal/${slug}.html` }));
+  fs.writeFileSync(path.join(DIST, 'legal', `${slug}.html`), page(titulo, cuerpo.replace(/<h2>.*?<\/h2>/s, ''), { ruta: `legal/${slug}.html`, h1: titulo }));
 }
 
 // Sitemap + robots
