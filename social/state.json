@@ -4,12 +4,12 @@
     "sierra-japonesa-ryoba"
   ],
   "ultimo": {
-    "fecha": "2026-07-15",
+    "fecha": "2026-07-16",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "banco-altura",
+    "tipId": "cera-tornillos",
     "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-07-15"
+    "dir": "social/out/2026-07-16"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -21,6 +21,7 @@
     "grano-madera",
     "cola-menos-es-mas",
     "no-compres-maquina",
-    "banco-altura"
+    "banco-altura",
+    "cera-tornillos"
   ]
 }
