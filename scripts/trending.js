@@ -47,7 +47,7 @@ const KEYWORDS = [
 ];
 const MAX_NUEVOS_POR_RUN = 3;    // no inflar el catálogo con morralla
 const MIN_RATING = 4.6;          // evaluación mínima
-const MIN_VENTAS = 300;          // ventas mínimas (producto probado)
+const MIN_VENTAS = 30;           // ventas RECIENTES mínimas (lastest_volume es volumen reciente, no acumulado)
 const DIAS_TENDENCIA = 14;
 
 if (!APP_KEY || !APP_SECRET || !TRACKING) {
