@@ -56,6 +56,7 @@ function descargar(url, destino) {
 
 // ── Foto IA de ambiente (Pollinations, gratis) ──
 function fotoAmbiente(prompt, salida) {
+  if (fs.existsSync(salida)) return salida; // caché: permite sustituir la imagen a mano y regenerar solo el vídeo
   if (fs.existsSync(salida)) return salida;
   try {
     execSync(`node "${path.join(__dirname, 'gen-image.js')}" "${prompt}" "${salida}" ${W} ${H}`,
@@ -65,25 +66,32 @@ function fotoAmbiente(prompt, salida) {
 }
 
 // ── Guion por categoría: dolor y agitación específicos del oficio ──
+// imgDolor: la imagen DEBE mostrar el problema exacto que narra la voz (feedback Daniel 17-jul:
+// la de ambiente genérico enseñaba "tablas en mal estado" mientras la voz hablaba de un corte torcido)
 const GUIONES = {
   medicion: {
+    imgDolor: 'extreme close-up of two wooden pieces that do not fit together, visible ugly gap in a wood joint, misaligned corner, carpenter square lying beside, dramatic low side light, moody dark workshop background, shallow depth of field, cinematic photo, no text, no people',
     dolor: { vo: 'Mides dos veces, cortas una... y aun así la pieza no encaja.', titular: '¿Mides bien...\ny no encaja?' },
     agita: { vo: 'No es tu ojo. Es que tu herramienta de medir te está mintiendo, y cada pieza torcida es madera y horas a la basura.', titular: 'Tu medidor\nte miente' },
   },
   corte: {
+    imgDolor: 'a handsaw blade jammed stuck halfway through cutting a fresh pine board on a workbench, the cut line visibly bent and crooked deviating from straight, fresh splinters and sawdust flying around the kerf, close-up low angle, dark blurred workshop background, dramatic side light, cinematic photo, no text',
     dolor: { vo: '¿El corte te sale torcido, astillado, o a medio camino se atasca?', titular: '¿Tu corte\nsale así?' },
     agita: { vo: 'No es tu pulso. Es el filo. Con mala herramienta, ni treinta años de oficio te salvan la pieza.', titular: 'No es tu pulso.\nEs el filo.' },
   },
   sujecion: {
+    imgDolor: 'close-up of a glued wood joint that slipped out of alignment, visible gap and dried glue squeeze-out, clamp askew on the workpiece, dramatic low side light, moody dark workshop background, shallow depth of field, cinematic photo, no text, no people',
     dolor: { vo: '¿La pieza se te mueve justo cuando no debe?', titular: 'La pieza\nse mueve' },
     agita: { vo: 'Un milímetro de juego en el apriete y el encaje ya no cierra. Ahí muere el trabajo fino.', titular: 'Un milímetro\nlo arruina todo' },
   },
   electricas: {
+    imgDolor: 'extreme close-up of a snapped drill bit stuck in a cracked split wooden board, dark burn marks around the hole, dramatic low side light, moody dark workshop background, shallow depth of field, cinematic photo, no text, no people',
     dolor: { vo: '¿La broca barata te ha partido una pieza a mitad de trabajo?', titular: 'La broca barata\nte parte la pieza' },
     agita: { vo: 'Lo barato sale caro cuando quema el material, baila en el agujero, o se rompe dentro.', titular: 'Lo barato\nsale caro' },
   },
 };
 const GUION_DEFECTO = {
+  imgDolor: 'pile of discarded ruined wood offcuts and failed workpieces next to a workbench, dramatic low side light, moody dark workshop, shallow depth of field, cinematic photo, no text, no people',
   dolor: { vo: '¿Cuántas piezas has tirado por culpa de una mala herramienta?', titular: '¿Cuánta madera\nhas tirado?' },
   agita: { vo: 'El material no perdona. O la herramienta responde, o el trabajo lo pagas tú.', titular: 'El material\nno perdona' },
 };
@@ -122,22 +130,23 @@ async function videoDe(p) {
   fs.mkdirSync(dir, { recursive: true });
   console.log(`\n🎬 ${p.titulo.slice(0, 70)}…`);
 
-  // Foto REAL del producto + ambiente IA para las escenas de dolor
+  const g = GUIONES[p.categoria] || GUION_DEFECTO;
+
+  // Foto REAL del producto + imagen de DOLOR específica de la categoría (la que narra la voz)
   const fotoReal = p.imagen ? await descargar(p.imagen, path.join(dir, 'producto.jpg')) : null;
   const amb = fotoAmbiente(
     'cinematic photo, moody rustic woodworking workshop, dramatic side light, ' +
     'wood shavings, worn workbench, shallow depth of field, dark tones, no text, no people faces',
     path.join(dir, 'ambiente.png'));
+  const imgDolor = fotoAmbiente(g.imgDolor, path.join(dir, 'dolor.png')) || amb;
   if (!fotoReal) console.log('   ⚠️ sin foto real del producto — uso ambiente IA en todas las escenas');
-
-  const g = GUIONES[p.categoria] || GUION_DEFECTO;
   const corto = nombreCorto(p.titulo);
   const pro = (p.pros && p.pros.find(x => !/ventas|Valoración/i.test(x))) || (p.pros && p.pros[0]) || '';
   const precioVo = p.precio.replace('€', 'euros').replace('.', ' con ');
 
   const escenas = [
-    { img: amb, tono: 'dolor', zoom: 'in', kicker: '', titular: g.dolor.titular, vo: g.dolor.vo },
-    { img: amb, tono: 'dolor', zoom: 'out', kicker: '', titular: g.agita.titular, vo: g.agita.vo },
+    { img: imgDolor, tono: 'dolor', zoom: 'in', kicker: '', titular: g.dolor.titular, vo: g.dolor.vo },
+    { img: imgDolor, tono: 'dolor', zoom: 'out', kicker: '', titular: g.agita.titular, vo: g.agita.vo },
     { img: fotoReal || amb, tono: 'sol', zoom: 'in', kicker: 'LA SOLUCIÓN', titular: partir(corto), vo: `La solución: ${corto}. Probado por gente del oficio, no por influencers.` },
     { img: fotoReal || amb, tono: 'sol', zoom: 'out', kicker: `⭐ ${p.valoracion} · ${p.ventas} ventas recientes`, titular: partir('Valorado por quien lo usa', 16), vo: `${p.valoracion} estrellas y ${p.ventas} compras solo este mes. ${pro ? pro + '.' : ''}` },
     { img: fotoReal || amb, tono: 'sol', zoom: 'in', kicker: 'ENLACE EN LA BIO', titular: `Por ${p.precio}\nen la tienda`, vo: `Por ${precioVo}. Tienes el enlace en la bio, en El Rincón del Taller. Si se agota, es lo que hay.` },
