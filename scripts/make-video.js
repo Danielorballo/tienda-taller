@@ -1,15 +1,17 @@
 #!/usr/bin/env node
 /**
- * make-video.js — MOTOR DE VÍDEO PUBLICITARIO
+ * make-video.js v2 — MOTOR DE VÍDEO PUBLICITARIO (nivel anuncio profesional)
  *
- * Genera un vídeo vertical 1080×1920 (Reels / TikTok / Shorts) para un producto:
- *   escena 1: gancho (foto IA del taller + titular)
- *   escena 2: el producto (foto real de AliExpress si la hay, si no foto IA)
- *   escena 3: veredicto del carpintero (el pro + el contra, sin vender humo)
- *   escena 4: cierre + llamada a la acción (enlace en la bio)
+ * Estructura narrativa Problema → Agitación → Solución (regla de Daniel):
+ *   1. DOLOR      — el problema del oficio, imagen de ambiente, tono frío
+ *   2. AGITACIÓN  — por qué duele de verdad
+ *   3. SOLUCIÓN   — FOTO REAL del producto, tono cálido
+ *   4. PRUEBA     — valoración + ventas + el pro honesto
+ *   5. CIERRE     — precio + llamada a la acción
  *
- * Todo con Node + ffmpeg. Sin servicios de pago, sin claves.
- * Las tarjetas se rasterizan con Edge/Chrome headless (igual que make-posts.js).
+ * Técnica: voz neuronal (msedge-tts, es-ES-AlvaroNeural), foto real del producto
+ * descargada con Referer, movimiento Ken Burns, etalonado por tono (frío/cálido),
+ * colchón musical generado con ffmpeg bajo la voz. Vertical 1080×1920.
  *
  * Uso:
  *   node scripts/make-video.js                 → producto rotativo del día
@@ -18,70 +20,38 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { execFileSync, execSync } = require('child_process');
+const https = require('https');
+const { execSync } = require('child_process');
+const { MsEdgeTTS, OUTPUT_FORMAT } = require('msedge-tts');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'social', 'video');
 const W = 1080, H = 1920, FPS = 30;
+const VOZ = 'es-ES-AlvaroNeural';
+const FONT = "C\\:/Windows/Fonts/arialbd.ttf";
 
 const productos = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'products.json'), 'utf8'));
 const settings = JSON.parse(fs.readFileSync(path.join(ROOT, 'config', 'settings.json'), 'utf8'));
 
-// ── Navegador headless para rasterizar las tarjetas ──
-function buscarNavegador() {
-  const cands = [
-    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
-    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
-    'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-    'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
-  ];
-  const b = cands.find(p => fs.existsSync(p));
-  if (!b) throw new Error('No encuentro Edge ni Chrome para rasterizar');
-  return b;
-}
-
-function rasterizar(html, salidaPng) {
-  const tmp = path.join(OUT, '_tmp.html');
-  fs.writeFileSync(tmp, html, 'utf8');
-  execFileSync(buscarNavegador(), [
-    '--headless=new', '--disable-gpu', '--hide-scrollbars',
-    `--screenshot=${salidaPng}`, `--window-size=${W},${H}`,
-    'file:///' + tmp.replace(/\\/g, '/'),
-  ], { stdio: 'ignore' });
-  fs.unlinkSync(tmp);
-}
-
-// ── Plantilla de escena ──
-const FUENTE = `-apple-system,'Segoe UI',Roboto,sans-serif`;
-function escena({ fondo, kicker, titular, cuerpo, pie, acento = '#c8641e' }) {
-  return `<!doctype html><meta charset="utf-8"><style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{width:${W}px;height:${H}px;font-family:${FUENTE};overflow:hidden;
-       background:#1a1512;color:#f6efe7;position:relative}
-  .bg{position:absolute;inset:0;background:${fondo ? `url('file:///${fondo.replace(/\\/g, '/')}') center/cover` : 'linear-gradient(160deg,#2b211a,#15100d)'};}
-  .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,12,10,.55) 0%,rgba(15,12,10,.35) 35%,rgba(15,12,10,.92) 100%)}
-  .wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:96px 80px 150px}
-  .kicker{display:inline-block;align-self:flex-start;background:${acento};color:#fff;
-          font-weight:800;font-size:34px;letter-spacing:.14em;text-transform:uppercase;
-          padding:16px 28px;border-radius:8px;margin-bottom:36px}
-  h1{font-size:${titular.length > 44 ? 74 : 92}px;line-height:1.06;font-weight:900;letter-spacing:-.02em;
-     text-shadow:0 6px 40px rgba(0,0,0,.6);margin-bottom:34px}
-  p{font-size:44px;line-height:1.4;color:#e2d5c6;font-weight:500}
-  .pie{position:absolute;left:80px;right:80px;bottom:64px;display:flex;align-items:center;
-       justify-content:space-between;font-size:32px;color:#b9a693;font-weight:600}
-  .marca{display:flex;align-items:center;gap:14px}
-  .dot{width:14px;height:14px;border-radius:50%;background:${acento}}
-  </style>
-  <div class="bg"></div><div class="veil"></div>
-  <div class="wrap">
-    ${kicker ? `<span class="kicker">${kicker}</span>` : ''}
-    <h1>${titular}</h1>
-    ${cuerpo ? `<p>${cuerpo}</p>` : ''}
-  </div>
-  <div class="pie">
-    <span class="marca"><span class="dot"></span>${settings.tienda.nombre}</span>
-    <span>${pie || ''}</span>
-  </div>`;
+// ── Descarga de la foto REAL del producto (necesita Referer o AliExpress corta) ──
+function descargar(url, destino) {
+  if (fs.existsSync(destino)) return Promise.resolve(destino);
+  return new Promise((resolve) => {
+    const req = https.get(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36',
+        'Referer': 'https://www.aliexpress.com/',
+      },
+      timeout: 30000,
+    }, res => {
+      if (res.statusCode !== 200) { res.resume(); return resolve(null); }
+      const f = fs.createWriteStream(destino);
+      res.pipe(f);
+      f.on('finish', () => f.close(() => resolve(destino)));
+    });
+    req.on('error', () => resolve(null));
+    req.on('timeout', () => { req.destroy(); resolve(null); });
+  });
 }
 
 // ── Foto IA de ambiente (Pollinations, gratis) ──
@@ -94,81 +64,158 @@ function fotoAmbiente(prompt, salida) {
   } catch { return null; }
 }
 
+// ── Guion por categoría: dolor y agitación específicos del oficio ──
+const GUIONES = {
+  medicion: {
+    dolor: { vo: 'Mides dos veces, cortas una... y aun así la pieza no encaja.', titular: '¿Mides bien...\ny no encaja?' },
+    agita: { vo: 'No es tu ojo. Es que tu herramienta de medir te está mintiendo, y cada pieza torcida es madera y horas a la basura.', titular: 'Tu medidor\nte miente' },
+  },
+  corte: {
+    dolor: { vo: '¿El corte te sale torcido, astillado, o a medio camino se atasca?', titular: '¿Tu corte\nsale así?' },
+    agita: { vo: 'No es tu pulso. Es el filo. Con mala herramienta, ni treinta años de oficio te salvan la pieza.', titular: 'No es tu pulso.\nEs el filo.' },
+  },
+  sujecion: {
+    dolor: { vo: '¿La pieza se te mueve justo cuando no debe?', titular: 'La pieza\nse mueve' },
+    agita: { vo: 'Un milímetro de juego en el apriete y el encaje ya no cierra. Ahí muere el trabajo fino.', titular: 'Un milímetro\nlo arruina todo' },
+  },
+  electricas: {
+    dolor: { vo: '¿La broca barata te ha partido una pieza a mitad de trabajo?', titular: 'La broca barata\nte parte la pieza' },
+    agita: { vo: 'Lo barato sale caro cuando quema el material, baila en el agujero, o se rompe dentro.', titular: 'Lo barato\nsale caro' },
+  },
+};
+const GUION_DEFECTO = {
+  dolor: { vo: '¿Cuántas piezas has tirado por culpa de una mala herramienta?', titular: '¿Cuánta madera\nhas tirado?' },
+  agita: { vo: 'El material no perdona. O la herramienta responde, o el trabajo lo pagas tú.', titular: 'El material\nno perdona' },
+};
+
+function nombreCorto(titulo) {
+  const corte = titulo.split(/[,،]/)[0].trim();
+  const palabras = corte.split(' ').slice(0, 6).join(' ');
+  return palabras.length > 40 ? palabras.split(' ').slice(0, 4).join(' ') : palabras;
+}
+function partir(s, max = 18) {
+  if (s.includes('\n')) return s;
+  const ps = s.split(' '); let a = '', b = '';
+  for (const p of ps) ((a + ' ' + p).trim().length <= max || !b && !a ? a = (a + ' ' + p).trim() : b = (b + ' ' + p).trim());
+  return b ? a + '\n' + b : a;
+}
+
+async function tts(texto, dir, nombre) {
+  const d = path.join(dir, nombre);
+  fs.mkdirSync(d, { recursive: true });
+  const t = new MsEdgeTTS();
+  await t.setMetadata(VOZ, OUTPUT_FORMAT.AUDIO_24KHZ_96KBITRATE_MONO_MP3);
+  const { audioFilePath } = await t.toFile(d, texto);
+  return audioFilePath;
+}
+function durAudio(f) {
+  let out = '';
+  try { out = execSync(`ffmpeg -i "${f}" 2>&1`, { encoding: 'utf8' }).toString(); }
+  catch (e) { out = ((e.stdout || '') + (e.stderr || '')).toString(); }
+  const m = out.match(/Duration: (\d+):(\d+):([\d.]+)/);
+  return m ? (+m[1] * 3600 + +m[2] * 60 + +m[3]) : 3;
+}
+
 // ── Construye el vídeo de un producto ──
-function videoDe(p) {
+async function videoDe(p) {
   const dir = path.join(OUT, p.id);
   fs.mkdirSync(dir, { recursive: true });
-  console.log(`\n🎬 ${p.titulo}`);
+  console.log(`\n🎬 ${p.titulo.slice(0, 70)}…`);
 
+  // Foto REAL del producto + ambiente IA para las escenas de dolor
+  const fotoReal = p.imagen ? await descargar(p.imagen, path.join(dir, 'producto.jpg')) : null;
   const amb = fotoAmbiente(
-    'cinematic photo, rustic woodworking workshop, warm light through window, ' +
-    'wood shavings on workbench, hand tools, shallow depth of field, no text, no people faces',
+    'cinematic photo, moody rustic woodworking workshop, dramatic side light, ' +
+    'wood shavings, worn workbench, shallow depth of field, dark tones, no text, no people faces',
     path.join(dir, 'ambiente.png'));
+  if (!fotoReal) console.log('   ⚠️ sin foto real del producto — uso ambiente IA en todas las escenas');
 
-  const pro = (p.pros && p.pros[0]) || '';
-  const contra = (p.contras && p.contras[0]) || '';
-  const veredicto = (p.veredicto || '').split('. ')[0] + '.';
-  const ahorro = p.precioAntes ? `Antes ${p.precioAntes} → ahora ${p.precio}` : p.precio;
+  const g = GUIONES[p.categoria] || GUION_DEFECTO;
+  const corto = nombreCorto(p.titulo);
+  const pro = (p.pros && p.pros.find(x => !/ventas|Valoración/i.test(x))) || (p.pros && p.pros[0]) || '';
+  const precioVo = p.precio.replace('€', 'euros').replace('.', ' con ');
 
   const escenas = [
-    { dur: 3, ...{ fondo: amb, kicker: '16 años de oficio', titular: gancho(p), cuerpo: '', pie: 'El Rincón del Taller' } },
-    { dur: 4, ...{ fondo: amb, kicker: 'La herramienta', titular: p.titulo, cuerpo: ahorro, pie: `⭐ ${p.valoracion} · ${p.ventas} vendidos` } },
-    { dur: 5, ...{ fondo: amb, kicker: 'Mi veredicto', titular: veredicto, cuerpo: pro ? `✔ ${pro}` : '', pie: 'Sin humo' } },
-    { dur: 4, ...{ fondo: amb, kicker: 'Lo que no te dicen', titular: contra || 'Compra con criterio, no por precio', cuerpo: '', pie: 'Contras a la cara', acento: '#8a4b2a' } },
-    { dur: 3, ...{ fondo: amb, kicker: 'Enlace en la bio', titular: 'Ficha completa en la tienda', cuerpo: settings.tienda.url.replace('https://', ''), pie: '' } },
+    { img: amb, tono: 'dolor', zoom: 'in', kicker: '', titular: g.dolor.titular, vo: g.dolor.vo },
+    { img: amb, tono: 'dolor', zoom: 'out', kicker: '', titular: g.agita.titular, vo: g.agita.vo },
+    { img: fotoReal || amb, tono: 'sol', zoom: 'in', kicker: 'LA SOLUCIÓN', titular: partir(corto), vo: `La solución: ${corto}. Probado por gente del oficio, no por influencers.` },
+    { img: fotoReal || amb, tono: 'sol', zoom: 'out', kicker: `⭐ ${p.valoracion} · ${p.ventas} ventas recientes`, titular: partir('Valorado por quien lo usa', 16), vo: `${p.valoracion} estrellas y ${p.ventas} compras solo este mes. ${pro ? pro + '.' : ''}` },
+    { img: fotoReal || amb, tono: 'sol', zoom: 'in', kicker: 'ENLACE EN LA BIO', titular: `Por ${p.precio}\nen la tienda`, vo: `Por ${precioVo}. Tienes el enlace en la bio, en El Rincón del Taller. Si se agota, es lo que hay.` },
   ];
 
-  const lista = [];
-  escenas.forEach((e, i) => {
-    const png = path.join(dir, `e${i}.png`);
-    rasterizar(escena(e), png);
-    lista.push({ png, dur: e.dur });
-    console.log(`   escena ${i + 1}/5 ✓`);
-  });
+  const tmp = path.join(dir, 'tmp'); fs.mkdirSync(tmp, { recursive: true });
+  const clips = [];
 
-  // concat con fundidos suaves
-  const concat = path.join(dir, 'lista.txt');
-  fs.writeFileSync(concat, lista.map(l =>
-    `file '${l.png.replace(/\\/g, '/')}'\nduration ${l.dur}`).join('\n') +
-    `\nfile '${lista[lista.length - 1].png.replace(/\\/g, '/')}'\n`, 'utf8');
+  for (let i = 0; i < escenas.length; i++) {
+    const e = escenas[i];
+    const voMp3 = await tts(e.vo, tmp, `vo${i}`);
+    const dur = Math.max(2.8, durAudio(voMp3) + 0.6);
+    const frames = Math.round(dur * FPS);
+    const acento = e.tono === 'dolor' ? '0xcc3333' : '0xc8641e';
+    const grad = e.tono === 'dolor' ? 0.85 : 0.55;
+
+    const z = e.zoom === 'in'
+      ? `zoompan=z='min(zoom+0.0009,1.14)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=${W}x${H}:fps=${FPS}`
+      : `zoompan=z='if(eq(on,0),1.14,max(1.001,zoom-0.0009))':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=${W}x${H}:fps=${FPS}`;
+
+    const esc = s => s.replace(/'/g, '’').replace(/:/g, '\\:').replace(/,/g, '\\,').replace(/%/g, '\\%');
+    const lineas = e.titular.split('\n');
+    const drawTitular = lineas.map((ln, k) =>
+      `drawtext=fontfile='${FONT}':text='${esc(ln)}':fontcolor=white:fontsize=${lineas.some(l => l.length > 14) ? 78 : 92}:x=(w-tw)/2:y=h-560+${k * 100}:shadowcolor=black@0.7:shadowx=4:shadowy=4`
+    ).join(',');
+    const drawKicker = e.kicker
+      ? `,drawtext=fontfile='${FONT}':text='${esc(e.kicker)}':fontcolor=white:fontsize=44:x=(w-tw)/2:y=h-664:box=1:boxcolor=${acento}@0.95:boxborderw=18`
+      : '';
+
+    const vf = [
+      `scale=${W}:${H}:force_original_aspect_ratio=${e.img === fotoReal ? 'decrease,pad=' + W + ':' + H + ':(ow-iw)/2:(oh-ih)/2:color=0x15100d' : 'increase'}`,
+      e.img === fotoReal ? null : `crop=${W}:${H}`,
+      z,
+      `eq=brightness=-0.05:saturation=${e.tono === 'dolor' ? 0.8 : 1.12}`,
+      `drawbox=x=0:y=ih-720:w=iw:h=720:color=black@${grad}:t=fill`,
+      drawTitular + drawKicker,
+      `format=yuv420p`,
+    ].filter(Boolean).join(',');
+
+    const out = path.join(tmp, `c${i}.mp4`);
+    execSync(`ffmpeg -y -loop 1 -i "${e.img}" -i "${voMp3}" -filter_complex "[0:v]${vf}[v]" -map "[v]" -map 1:a -t ${dur.toFixed(2)} -r ${FPS} -c:v libx264 -preset medium -crf 20 -c:a aac -ar 44100 "${out}"`, { stdio: 'ignore' });
+    clips.push(out);
+    console.log(`   escena ${i + 1}/5 (${e.tono}, ${dur.toFixed(1)}s) ✓`);
+  }
+
+  // Concatenar + colchón musical grave generado (drone ambiental a -21dB bajo la voz)
+  const lista = path.join(tmp, 'concat.txt');
+  fs.writeFileSync(lista, clips.map(c => `file '${c.replace(/\\/g, '/')}'`).join('\n'));
+  const sinMusica = path.join(tmp, 'sin-musica.mp4');
+  execSync(`ffmpeg -y -f concat -safe 0 -i "${lista}" -c:v libx264 -preset medium -crf 20 -c:a aac -movflags +faststart "${sinMusica}"`, { stdio: 'ignore' });
 
   const salida = path.join(dir, `${p.id}.mp4`);
-  execSync(`ffmpeg -y -f concat -safe 0 -i "${concat}" ` +
-    `-vf "fps=${FPS},scale=${W}:${H}:force_original_aspect_ratio=decrease,pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2,format=yuv420p" ` +
-    `-c:v libx264 -preset medium -crf 21 -movflags +faststart "${salida}"`,
-    { stdio: 'ignore', timeout: 300000 });
+  execSync(`ffmpeg -y -i "${sinMusica}" -filter_complex ` +
+    `"aevalsrc='0.28*sin(2*PI*55*t)+0.2*sin(2*PI*82.4*t)+0.12*sin(2*PI*110*t)*sin(2*PI*0.25*t)':s=44100,` +
+    `lowpass=f=300,volume=0.09,afade=t=in:d=1.5[mus];` +
+    `[0:a][mus]amix=inputs=2:duration=first:dropout_transition=2[a]" ` +
+    `-map 0:v -map "[a]" -c:v copy -c:a aac -movflags +faststart "${salida}"`, { stdio: 'ignore' });
 
   const mb = (fs.statSync(salida).size / 1048576).toFixed(1);
-  const seg = escenas.reduce((s, e) => s + e.dur, 0);
-  console.log(`   ✅ ${salida}  (${seg}s, ${mb} MB)`);
+  const seg = durAudio(salida).toFixed(0);
+  console.log(`   ✅ ${salida}  (${seg}s, ${mb} MB, voz ${VOZ})`);
   return salida;
 }
 
-function gancho(p) {
-  const g = {
-    medicion: 'Si tu escuadra miente,\ntodo lo demás sobra',
-    corte: 'Un filo bueno\nvale más que la marca',
-    sujecion: 'Nunca sobran\nsargentos en el banco',
-    electricas: 'La broca barata\nte parte la pieza',
-  };
-  return (g[p.categoria] || 'Herramienta probada\nen banco de verdad').replace('\n', '<br>');
-}
-
 // ── Main ──
-const publicables = productos.productos.filter(p => p.affiliateUrl || process.env.BUILD_PREVIEW);
-if (!publicables.length) {
-  console.log('\n⚠️  No hay productos publicables (ninguno tiene affiliateUrl).');
-  console.log('   Para probar el motor igualmente:  BUILD_PREVIEW=1 node scripts/make-video.js\n');
-  process.exit(0);
-}
-
-fs.mkdirSync(OUT, { recursive: true });
-const arg = process.argv[2];
-let objetivo;
-if (arg === '--todos') objetivo = publicables;
-else if (arg) objetivo = publicables.filter(p => p.id === arg);
-else objetivo = [publicables[new Date().getDate() % publicables.length]];
-
-if (!objetivo.length) { console.log('Producto no encontrado'); process.exit(1); }
-objetivo.forEach(videoDe);
-console.log(`\n🎬 ${objetivo.length} vídeo(s) en social/video/\n`);
+(async () => {
+  const publicables = productos.productos.filter(p => p.affiliateUrl || process.env.BUILD_PREVIEW);
+  if (!publicables.length) {
+    console.log('\n⚠️  No hay productos publicables (ninguno tiene affiliateUrl).');
+    process.exit(0);
+  }
+  fs.mkdirSync(OUT, { recursive: true });
+  const arg = process.argv[2];
+  let objetivo;
+  if (arg === '--todos') objetivo = publicables;
+  else if (arg) objetivo = publicables.filter(p => p.id === arg);
+  else objetivo = [publicables[new Date().getDate() % publicables.length]];
+  if (!objetivo.length) { console.log('Producto no encontrado'); process.exit(1); }
+  for (const p of objetivo) await videoDe(p);
+  console.log(`\n🎬 ${objetivo.length} vídeo(s) en social/video/\n`);
+})().catch(e => { console.error('❌', e.message); process.exit(1); });
