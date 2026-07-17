@@ -36,8 +36,8 @@ function descargar(url, salida, redirLeft = 5) {
   });
 }
 
-function pollinations(prompt, salida, w, h) {
-  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${w}&height=${h}&nologo=true`;
+function pollinations(prompt, salida, w, h, seed) {
+  const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=${w}&height=${h}&nologo=true${seed != null ? `&seed=${seed}` : ''}`;
   return descargar(url, salida);
 }
 
@@ -70,7 +70,7 @@ function gemini(prompt, salida) {
 (async () => {
   let trabajos;
   if (process.argv[2]) {
-    trabajos = [[process.argv[2], process.argv[3] || 'imagen.png', +process.argv[4] || 1080, +process.argv[5] || 1080]];
+    trabajos = [[process.argv[2], process.argv[3] || 'imagen.png', +process.argv[4] || 1080, +process.argv[5] || 1080, process.argv[6] != null ? +process.argv[6] : null]];
   } else {
     const state = JSON.parse(fs.readFileSync(path.join(ROOT, 'social', 'state.json'), 'utf8'));
     const dir = path.join(ROOT, state.ultimo.dir);
@@ -81,9 +81,9 @@ function gemini(prompt, salida) {
     ];
   }
   let fallos = 0;
-  for (const [prompt, salida, w, h] of trabajos) {
+  for (const [prompt, salida, w, h, seed] of trabajos) {
     try {
-      const bytes = ENGINE === 'gemini' ? await gemini(prompt, salida) : await pollinations(prompt, salida, w, h);
+      const bytes = ENGINE === 'gemini' ? await gemini(prompt, salida) : await pollinations(prompt, salida, w, h, seed);
       console.log(`✅ ${path.basename(salida)} (${w}×${h}, ${Math.round(bytes / 1024)} KB, motor ${ENGINE})`);
     } catch (e) {
       fallos++;

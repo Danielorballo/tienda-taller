@@ -55,11 +55,10 @@ function descargar(url, destino) {
 }
 
 // ── Foto IA de ambiente (Pollinations, gratis) ──
-function fotoAmbiente(prompt, salida) {
+function fotoAmbiente(prompt, salida, seed) {
   if (fs.existsSync(salida)) return salida; // caché: permite sustituir la imagen a mano y regenerar solo el vídeo
-  if (fs.existsSync(salida)) return salida;
   try {
-    execSync(`node "${path.join(__dirname, 'gen-image.js')}" "${prompt}" "${salida}" ${W} ${H}`,
+    execSync(`node "${path.join(__dirname, 'gen-image.js')}" "${prompt}" "${salida}" ${W} ${H}${seed != null ? ' ' + seed : ''}`,
       { stdio: 'ignore', cwd: ROOT, timeout: 180000 });
     return fs.existsSync(salida) ? salida : null;
   } catch { return null; }
@@ -103,12 +102,13 @@ const ESTILO_IMG = 'close-up low angle, dark blurred workshop background, dramat
 const FAMILIAS = [
   { re: /tallad|gubia|formón|formon|carving|cincel/i, img: `a wood chisel slipping and gouging a ruined hand carving on a pine board, torn ragged wood grain where clean lines should be, wood chips scattered, ${ESTILO_IMG}` },
   { re: /sierra|serrucho|saw\b/i, img: `a handsaw blade jammed stuck halfway through cutting a fresh pine board on a workbench, the cut line visibly bent and crooked deviating from straight, fresh splinters and sawdust flying around the kerf, ${ESTILO_IMG}` },
-  { re: /afila|sharpen|piedra|whetstone|asentador/i, img: `a dull worn chisel blade crushing and tearing pine wood fibers instead of slicing them, ragged fuzzy torn surface on the workpiece, ${ESTILO_IMG}` },
+  { re: /afila|sharpen|piedra|whetstone|asentador/i, img: `a modern woodworking chisel with a visibly dull rounded chipped cutting edge resting on pale pine wood it failed to cut, crushed torn wood fibers under the blade, clean steel no rust, close-up macro, dark blurred workshop background, dramatic side light, cinematic photo, no text` },
   { re: /broca|drill|taladr/i, img: `a snapped drill bit stuck inside a cracked split pine board, dark burn marks around the hole, ${ESTILO_IMG}` },
   { re: /fresa|router|cnc/i, img: `router bit tearout on the edge of a pine board, chipped splintered ragged edge with burn marks where a clean profile should be, ${ESTILO_IMG}` },
   { re: /lijadora|lija|sand/i, img: `deep ugly swirl scratches and uneven sanding marks across a pine board surface under raking light, ${ESTILO_IMG}` },
   { re: /calibre|caliper|escuadra|square|regla|medic|trazad|marcado|marking|gauge/i, img: `two wooden pieces that do not fit together, visible ugly gap in a wood joint, misaligned corner, carpenter square lying beside, ${ESTILO_IMG}` },
-  { re: /sargento|abrazadera|clamp|tornillo de banco|vise|prensa|plantilla|jig|espiga|dowel/i, img: `a glued wood joint that slipped out of alignment inside a clamp, visible gap and dried glue squeeze-out, clamp askew on the workpiece, ${ESTILO_IMG}` },
+  { re: /tornillo de banco|vise|prensa de banco/i, img: `a wooden board sliding off the edge of a workbench mid-work, tilted diagonally falling, a hand grabbing desperately to catch it, wood chips flying, motion tension, close-up, dark blurred workshop background, dramatic side light, cinematic photo, no text` },
+  { re: /sargento|abrazadera|clamp|prensa|plantilla|jig|espiga|dowel/i, img: `two fresh pale pine boards clamped with a steel C-clamp but visibly misaligned, the glued joint slipped showing an ugly offset step and dried glue squeeze-out, ${ESTILO_IMG}` },
 ];
 function promptDolorDe(p, g) {
   const fam = FAMILIAS.find(f => f.re.test(p.titulo));
@@ -157,7 +157,9 @@ async function videoDe(p) {
     'cinematic photo, moody rustic woodworking workshop, dramatic side light, ' +
     'wood shavings, worn workbench, shallow depth of field, dark tones, no text, no people faces',
     path.join(dir, 'ambiente.png'));
-  const imgDolor = fotoAmbiente(promptDolorDe(p, g), path.join(dir, 'dolor.png')) || amb;
+  // semilla determinista por producto: dos productos de la misma familia no comparten foto
+  const seed = [...p.id].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 999983, 7);
+  const imgDolor = fotoAmbiente(promptDolorDe(p, g), path.join(dir, 'dolor.png'), seed) || amb;
   if (!fotoReal) console.log('   ⚠️ sin foto real del producto — uso ambiente IA en todas las escenas');
   const corto = nombreCorto(p.titulo);
   const pro = (p.pros && p.pros.find(x => !/ventas|Valoración/i.test(x))) || (p.pros && p.pros[0]) || '';
