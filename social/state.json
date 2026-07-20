@@ -5,12 +5,12 @@
     "brocas-helicoidales-hss-para-carpinteria-juego-de-herramient"
   ],
   "ultimo": {
-    "fecha": "2026-07-19",
+    "fecha": "2026-07-20",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "primera-pasada-sierra",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-07-19"
+    "tipId": "retales-pruebas",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-07-20"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -25,6 +25,7 @@
     "banco-altura",
     "cera-tornillos",
     "luz-rasante",
-    "primera-pasada-sierra"
+    "primera-pasada-sierra",
+    "retales-pruebas"
   ]
 }
