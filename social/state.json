@@ -2,15 +2,16 @@
   "publicadosRecientes": [
     "escuadra-combinada-300",
     "sierra-japonesa-ryoba",
-    "brocas-helicoidales-hss-para-carpinteria-juego-de-herramient"
+    "brocas-helicoidales-hss-para-carpinteria-juego-de-herramient",
+    "fujiwara-calibradores-de-acero-inoxidable-con-pantalla-digit"
   ],
   "ultimo": {
-    "fecha": "2026-07-20",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "retales-pruebas",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-07-20"
+    "fecha": "2026-07-21",
+    "modo": "producto",
+    "productoId": "fujiwara-calibradores-de-acero-inoxidable-con-pantalla-digit",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/fujiwara-calibradores-de-acero-inoxidable-con-pantalla-digit.html",
+    "dir": "social/out/2026-07-21"
   },
   "tipsRecientes": [
     "linea-cuchillo",
