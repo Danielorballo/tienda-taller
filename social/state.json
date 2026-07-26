@@ -7,12 +7,12 @@
     "juego-de-herramientas-de-tallado-electrico-de-mano-para-mueb"
   ],
   "ultimo": {
-    "fecha": "2026-07-25",
+    "fecha": "2026-07-26",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "afilado-barato",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-07-25"
+    "tipId": "medir-dos-veces",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-07-26"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -31,6 +31,7 @@
     "retales-pruebas",
     "piedra-plana",
     "linea-cuchillo",
-    "afilado-barato"
+    "afilado-barato",
+    "medir-dos-veces"
   ]
 }
