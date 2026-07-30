@@ -8,12 +8,12 @@
     "dspiae-es-a-lijadora-alternativa-diy-pluma-de-molienda-elect"
   ],
   "ultimo": {
-    "fecha": "2026-07-29",
+    "fecha": "2026-07-30",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "sierra-japonesa-tirar",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-07-29"
+    "tipId": "escuadra-comprobar",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-07-30"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -35,6 +35,7 @@
     "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
-    "sierra-japonesa-tirar"
+    "sierra-japonesa-tirar",
+    "escuadra-comprobar"
   ]
 }
