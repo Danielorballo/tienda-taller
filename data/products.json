@@ -683,7 +683,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-19T10:04:58.321Z",
       "origen": "radar-auto"
     },
@@ -706,7 +706,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-19T10:04:58.321Z",
       "origen": "radar-auto"
     },
@@ -729,7 +729,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-19T10:04:58.862Z",
       "origen": "radar-auto"
     },
@@ -1490,6 +1490,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-07-31T11:04:30.778Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "afilador-de-motosierra-recubierto-de-diamante-de-alta-dureza",
+      "categoria": "corte",
+      "titulo": "Afilador de motosierra recubierto de diamante de alta dureza, pulido de piedra, lima de motosierra cilíndrica, tallado abrasivo dorado, 5 uds.",
+      "precio": "1.02 €",
+      "precioAntes": "1.53 €",
+      "valoracion": 4.8,
+      "ventas": 73,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S980301f35e39494196ba065241846574d.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005009461591260.html?pdp_npi=6%40dis%21EUR%211.53%211.02%21%21%2111.63%217.79%21%402141315917856655857901197e0d4d%2112000049179980842%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k9qQ66qxfbMDE39RORq34W0kRRxcBnTc36woLemZlcWWZJoow61GgBYCWeXAnpHSkwckUqMFxdkp5MFe8YVFd4phh6kEq7v6BMGG2m05c8L8yjQ0AsEyPijHC8BSMJP4cknjhv9zJWaDoBscjM8dPehGVzSfvsRQGGtPWpNpQ3LnsxBJkkscwbZvZKxdRGfB5ZPWOD388dE02fzYdWuPDpNOJ4OeOWMlwYsFDmEU2eKTOy5XuMrKyVxq8hFPYrIHqifizcE1gTRHXyZsLvhLhycBJ6oNYoG434p2DUeMTRIUKhW54WHvvTlhMVlFDgb4I9ymKNoTHWNYutU9U5keF7B2mlSWvLNYNi2vFGzYImjof7gUANjXVYDKpuqSQHlbWr7Si9jI9R2u7pmunL9RP7Ci20RogqcVT3XpJBBEaq7hxRIUu4yvegiLloCD3yz6Tlyo1aoAnMLncDg1pE1qGCOz3naMmbFpy0IP37h0XWutlYKOCAzHCjHhidH51xQ84XLhU6nfyAcuQwsCDeAIqYjMCUtDLHHLkxozkECINK2xGpk2JoVcCuWDUtPo2OxWji9J0QiopLXZh4BmKpseU7Bdoen6GCO3TPdizgYByWZZwCH84Lyvlq29TBsUP1Lka1rFr6uB3oPZDkYuC1nngmsgiAiikuuQYtVtXBuvwSEoXMgVEve0U8zFh0kiVz6qbA8f68kRkRqkU",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (73 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "73 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-02T10:13:06.530Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "piedra-de-molienda-de-rubi-de-grano-3000-para-afilar-maquini",
+      "categoria": "corte",
+      "titulo": "Piedra de molienda de rubí de grano 3000 para afilar maquinilla de afeitar y tijeras",
+      "precio": "4.89 €",
+      "precioAntes": "5.19 €",
+      "valoracion": 4.9,
+      "ventas": 62,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S2993738b103a4c0d94bfbb24e3b4ecafK.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005004047926621.html?pdp_npi=6%40dis%21EUR%215.19%214.89%21%21%2139.35%2137.08%21%402141315917856655857901197e0d4d%2112000036977048277%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUcrBrZxwbU76mzsT6Bk3ZxXoqxUly1eggS0ncMOiwp36g7uMeffTJEggcIKnwnQbwe5K6Q7MIl6fQlSpJpiSNgl6gWCcpICYV4CYoUVYcVsPdXN0JgKZgq8oVacQELzlURVDqCGzzNvKLaBtHhDBdWIiW2oMHNeurgqWQzz4GMTaF7dYbB7sSgfmEYsvj1BgFOvfopq2cxaSiRCpd5JbC5icWolz1AsUNbSZfxNmYGmO3djNzUU144l1bblJAuMLxWgzLJ81TTvXcriZZXKU4Ynvgc2ro9atjVoBQ99hlxwTcRDzwXWAMNpZATHfFw2nB31i2PCcqVZymoxDMZPiqTz83HRq4EXkPL2IE8obQtj0BCAFBmEyEaUvRw2l0IsYXMExbbAzCN2KreSepAkxLhyqW7Wf1iU7hhNkR0RHtWRXXOxfQ6fPyg8OlzUuVmyYlOrG2KImCy9wCYpZi1VhXBbHYvTF5srnvryhu5XGlXWnYJ6mfTGtBIDxwaZHjrdTc1K6GQ27xPoStYJMa8KeMMjqeKmEh1jwrW2gnVgDC3ub5xqMK7S6PhFruqGyNeFN1aw86weG45wTKuueWLUFsIrWorqxDvARtyihjFknreIDvUI9XM2OXeDyIX4T5UVFPatrAowbvncVOysM6nNhFvMKGKNSxrVA90sKG3ojd9egxKZQfGezcFD293tJCswNyEOQVeMNQtPe",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (62 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "62 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-02T10:13:06.530Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "afilador-de-cuchillos-de-doble-cara-piedra-de-afilar-de-coci",
+      "categoria": "corte",
+      "titulo": "Afilador de cuchillos de doble cara, piedra de afilar de cocina, 400-800 #/800-3000 #, 1 unidad",
+      "precio": "3.49 €",
+      "precioAntes": "3.71 €",
+      "valoracion": 4.8,
+      "ventas": 58,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Hb0c871f6efea4d8b9e65dfecc9b7399dz.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005476688180.html?pdp_npi=6%40dis%21EUR%213.71%213.49%21%21%214.17%213.92%21%402141315917856655857901197e0d4d%2112000033237357602%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kyLY77EUkcyveRkEMuaXWnU7JpHKhwkAFxnF03uYPHnWtRzkYGlEcEF0BmoELql0D8e7vXWG8TpPennVPshMomngigpSCiHfQng6etH3wTVZEKWR1WO5OZuJ4IO2uKNZrgHEjbPJm6kzJqMaPP85oEIBsEPbbHYO1RaJkNVaoNKfTqc03LRiCwwtRd8fifHp5hO72bmQcOsWdazKAh8Ml89j5X3Ps7oANRowpXmaK9u2dAGkeYoZNuQkMT53TB0vnIC9ZeeWkZYzVXIpYqU6ZLwzGeER4gKCrgNR8QTf4VoHgQ5bs49LJBrbCQpacch6j3N8X91PnxztP59VrOREhilBwFlyjOVut9XiISXan84GRW0g3c7n4Wg3qjuXr67cbmek8xZzA8HZNeqlSF7XORVXwv5zAgcUVqPKC5uZZEYCPkW0H8DPzFZRQ9Q6BSRPogZ3S94CzEIujlLE1O6tvRNx6jVp97fFAZqpsbJWXZQEySUvBKw7DruW4RzVkZhe51TBOHt5tEI80lZH2Dktvvvr2O2oEz8vHOxTCEEuxgh0SItkjY7eSHf6tWsqo0Hiuj7tXSMhVD7SeesYMWmnV04Fush49HbnJMMBRMAAIZhY9a2PSUGrzcyePsZTqze1UthViq1OgOW1U54nKT00RRGEy9GywbrcN7KX6n5XmWkl7JcB07fRA3WExmvHXg8GRkDUS52zz62Va",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (58 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "58 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-02T10:13:06.530Z",
       "origen": "radar-auto"
     }
   ]
