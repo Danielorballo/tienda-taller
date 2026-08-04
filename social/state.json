@@ -6,15 +6,16 @@
     "fujiwara-calibradores-de-acero-inoxidable-con-pantalla-digit",
     "juego-de-herramientas-de-tallado-electrico-de-mano-para-mueb",
     "dspiae-es-a-lijadora-alternativa-diy-pluma-de-molienda-elect",
-    "banco-de-trabajo-de-tornillo-de-banco-de-precision-maquina-d"
+    "banco-de-trabajo-de-tornillo-de-banco-de-precision-maquina-d",
+    "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab"
   ],
   "ultimo": {
-    "fecha": "2026-08-03",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "no-compres-maquina",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-08-03"
+    "fecha": "2026-08-04",
+    "modo": "producto",
+    "productoId": "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab.html",
+    "dir": "social/out/2026-08-04"
   },
   "tipsRecientes": [
     "linea-cuchillo",

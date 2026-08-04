@@ -752,7 +752,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-21T10:36:31.323Z",
       "origen": "radar-auto"
     },
@@ -775,7 +775,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-21T10:36:31.323Z",
       "origen": "radar-auto"
     },
@@ -798,7 +798,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-21T10:36:31.323Z",
       "origen": "radar-auto"
     },
@@ -1628,6 +1628,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-03T11:54:00.583Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de",
+      "categoria": "sujecion",
+      "titulo": "TOLESA 2/4 Uds. Juego de abrazaderas manuales de trinquete de 5 \"apertura de mandíbula de 1,55\" con potente abrazaderas de gatillo de fuerza de sujeción para fijación de pegado",
+      "precio": "8.19 €",
+      "precioAntes": "8.39 €",
+      "valoracion": 4.7,
+      "ventas": 201,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S39c99b931ad54e2884f443404b5228eah.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005671543787.html?pdp_npi=6%40dis%21EUR%218.39%218.19%21%21%2163.75%2162.23%21%402140f89017858412782353251e101c%2112000049359301867%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EJqWl318SjawQMSBlPDsmp1PMtwPelEI373BbZB2eT60raLCthUMh7FAdsMcA0Eqj9F48zxJZ68fFWm4AewfpdfzMw85cVnTBFeeWP0xo5lXxB7kqGlSgvwAQ9YCplxGPJklGkjM6wF9YqAeT7SGWXjUTj7RsRrs0DdQ7btXdx9isOlGdUFx8jItPCFqgf7FdjSBsZ7hMFwxdCiH3dwKeIMS23mrFq7u01WTmnpUeybkCvfZsuhDouDeYgszIStvZ2q6QlccvsT0un8BHkX0vRi5wqOXkWYl3LB3Le6Pcrl4ezoF7FGVKMNgXh7M4GB2fKjfkuBpbq9d7myVEawWtvTzeroC9ZrSw3WmFhcolGAiEUEiz8CoocD6fFez5jWpZTJDzBGHHC4KlFXWLWJAVECZvNzauABWkSqk59p68YfhGu9avpNpM8Hyj1dTY1hlDaf47U8Zz7E7zSFnbR2ezz5mNfAdjUp0YoQ5UXpdwt3RJzWArXv9W1Avh68t3lul7hscZxuDUNtip6mu67kWXriOOJO4DnKTDNKzB3e8zDusLIUlgiANaAdGbmnpjseYnklIVdMAstmGJtPTx3B4MrhFq2GtS3alRc504EpzeNybhxZVruYXTyPcjQaNTyTvREejMHGfYCuU8FjAfPR2kBiyYZyBTydQlY5UhBl8RZdt4bnZPwuVK48h27Z4dGBEX5xpoTUjHm7J0",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (201 ventas recientes, valoración 4.7/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "201 ventas recientes",
+        "Valoración 4.7/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-04T11:01:19.579Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "soporte-de-abrazadera-de-vidrio-clip-de-estante-soporte-de-a",
+      "categoria": "sujecion",
+      "titulo": "Soporte de abrazadera de vidrio, Clip de estante, soporte de aluminio para tablero de 5mm, 6mm, 8mm, 10mm, 12mm de espesor, 4 Uds.",
+      "precio": "2.22 €",
+      "precioAntes": "",
+      "valoracion": 4.9,
+      "ventas": 175,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sa31fe502071d444aac85516f02f38b7bc.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006494107052.html?pdp_npi=6%40dis%21EUR%212.22%212.22%21%21%212.50%212.50%21%402140f89017858412782353251e101c%2112000037477729249%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nwehC5uDquW4HqR4ztVVvZNgg52X779bhLUgeV0kZqqF77Vy5qVTZc2uKXB6qBuBMrwsQ54dwpUd8IXaJ1duaZLlSgxSDKFv6KnyiCdN5LzqKcjKK57ULvvzMa2ANSU0SE1HohLJpVIrHMca5ARyQ7hJaRDgKDd0ezi8sPMjs8WrYJmxZ5CdP8BvuESmX3qfzPEXzLNz3Wa1my9tCu3ZtDpD6m5VQ3FPgkSG2EX74bbDu20ykHu2UAgpa0Zvbj0v8rMpw8oE7HIb37etfZzNrxG1GjRZ9w4cUGhOEuGbJRKbm5PxbsacL5X6V9ZadXWxmq2NoyinxTStbYlyVRwbA96ruqCW0Ee3lPrT5k74Sm9FPqzyv6Hjp4xQwY5g7siYOmThh01iy7OMDYgCmCojK4WsLdISwvkwXwT9ldsKphlYn7EHhtPIAglXB4iVnTapA5k3nldRhBxBPua35GXCti8F8RykrvRQ1A17EDQtaIZNPOQ7eeZhyaCm7WDAbknJJK5GHhXJkMQRN9Mp2epmYVXuFxJmK8UPiPXkBcVG60fD55qqVpAOvGCnBVHdOTQI71NjH6LAv2zhL44CNhzBNQZXZp3VJl1dkgplG9tr1IZVdxKwkSQEo6MHI49oczFtnK9wUDxAhGvJNAz1PCVPdiDCPbs5g1ofR85qahuELKBSoHZDpUKQrMOg4Hreaq12zU4LnS00rvSMY",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (175 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "175 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-04T11:01:19.579Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-6-pinzas-de-resorte-de-alta-resistencia-pinzas-de-m",
+      "categoria": "sujecion",
+      "titulo": "Juego de 6 Pinzas de Resorte de Alta Resistencia, Pinzas de Metal con Revestimiento de Goma en las Mangos, Agarre Fuerte, para Bricolaje y Fotografía",
+      "precio": "2.70 €",
+      "precioAntes": "2.77 €",
+      "valoracion": 4.9,
+      "ventas": 173,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S1d735ad42c5a4a5cbc427fa49c20aa30w.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005009755289667.html?pdp_npi=6%40dis%21EUR%212.77%212.70%21%21%2121.07%2120.57%21%402140f89017858412782353251e101c%2112000050065098964%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mrMlSRIYzuDu9DDpsKTBtuqXUaIIqNc8liyECjYJGMxVL4rKuhv6rn0HYvbz4s6uLBlehLmV4VDzMRhoLIuVqyH4ggbY4b0B9aHxmMKd6sUDxsqtZyxbY076AlpSJIxFqbmsAjGJvKarsEq8xX7Vi4OnJyAJS4qoZGZho6frnKUPEO8ATBgDm5iuOhHhy5jzngLUwnQ4t8ce6uhYuZDKYuoFeVkj2hHYGzXLo1aYb4UPwfrcen1BN3VBk1yh7KCM8Ueg1PrLBTlndYjChNQvu5SOjBFA90j04aakX7jcXPSc2SrapTgGiTAO0OnThbrBtS3bzoekgNduDtgwtbexfRhdTZOttm0lZllHULtIJAe7xcpXoytSa2UBp7fYMDXHPrBMfkgi71lpZjtVsyhzpJaGokFdjLwxqONcV0lyAm6qQMRSK9ykihqvnGPuD0AX5vf5PnQF5nUVjCwq2gd5SeoiYNvb2TcbiQcbC4KovEgikScfwiBRksWDW94ugfIyKC2e9P75p4WPfWws0AN9GVoIj5wBmcUT5VVr8Rz8KEOInBhI73rsxPkS0hRGobrlnIk66m1VG0PMlfrQMKYOpEI9FXxr7B1z5mmtf2B6eIFKmDVrjUuAS09Ic3Abr1DNwsbsvHodGg9edp7VI6ts8VibSnBMJEqZLCK9vnBPUvlyVaZZYcPa4nQeNgOGqSYdsgjdLsiOthdQQ",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (173 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "173 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-04T11:01:19.579Z",
       "origen": "radar-auto"
     }
   ]
