@@ -10,12 +10,12 @@
     "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab"
   ],
   "ultimo": {
-    "fecha": "2026-08-04",
-    "modo": "producto",
-    "productoId": "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab.html",
-    "dir": "social/out/2026-08-04"
+    "fecha": "2026-08-05",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "banco-altura",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-08-05"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -41,6 +41,7 @@
     "escuadra-comprobar",
     "grano-madera",
     "cola-menos-es-mas",
-    "no-compres-maquina"
+    "no-compres-maquina",
+    "banco-altura"
   ]
 }
