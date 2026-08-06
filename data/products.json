@@ -890,7 +890,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-23T10:38:20.616Z",
       "origen": "radar-auto"
     },
@@ -913,7 +913,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-23T10:38:20.616Z",
       "origen": "radar-auto"
     },
@@ -936,7 +936,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-23T10:38:20.616Z",
       "origen": "radar-auto"
     },
@@ -1697,6 +1697,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-04T11:01:19.579Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-taladro-inalambrico-deko-12v-16v-20v-herramientas-e",
+      "categoria": "electricas",
+      "titulo": "Juego de taladro inalámbrico DEKO 12V, 16V, 20V - Herramientas eléctricas inalámbricas compactas Destornillador eléctrico combinado con bate de iones de litio CC",
+      "precio": "26.99 €",
+      "precioAntes": "134.95 €",
+      "valoracion": 4.9,
+      "ventas": 1377,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S75ee7e3cc6004c358ede15f89616f8c7t.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008564525046.html?pdp_npi=6%40dis%21EUR%21134.95%2126.99%21%21%21152.30%2130.46%21%402140da8b17860139311621976e1081%2112000045737226304%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oBd9iDcxQzmv4kfmd5s6JuurduJm3v9771t2H2ecoOmDjC0WCQJS2Gbg8lNYuWhb2NxQK9EnVyypzmsaPMOzFcusmo8EHhFuqzMqAqKEdO15WjbKDs9dBUfECKSbzszhZXh6nKB9PFSQqdDOlncIePrSwKO56fo2GF1gGa4o0UNxp1NPM3UpSQffmVozfExAIz2Pi5IrALJuGLyV3WtmySyq7oHVWfsZEK08RM3lbnBDEQDG9ZVVm7EnjhoU9kdP2S2XuaWCVZxDO8sRg8HJXftGBO3f41v5iCIG2lZaZOIwwngQZoO2S5P1uMrmBB05RhIN7RiFKW4MMrEsUJwHHLSsIGdCbsESfsp85IeQxaoz1dBlOSOKLOoGqWW75a21BcptC7jEizOurJXa7p6oko552Dvr63rliDty8xLIXpaQnVq5HpUGJNH1kZnnM5YJ59txa2sXw4PO21KNxh5WfiAEezSYYW1VptV7abEn930MMavlY53vPwkQmlrpjvNZJqcVYwOOgLbyiWihbvJBFdEOsz4nXDJeHD3gSmpZjsUHiTdRHPToHltCx6YcT4E0eqR1EPtzZ2BwDVdRuH4lVrpKzjyaF14pmN3MyrCyhEqSZcPQzYx4mMkd1pG4pc79j8WcCBjOVnL5EuB1Tp4XUTf4zUUeLrrHZuULrrEss5m0pOstlrsIKBwrXoS7p5wJ9YOdAQzo4h2hV",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (1377 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "1377 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-06T10:58:51.977Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "lijadora-de-pared-de-225mm-6-8-10-agujeros-papel-de-lija-dis",
+      "categoria": "electricas",
+      "titulo": "Lijadora de pared de 225mm, 6/8/10 agujeros, papel de lija, disco de molienda de Metal, pulido abrasivo plano 40-60-80-100-120-2000Grit, herramientas de lijado de 9 pulgadas",
+      "precio": "6.89 €",
+      "precioAntes": "7.33 €",
+      "valoracion": 4.9,
+      "ventas": 646,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sed6339eb083647e789d6447fe3acd559D.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006855693891.html?pdp_npi=6%40dis%21EUR%217.33%216.89%21%21%2155.83%2152.48%21%402140da8b17860139311621976e1081%2112000038526246454%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FecmhkDMm3pPbw8GTkU3XlpXbKeVduVR9yCqzHW2Q7ZDkORo7UlzhMN3G0ZyMC8Ni8HQOp97VzejWwStJKsFw5LY5Q6HssHqV68tGHKQlmraYcXMPB4fn05KFg2i5LuWAtn3SBeiW9RM3RpnmWkbP4IdRE7hGOOVSIFwQR3feWIl1mderp66VjwANbR4t9F3Df7VsBgqTvnbDppgL9doEnH2TVFDzRVlLtuPKQsxNHWf8CNKo2NwByH1mc9TQZvUCQP40vVoHjCfBYy3u2Sr2g2DLKczWkt1wOPpOVEGGIvmb4ya6nG10rjrJNawbGcvIkm6ugMrSl4ssI1Fj8D3hPR6obrN0pmKMDgXki3jNjA2UK5O8gyhUFxjt908RuinzOmgVRqpCkLoBbgFMiC8VUoWNrtlFEZp3KBQKEpRiyUsdfjTkgOzmp2MR4PMBotU5srVNfJQdwzue4fe2W6vkTkUjuz3MnasTJWIZwhmYudJLyefsFPiX74TdnLK5biwWcb9Uy1FTn5wMakRnSQiIUL0cZbm5GRHDpOt4pQFpRNa8EmpE2AehllnUDsI6CRTw21glqs48mVyHFKMyyfBTRl7tyScwqga9to9NROjQvmj645APFNITOQ57gjZxO6aWdhMPzr92PKoSq1TpcBX9vE8XKxmoz6bheEVF5yJpqOntUnrAoUWk7DsJO3tykImMJ4jUZQe8JVIA",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (646 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "646 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-06T10:58:51.977Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "disco-de-corte-de-madera-de-76mm-hoja-de-sierra-circular-rue",
+      "categoria": "electricas",
+      "titulo": "Disco de corte de madera de 76mm, hoja de sierra Circular, rueda cortada de 3' para amoladora angular, cortador de Metal, herramienta de carpintería",
+      "precio": "2.40 €",
+      "precioAntes": "2.49 €",
+      "valoracion": 4.8,
+      "ventas": 638,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S31ecd2663ac14f4ab93c7b175d071e84j.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005009823449006.html?pdp_npi=6%40dis%21EUR%212.49%212.40%21%21%212.81%212.71%21%402140da8b17860139311621976e1081%2112000050284457906%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nwFTY9b4rWxsRjN98irrh1TuKLWVRsCGPtOnJBMZwh4vNssTkCjYQx7bqurh1Fz7nODPHfwCj0olQptlVrXpfRW1bdNgFtFtJTQs0L8xsNqjF95xlzWWy0s0nSDr7bEowZiIHLpYuDnuZO72SxNZZGPLUFlGfuvwHOFqvnWg8rwEiSAbzarPA2zKnDNrIqTSrW1MgIn1DBF0Tg1zOex9Sxqfvd4arMwW51Yp1khmgL5lcJkVUN8ttQK1btlod5gsZWKjnH6FbkBCFKE5qT3zJn3VxKn91l4OwzeqLadl0othlSZR6zggFbLhPOyF7SNw0MFT9sYoldVtqBL1UKAYDhRw6zAKS2jZicEfFtHPm1Cb7xXzkHZjwt0v6O2XNiI3cBh5c55UP3aEbphUjODUIGzS64mZb7p4roxJYnOYa3rSmVZ32xFckl6zXfkOoYcPDecp2UiorS2SKZODBHM8vFdD3VTLHiriiFH8dcnplON8gQyKj37oY2viXRnte9aww5UOJyg5svA3UNXoali7fQ2qyKUHtS6dzeuWtGbiNaKh1NLq9LjgI6kSnK8CLmPQMyHvMnpaPWtmicLA2lFdhaN2dfVf3RJ6nqjG2IuFBzPOvfioBm7wsmKt5HBvZWTUop7bwcf3Z0aKDvCcb9qrySm6uTeMHE1LkZhh0gEktu43SVuz4nJemKc1W6aF9xaSMF5lWUfLCPNY4",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (638 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "638 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-06T10:58:51.977Z",
       "origen": "radar-auto"
     }
   ]

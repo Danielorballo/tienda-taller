@@ -10,12 +10,12 @@
     "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab"
   ],
   "ultimo": {
-    "fecha": "2026-08-05",
+    "fecha": "2026-08-06",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "banco-altura",
+    "tipId": "cera-tornillos",
     "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-08-05"
+    "dir": "social/out/2026-08-06"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -42,6 +42,7 @@
     "grano-madera",
     "cola-menos-es-mas",
     "no-compres-maquina",
-    "banco-altura"
+    "banco-altura",
+    "cera-tornillos"
   ]
 }
