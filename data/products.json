@@ -1028,7 +1028,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-25T10:05:49.944Z",
       "origen": "radar-auto"
     },
@@ -1051,7 +1051,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-25T10:05:49.944Z",
       "origen": "radar-auto"
     },
@@ -1074,7 +1074,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-25T10:05:49.944Z",
       "origen": "radar-auto"
     },
@@ -1835,6 +1835,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-07T09:30:03.051Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "calibrador-digital-de-6-pulgadas-0-150mm-500-196-30-calibrad",
+      "categoria": "medicion",
+      "titulo": "Calibrador Digital de 6 Pulgadas 0-150mm 500-196-30, Calibrador Vernier Digital LCD de 6 Pulgadas, Medición Electrónica de Acero Inoxidable",
+      "precio": "29.79 €",
+      "precioAntes": "49.65 €",
+      "valoracion": 5,
+      "ventas": 164,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sd834c8f69c9841929682210d6cf70af0d.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005011968469013.html?pdp_npi=6%40dis%21EUR%2149.65%2129.79%21%21%2155.88%2133.53%21%40212a7b8d17862665534058728e0d43%2112000057160371713%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oe8mLfncz0CQy78cw6YrdGkGi1uHBgoirvVPxy89o1JWJVgcl4mLWMsNKjobTJvkXcl2eog64hzBkSinMpPKquemPqMkmx8Tls2MdM2rAR9dgUDluT9odnoIXGFCTmdTX6cl2n8WGrevGr8eWXE3lKoWvdbUprZR9AsK0BrZ1h6CFed92srMK1QWjafAKKJ8p9cLqXGh9StdvOGxOw2uF7NAJ4U2MJCjkWMCkNog2JxoNeE0OoERQzHQnxDXRXNrmKFQjnVNLWTYW42yzA1sZgtipRsBrYsn0YXzLzWd7dP5Y8Zc7NmhVUpuzLqIARLB9zegCm2t3KqNw9uNflsi1GJOEO3FJkNqVBLGgeryiHatHzLAyHBUkUZEhERzwlhXpYOpm4S9LneyrrLU1FWObRNTAiK5yAr2slWi3hfbwvWE3QuxpIqxZItcvmGOYG4tnwIvwMCbTNX2iQx8V2dMC6LfLtuKnIO1HTW1cQ5ieTyxDqV5FNaoYJqIoxGXkHNVu4kqjxASAl8d6GoJifumRl8KChKjQiFKOYqQ0f0fmhcXVkqTAfJreQeB6H6peIwLV6hV22fSwiN6D3Fg0wvjpkxHi9UspN5pOSK0PQUtuvcyVdsYqdkGVEVMu7NKnHvpxdXaUjKlLP2HZW6RYQolkdk5DCgXSCveV0MJ4fIwvvFl3aZsBvixnQnuSH0N1aczo6yKmDjbKtUB7",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (164 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "164 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-09T09:09:14.351Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "1-ud-5-unidades-juego-de-cinceles-para-tallar-madera-cuchill",
+      "categoria": "corte",
+      "titulo": "1 ud./5 unidades/juego de cinceles para tallar madera, cuchillo para cortar madera básica, herramientas de bricolaje y herramientas manuales detalladas para carpintería de 3mm-30mm",
+      "precio": "3.29 €",
+      "precioAntes": "3.36 €",
+      "valoracion": 5,
+      "ventas": 42,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S7c484af8020b474bb086c6a42de4b7eaU.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008397299835.html?pdp_npi=6%40dis%21EUR%213.36%213.29%21%21%2125.51%2124.98%21%40212a7b8d17862665544468799e0d43%2112000044855380838%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kxoaNIcegn9J96yjYnx2KyCSxKAAR63DXTNSj2Yz1BGFxhvOx0S3GrBbMJDs8QOCGmH4wauIFVubGNfv2mojSRrlLwS00BMVvcNLf3RFGjOHNBuue1ON1XelYzjBeVFT6mc938Aj5vZKIkp2FN1wEYVpegVfwc3Bq2M2MBUVBo3Hphdewmb821WHOu2V90KhUvLXc3fJIAFAoS6kHnT0RjDY6uDqwaoW0EyVeeHRGTBgxxE4wnai2DX39xMamoruTfc4P9gfbQzIidicTpHQp7QSFxI0P4yqPQxISVAJh4W0nkyOjqO2BTfkX0pt7i0Gjefe9xgAhZhTaO3iXeQ0el7MLaE9zVKVhSZj3MEmBhKXwGKhtaE7M2xz6HBEDZwifAU2lSl1X00bcjKTT4QW9TytMxLx9OvOA4HWOoLbCZP02ksIQDF9qQ3DJaIZI6j1nQP8O9kB5F7wVTGaGYXm0mRNBKoBnyjaOvjAuHaGHDbuLzDMcbpHcX2oFqdlgvSizf3xHQD0VfF6IrNoAfsRkb8VMEDItRynhZ30jww9BNHmnbdjOBlqI9Zr1YuJe65fgU4oDEPTNSkUOSQ0UXFyXxrDQ2pvZSfwLy3K3VcBacW8TYLk8thjGcUZEocBX38IHklOU84HS8fXVLGQaXUdBLVl49lJoOSrBaRF9Y6KGt9c1D6M9H2PSsVoiRboWgP9dRj2PtBYc77DM",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (42 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "42 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-09T09:09:15.840Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "12-tipos-de-herramientas-de-cinceles-para-tallar-madera-jueg",
+      "categoria": "corte",
+      "titulo": "12 tipos de herramientas de cinceles para tallar madera, juego de herramientas de cuchillo de grabado para carpintería",
+      "precio": "3.29 €",
+      "precioAntes": "",
+      "valoracion": 4.8,
+      "ventas": 33,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7234eed6c824804a106dfe1802659adn.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/4000251617180.html?pdp_npi=6%40dis%21EUR%213.29%213.29%21%21%213.70%213.70%21%40212a7b8d17862665544468799e0d43%2110000001018570027%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gVFiyMmn1MUHDLokf8IonzIfGI9kiiS0kG51U57z8xtx1AXzdhhR0UXbA4nnFDGJ6T9Iw3VDlZvF5G8H3zCZ0Ql9qz5XZVRix65LrdSX1ozkobsc2lCANwv8pCEcIzUoPWMgpo22P0s7t1qUoBabF8hI96kfCb7O2JzlBfFp1selWKcST0PcIIPqChhDN2aLtg2jihqAn47JAs5dE9xxV934ddclv74El4K3OTmG77QygPjzhtQIXy51Jbz5mUeruOzkIBNxtBeUhtpPsBQtPkPxRBpACZVBLhNzx2siliiQIegvqOrfPV21aUfU2mYNQrrGNdpTMnLvrQ8rnT3tG83vbwx4vZ8sFKptnZ3SpXMnS3s4Vf0Fr2vKtSQGH0ci1EIdX6kKG9a4VTHTeTPHLgbNNuOy0rhyszY2D9x5tZbIPiuCdGwJTrqbuhFVASs8B46KvNGFF9TV6ohPmKpLSV6vsbsIcllCUyyXmmZ2yhzp1Qs1mBopbmFM2eqHF5TMJnSs8xg0jWr0LKAio9AqrnMqO2aZedASCy5SqdY74lfIFWhhVhXVzbfbedubCJaGasFCLW8XMVlADlbsaIrzIOBM3WDR7fqKhVTMVULAgRKIWWxkjR33qoInEYOjr6DnxmnoWTL10cuEysxtr2beL8hl0HAWhMLF4McsMQfJd1OsWq6IEOwiiFpW3ajOksPzdxvbSdWue187L5Ab",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (33 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "33 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-09T09:09:15.840Z",
       "origen": "radar-auto"
     }
   ]
