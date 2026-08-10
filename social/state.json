@@ -11,12 +11,12 @@
     "kit-de-plantilla-para-espigas-de-carpinteria-juego-de-guias-"
   ],
   "ultimo": {
-    "fecha": "2026-08-09",
+    "fecha": "2026-08-10",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "primera-pasada-sierra",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-08-09"
+    "tipId": "retales-pruebas",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-08-10"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -46,6 +46,7 @@
     "banco-altura",
     "cera-tornillos",
     "luz-rasante",
-    "primera-pasada-sierra"
+    "primera-pasada-sierra",
+    "retales-pruebas"
   ]
 }

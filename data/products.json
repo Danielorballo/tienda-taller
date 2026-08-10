@@ -1097,7 +1097,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-26T10:16:13.913Z",
       "origen": "radar-auto"
     },
@@ -1120,7 +1120,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-26T10:16:13.913Z",
       "origen": "radar-auto"
     },
@@ -1143,7 +1143,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-26T10:16:14.309Z",
       "origen": "radar-auto"
     },
@@ -1904,6 +1904,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-09T09:09:15.840Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "shazam-fresa-de-carburo-de-tungsteno-de-acero-hrc65-de-3-fla",
+      "categoria": "electricas",
+      "titulo": "SHAZAM-fresa de carburo de tungsteno de acero HRC65 de 3 flautas, cortador de fresado de chaflán de 60/90/120 grados, enrutador CNC, broca de grabado, herramientas de molino de extremo",
+      "precio": "3.49 €",
+      "precioAntes": "5.21 €",
+      "valoracion": 4.8,
+      "ventas": 247,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S3ec2de112ce94e809f655d0eb248a196u.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005923555222.html?pdp_npi=6%40dis%21EUR%215.21%213.49%21%21%215.88%213.94%21%4021013cc617863557167345588e0d47%2112000034870173274%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m4OrBoQLVDtX1rkgezxpdagdeMpC0bk7V5mZ7WwoNHMHAUUFpsFi9ytQ7OkoYXD8niwy57fxBfpiRiZaq6QS6zq8dAOOIexrR62JsAGu4lj4byWXr9TL2RJlKEOlJmSDULNm0xj400MLy21BvUOwr8hGmRWV5S4NqN69M6LcrT82xwjtL04g2nC0agHQaAOTtsGLlHGrFrwvFZmIUlb6CCmRCEPK3CedI828zVYMEldPwt9tXq3csOCa1Pz4QWt5hV7RB6v5O2dS5u3HrQSh6PFBjtdgDfMVyhZE8jxDronvTRpiq6brlMrw3nCF561srMf2uotPtnxaAbyFQ7Bu3URO6xdVJXEYKBRpvg7UcJENMh0WM0zjmbg1LGUDkJxy4IOQaDayFlaQLDrTtaJLZhQswf3hInG2wsDTyXGldipj2IqbrVmLwVnzKOnAjf83vpXJaVMtZPtOWg4IFyjFWiFm5UylPwbU8lUimDLmIVlzTzwpAQbxHc4WWjq6Y4EdfiK4ED8Qjs0cwSSu99WJ1BrgQIn3eCSj5aEOWqi5RcynfzfTJ5Z9NgKxQBUhxsctsSpEapVI6DJ5ZE5BXmS6tDfosjsgQpYUmw1Ak2N0FoOluE0iG5WT9ZqN5GM5XdNMNT7cASsNoFK1oGpJKgrHfTwRNaIdAERZrEady5LvLaEDdmWGdhAiSspZS0M8S8qOxr0z3AccVrYDw",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (247 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "247 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-10T09:55:17.685Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-fresas-rectas-lavie-de-1-4-de-pulgada-para-limpieza",
+      "categoria": "electricas",
+      "titulo": "Juego de fresas rectas LAVIE de 1/4 de pulgada para limpieza de bases, cortador de fresado para máquinas de carpintería",
+      "precio": "4.69 €",
+      "precioAntes": "",
+      "valoracion": 4.9,
+      "ventas": 247,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S2c264957593c4649934368b44092f4ae5.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005004798685795.html?pdp_npi=6%40dis%21EUR%214.69%214.69%21%21%2135.69%2135.69%21%4021013cc617863557167345588e0d47%2112000030526886831%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EJizypYcnckzcc6Hppu6RcwsEjDoM1q1Xxfch62sO5zTZSYfehcvqDhahKrx6LqYcS6jBov116LciWRwRPNzlE4TzSLYT6d3maPIpehFqn0tYgS7uvCGWkVavpevpT8epKUxYXr4ahvDfH2V81kUTNfzxuoGxXX8dJayv0dnB1yBUhym8iIMCeuB50l1zmJtitUAVZjgP2RZ1Fopdcd8czk7y21Tgub2sMKQzetlwQo6Ti30G09vgByfORUtusN6Ep3cdVSfHFyXljwbam6cGMCJFIdoA6Omu3nktV7b6T26npFjyddRtQSb1T9XYll2oZ9sSBpckeqvXPJIEA6N9dSRRq23wPIc7z5OZdC6cFuYOMlR7WZbHIwTH750ndyR7HVRoCEqFEUMWacM56bPZsj2nHeDNV8xNRlpWjMyCPW3HPoe6Sqay9JMGo4P8Cfls8fENVUPGwXCEDadTsnbHGfsIWtPSJJqiIvqjGeMrZGbmMsn62X8R9jA3ro6k5Tt1GJTYLuD7VuKyDeDw3fWCRzCrAG7BLSLQnP8d3COD6gHuFUqi3LtdmUApX8JJedH7OBkGbCvPdxAFxsVMMjwiTxJh1tIMqJopWVh6ZIiMYnuw583uk87cC6TK9GLTq8BtBvq1urteQ9dhmeNkXceK0KI7OfgqGvwAeID8zsir76OdQOvky7QckPJPJ2TCy7ekmJuPtERJni7a",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (247 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "247 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-10T09:55:17.685Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "brocas-para-trabajar-la-madera-huhao-vastago-de-10-mm-2-filo",
+      "categoria": "electricas",
+      "titulo": "Brocas para trabajar la madera HUHAO, vástago de 10 mm, 2 filos, rotación a la derecha, broca Forstner, longitud de 70 mm, broca para router para madera",
+      "precio": "2.45 €",
+      "precioAntes": "",
+      "valoracion": 4.7,
+      "ventas": 237,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S58b5f502b6a641149a71c10f30e2d346M.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005879866656.html?pdp_npi=6%40dis%21EUR%212.45%212.45%21%21%212.76%212.76%21%4021013cc617863557167345588e0d47%2112000034682313265%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kNhw7p8OhXXCbWeiyAWpmgqXfUdYozvhoxsMexXKHZcKoUpLHsJFt1MfctL6C5dkfdKeq7Sp011jpBe1EjOKSVNejE54wRBECBOR4wtSSObejoKgBgZlBPYmk4WGFI196S8V5YYx53gHZOFKbOwdq46O9aJnM22hM3Eh4zR1I2zqQCUU24mEoKELF5ofLdrMgZXHnKhOtYTuVWbEfuN9C8YOXKb3HmJ9y5LxI6cAcpgUi6oz6JdU3Bjg9s6m9ouMbKeG4f9jXegOzzFbY1HaTazr7X7TKVr4FXb1uGmaBZ54l8X166Ix8QB44Qn2FHXb4ztosIg2OH3EGN0VDknaHgrX42mP9hvIMpXnXwglt7n7VNsbyYehNjzzRgk3QWQgUXSldp1F4ES6stj59uZlZ0GpoSqcoToU4kmbcArsLi0iLRTkbQNqsa99qZU4reg5fNdKIDUcezRPmgZ5LkHRFNRVan0vin4oIkIP3cij7xtMGgkWPTpjVXL2AI5OooxUMHH8MbIk7fOQd5lyy3flNf0fO3NRSfX8QaM6gLH21i91jKXSXj9EYgKqrcUlMKQP3bG2nr3EHpcbRUBm9TQXeSGB8kaTMFDi4wDG64nL0001Cw4Tr7yD2SXSChM96VDr0etKEy2DD2LXyV5R16k2u7kW62sapDT0TvzpIb8QqwxV08kRA3wdlD8n5nuoTz0ONj57m4MbT0Riu",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (237 ventas recientes, valoración 4.7/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "237 ventas recientes",
+        "Valoración 4.7/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-10T09:55:17.685Z",
       "origen": "radar-auto"
     }
   ]
