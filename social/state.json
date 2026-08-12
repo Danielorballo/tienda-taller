@@ -12,12 +12,12 @@
     "cuchillo-de-tallado-electrico-inalambrico-usb-de-40w-herrami"
   ],
   "ultimo": {
-    "fecha": "2026-08-11",
-    "modo": "producto",
-    "productoId": "cuchillo-de-tallado-electrico-inalambrico-usb-de-40w-herrami",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/cuchillo-de-tallado-electrico-inalambrico-usb-de-40w-herrami.html",
-    "dir": "social/out/2026-08-11"
+    "fecha": "2026-08-12",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "piedra-plana",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-08-12"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -48,6 +48,7 @@
     "cera-tornillos",
     "luz-rasante",
     "primera-pasada-sierra",
-    "retales-pruebas"
+    "retales-pruebas",
+    "piedra-plana"
   ]
 }
