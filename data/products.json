@@ -1373,7 +1373,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-30T10:36:47.640Z",
       "origen": "radar-auto"
     },
@@ -1396,7 +1396,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-30T10:36:47.640Z",
       "origen": "radar-auto"
     },
@@ -1419,7 +1419,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-30T10:36:47.640Z",
       "origen": "radar-auto"
     },
@@ -2111,6 +2111,52 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-12T09:37:23.642Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "sytools-juego-de-piedras-afiladoras-de-diamante-en-blanco-de",
+      "categoria": "corte",
+      "titulo": "SYTOOLS Juego de piedras afiladoras de diamante en blanco de aleación de aluminio para afilador de cuchillos Ruixin pro Rx008 Apex",
+      "precio": "31.99 €",
+      "precioAntes": "",
+      "valoracion": 5,
+      "ventas": 48,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sea61c053616c4cd38336d11e9179738fG.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005044662389.html?pdp_npi=6%40dis%21EUR%2131.99%2131.99%21%21%21243.08%21243.08%21%402141315917866999970132215e10d7%2112000031435692902%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oCpGXOv40dgeJxiHTZVmJn0LI3oUTmR9IkGpmgctYKnUiOzP9HPEkoNTA2B2bIxqHHrqKVbip7O0X7B5idSGJWU9t5MQ9xM6nnH7al45IxUIGyLVgTkIxqIqHhNbNlTRcoMxMeUpupnyqb7kSBNR4aAvY4CJizhVVg6Y3qAC1NYTFLIpYmbaL9g4ZgQJdVFrBvpbmAzVp0kT1z3Z46Xjz2BQv8rlor9Ed58OTjeD59quo5O2noQTXE0TRMnWQSa4mf4qXFxz0EcuR7MMVU0bb6od902CDcRexWpnb3mCEwNDg9tR9xWdip65c6GgGMKBDQxCBtWO43JlulQwIJPQKCXIvcpfzEOt6Ou5tUZCleacxTAxjUIKnRJ4kiRy8d5ScA77Hzfz2UOodlRgtgitNaI64407s3zNhud9vU6u9M1wcssnnon7cwgEXyvil4Dk2zScjQFRZc7z1b65uui1zQQ4JmHWIvPUseQNTCF2ayaTa5R6RWFYhedKdTcFVhQISi0G2VkCTyQXoAiNhzsbMy06qSjGmQ2SKOMrRwIOHaI8OsEpkt59cLh4tpSyS1D7TPeiKnXTKOTxz8OLoNEoJWKWmO1XXzmvXOw3IqAV9dQzHNV7oVrcLDzK8DgKD1mtQWRlXH8rGmzM58bXlxDYcsioYUx7pWZZJzyX4EyZPh2Ywqk7auy0X1AlEFepefrEkvoLanNnlcZIc",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (48 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "48 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-14T09:33:18.470Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-cinceles-semicirculares-para-carpinteria-herramient",
+      "categoria": "corte",
+      "titulo": "Juego de cinceles semicirculares para carpintería, herramienta de cinceles de gubia para tallado de madera de carpintero de acero al cromo vanadio",
+      "precio": "6.99 €",
+      "precioAntes": "",
+      "valoracion": 4.7,
+      "ventas": 31,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S2c3446c65a6f43b2b75f181aa822c952W.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005001972905195.html?pdp_npi=6%40dis%21EUR%216.99%216.99%21%21%217.88%217.88%21%402141315917866999954962174e10d7%2112000018278607265%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4m1TKTswNEmajGFRQjckOcY8x7mwR3ch255vpQn5i5CqL5NaerCuPdviN0DyJYGGPi5yomg1U0u10woqdceimsBnbZ9POgBqGN6xnGkl4uGQksaxzerK8AraiLBMZLFTRekxyy4E9aHcD6zlzXRXs6KcJV7teuXKr6SVdpS6I45jDie6UuLj38i9QBQPdXNHnBHbIoIeB1Z6dzSC6ocofdnsIVTQMmS2tpAeHlNcWh2LmSOHyY3alGswtZSBP9eQ95uljigZZOnbtVRUfOBdlNbnjtno1OgUdVfOG4wmqXdlN4pfhG7YKZNVTDCqvyLRkAL7rXSVqFa1py8HBQNuzUbOZMyOxtXTYTYW9PKnlWWEfljDBLKJIFAXgk0vjHiiJl39WzRT5qxkJyKzrN8XGZpEv6KfPMmyTBs7b0mXG5xvxjuq9jB0BHOIyyflraMpPxXJtP8nalFjmyvBsNDOuLlEiOmmqL7d9Rmj916uA0ZWSnT2RmPWxfW3B5pGQkMLIdyTCFucy11YuLCCDMAhlrkVkeRcxTLg01Wsjc3L29E4yiunECFuXSEmD2XcWkhKzEroShKCzWORJbYEqXAsvEfEWcKtUSzlWWshMtLSsnlfPGhqS6SsC6IB5ZqkwqxqrFdCsZwEtBJfvRVyniGvoCuGuubE9suYU26Pjh5mR0DI2Xmm1YeVBuvJyhy4wFM1enICb7aYiqJ89S",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (31 ventas recientes, valoración 4.7/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "31 ventas recientes",
+        "Valoración 4.7/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-14T09:33:16.923Z",
       "origen": "radar-auto"
     }
   ]
