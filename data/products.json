@@ -1442,7 +1442,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-31T11:04:30.778Z",
       "origen": "radar-auto"
     },
@@ -1465,7 +1465,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-31T11:04:30.778Z",
       "origen": "radar-auto"
     },
@@ -1488,7 +1488,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-07-31T11:04:30.778Z",
       "origen": "radar-auto"
     },
@@ -2157,6 +2157,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-14T09:33:16.923Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada",
+      "categoria": "electricas",
+      "titulo": "Brocas de fresado LAVIE de 8 mm con vástago de 2-1/4 pulgadas de diámetro de corte para limpiar la parte inferior, broca de fresado para carpintería.",
+      "precio": "7.49 €",
+      "precioAntes": "",
+      "valoracion": 4.7,
+      "ventas": 203,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S150e72fef52444f69235ae54f0f28df0B.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005004094341184.html?pdp_npi=6%40dis%21EUR%217.49%217.49%21%21%2156.92%2156.92%21%40210152bd17867839285047961e111b%2112000028016781163%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EyN1BzECBWpxXqxzmT9Kg4bp59jQ5F0k0OMFZ29yrvbthBxnMlFECLCZDjUoVnPZcYYgpClx6dsSSt6x8vxsig8a3tiHwuxDaZmGYdw3C7vioQmDaE80HE2MYCV0L1MTTzWZsVVPBqXeusWhBHFVe8zAMPEVZRf66cNVVdzZzz0HEiEBYlsMaZ152aQBePkmz8jLYA9aFtNevb34g1dVxp2bEVtR4z8YyOTqOBcGfMpqgqdu1U92rVLe8EYoc4asLUSCsyO3IG6Ee8Ow4PkMWCm1hpqyQu6yNeQaO30PNl9JlCnhcjuc6Hifr09ULJhgqh3e3I9wBjww0N3cYuTUQyORux0utwMSXS8Ud4Zunezyd41nMMkW3klroiXYkqBKmfBT8bdKS5QDMVKqruc2CdSl4SzNb6ZPGQhqbwojSClz2ChLlr2pAytmvlT135c2Wz0cFjpGns4yTr7A9Lgy87MIvu8m9hsER6KO3Tn9gSjyjoHQlRciMkIXqBiQm9VIX9Ttfcp7DexfMTtz6IbcDfl5X3b9CZ23f0KVqp8dCCbcdbtm51rRQ9dUPWC8V8SgrYcnK9VzvLz8sOYBCyIzVffxBQHJpmaO1K1say2FerXiYNNAcBKk59ToADpyItIK2UKEgIxDMAoPtMecrW77WhoWP5YRy8mP9PRlxPI7HNPjOIDexogJtJqUsBanXhJLoDLFZ2bVI3QWu",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (203 ventas recientes, valoración 4.7/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "203 ventas recientes",
+        "Valoración 4.7/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-15T08:52:09.330Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "lavie-1-unidad-vastago-de-8mm-fresa-de-punta-de-bola-punta-r",
+      "categoria": "electricas",
+      "titulo": "LAVIE, 1 unidad, vástago de 8mm, fresa de punta de bola, punta redonda, broca de fresado CNC, caja central de radio, herramientas de broca enrutadora de carburo sólido C08042",
+      "precio": "3.49 €",
+      "precioAntes": "",
+      "valoracion": 4.9,
+      "ventas": 195,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Hb9c3ba0bb1b44992a6015fa90c836bf1V.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005003777327573.html?pdp_npi=6%40dis%21EUR%213.49%213.49%21%21%2126.52%2126.52%21%40210152bd17867839285047961e111b%2112000027132375620%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kY2nA3eA4GZck7ZSs8BpyEveDp3p6prkJoPG3YHDVy3KULqKIJeOGNIU1MY20J9KA4vXWxrZVLulfAPlbHthlTRtJ6qjAAW5j5d4tkIzzuzboMjdh1PsNDQJ5l77pY861ySZBPSpuRCPaGAnlZMwCZeoFRULeGp2UoJUBZTCNZVO0yTMoELNKwSSKtEg8JA0FuDyKmym1A7W7W3EXeaObrbyKC0CZQ2F9KO4hQLOJs0ydeWplQY8HBxtySefZH7tRWSpZxkhC1q660d0wfiwOEQuqB9mPRB2zHHtw0gp9cTlrQ11kSS5MD2p7gyZNwa7l7p2EXupLGmebhhMCjwYuLZhMshSspDMWAQ9m9OYQTDb9snZNZPg8zhLXYj8wBabNQgfvnZ9JyrlAWZAkqV9iIjDqEnLeQJF7omKJ9TfrivyD6FtIE8QGXDGR10cTV9VwTMxjlRcXZ9E6UitG3aEQtzH22S0hUP1koeVF2IEf3M0ShhpnCXvkqB2455GF5eLoZ04amUTptcIDdJSRWxClKiBeppYh7IgmqOJt8fwyN66Mw3S6IGIz3Cym1STUwdLLDjn09vfQInzqwJPF0CyAA9nwKpNmjnWIXxuwUTw9ALXuCXfRo5XTLubelnubGul16UdARfDy3nXpN3IHUwfofLndsuwrkl4RZ073t3VpP2lFBvMgsTc9ZhTTCZ800hAWLhzaBG1nJy0c",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (195 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "195 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-15T08:52:09.330Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "medidor-de-posicionamiento-de-brackets-dentales-localizador-",
+      "categoria": "medicion",
+      "titulo": "Medidor de Posicionamiento de Brackets Dentales, Localizador de Altura de Dientes Anteriores Tipo Cruz de Acero Inoxidable con Marcador, Ortodoncia",
+      "precio": "14.89 €",
+      "precioAntes": "15.33 €",
+      "valoracion": 4.8,
+      "ventas": 32,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S737a66c27b8c446484e19d68b8e8ee84l.png",
+      "urlProducto": "https://es.aliexpress.com/item/1005011722178017.html?pdp_npi=6%40dis%21EUR%2115.33%2114.89%21%21%21116.49%21113.15%21%40210152bd17867839294378018e111b%2112000056356478794%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kYZnTjEN68Gqoh88prcplBVzaarFCXpikqRDXZzUDHuIZTCsgkuQl2I4mSO4TjZdhHPGjSRCZjuGe4DNH8SYDpeH7DoF3YAJOl4d3slgZiwvqjqibSyWM5cEkGVw8nv7Hadzqex2UcNJnBtcUgETSzNv2OlTtYbLJJoO8kWIU10c2gVNl9ZnMhvEAlmQopncPBi2Bk0eGdd1VpP0RBrs6w4istwrHVbEOCH5qWwFVAw7IKt5ezSim7LHEsftMVBAYVj5WdkGZk4vM9cZ8gxzbwHzR4nNLJ0eWgjeBN0WEj663Ra3CGmKthV1EVtuMDs4WQepIRkJR8deavqtrwIzDKVex9tM0h1VMnUsMq9zgeV8kynAe30wyuoiwAgvPpLj0agMumxJh7mb2qnogaxwNUnPsD9Tc1N9mE6GZZVoRbVFMvUkv4hkKcMlXAhMVdUdXDfGW5JTqnVxTx9bo0WjghfdLaQLh4BwBmwKhb9oCk94sFSVgflvsioQhgyGZDI4Bi3MtxproQgvwZ07Cu0P3Jhaw896KkkZ9Iy3W2xSOIhr57cCF91ShKVzOR52utUxX8uWxotdVlQ2cdR2iHSUhwSs7AaYSyjugddBQ3yTtJNLBhSFmQuNepXbfn1wQ5Zz7IEf1LQcgEYTOAiMwz4YQLGIHZkPbuGM5zNRkNlJ2w5jsEqXdsHxnhxDipIIGSn0L7vxPVdTBwQpI",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (32 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "32 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-15T08:52:10.287Z",
       "origen": "radar-auto"
     }
   ]

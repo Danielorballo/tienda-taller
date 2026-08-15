@@ -13,12 +13,12 @@
     "5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil"
   ],
   "ultimo": {
-    "fecha": "2026-08-14",
-    "modo": "producto",
-    "productoId": "5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil.html",
-    "dir": "social/out/2026-08-14"
+    "fecha": "2026-08-15",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "afilado-barato",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-08-15"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -51,6 +51,7 @@
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
-    "linea-cuchillo"
+    "linea-cuchillo",
+    "afilado-barato"
   ]
 }
