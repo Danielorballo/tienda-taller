@@ -1511,7 +1511,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-02T10:13:06.530Z",
       "origen": "radar-auto"
     },
@@ -1534,7 +1534,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-02T10:13:06.530Z",
       "origen": "radar-auto"
     },
@@ -1557,7 +1557,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-02T10:13:06.530Z",
       "origen": "radar-auto"
     },
@@ -2295,6 +2295,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-16T08:54:44.654Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "mini-tornillo-de-banco-de-mesa-para-manualidades-herramienta",
+      "categoria": "sujecion",
+      "titulo": "Mini tornillo de banco de mesa para manualidades, herramienta de reparación fija, alicate, fabricación de joyas, electrónica pequeña, banco de trabajo portátil",
+      "precio": "3.99 €",
+      "precioAntes": "4.21 €",
+      "valoracion": 4.6,
+      "ventas": 94,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sc55d5c2cd14040c7805c8565e2e85aa9o.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006092489922.html?pdp_npi=6%40dis%21EUR%214.21%213.99%21%21%214.76%214.51%21%40210152bd17869575923338170e0ea9%2112000035700649441%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mYAWjJ2vHEbbgEEkzAr8AylsDqzrzZM5jUaFYVRqShmcXhl4jGV06Ijv1r8qrvdioMa2ie9MTE89lAm71BJ1HUVjmJJtzvJvKPygZANfY9kVYj2q1LoAaVmz6fMNMIlx4eguMjSP0Qh4cymDtIFxHlaEuJrazUgyOyUEU6w75HS6d6PiQxvKXSjX2H3vG3FGHbKVT7QQFQTFyJv1K23Ztx8T6jUT1qPWR2SJLzHi7WGmOElHNwTomg8IpMZ3D07lOaAx54JcPdGlC1pNWipNlqjVW3AdRsiBjQdfGJTgAHOKpeEBYjpuh1whpfVJj9dEAzUnZJDjcDYtZYotHvyjpqH4JxZbbOM3LyL59dfVUuqVK6BgTS7zgBDBmSOM0T1okQJgzXlB2IW7YkFtyzolI7DGsumOYIVEA8XpX7p6taQDJifUZ6edYbwlilsubuZ3jrI0KfS7OEkCScIlZ7E0lpXVdwcuY8NTRUX9geRtgFgGkwojhn5cNXeUrsNpZ3PEU4jnjVoi5PozZFPM8lJ1w3Z5rscXoDdE3DWkAyJq3VIX2Y4KpAlfr1cnJ4ArXNiaQYzeLdHNelfY41Bx4c8SsE16oTmA9c4wxqTX8KTUtlZKQ3LnyKm2pcu112WuUlTpYhhmYbaZ9Sgh679T58wfM77uCYpKjxD3dSjKiiZ230RcISjSwj1bht8GryJembyAU80dtKgEbvN7K",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (94 ventas recientes, valoración 4.6/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "94 ventas recientes",
+        "Valoración 4.6/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-17T09:06:33.223Z",
       "origen": "radar-auto"
     }
   ]
