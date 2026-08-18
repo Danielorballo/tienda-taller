@@ -10,15 +10,16 @@
     "kit-de-herramientas-de-desbarbado-de-metal-cortador-de-rebab",
     "kit-de-plantilla-para-espigas-de-carpinteria-juego-de-guias-",
     "cuchillo-de-tallado-electrico-inalambrico-usb-de-40w-herrami",
-    "5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil"
+    "5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil",
+    "tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de"
   ],
   "ultimo": {
-    "fecha": "2026-08-17",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "sargentos-nunca-sobran",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-08-17"
+    "fecha": "2026-08-18",
+    "modo": "producto",
+    "productoId": "tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de.html",
+    "dir": "social/out/2026-08-18"
   },
   "tipsRecientes": [
     "linea-cuchillo",

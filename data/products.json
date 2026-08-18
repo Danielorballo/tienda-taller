@@ -1580,7 +1580,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-03T11:54:00.583Z",
       "origen": "radar-auto"
     },
@@ -1603,7 +1603,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-03T11:54:00.583Z",
       "origen": "radar-auto"
     },
@@ -1626,7 +1626,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-03T11:54:00.583Z",
       "origen": "radar-auto"
     },
@@ -2318,6 +2318,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-17T09:06:33.223Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "deko-kits-combinados-de-herramientas-electricas-con-taladro-",
+      "categoria": "electricas",
+      "titulo": "DEKO-Kits combinados de herramientas eléctricas con taladro inalámbrico de 8V, portabrocas sin llave de 10MM y 3/8 pulgadas, kits de herramientas manuales profesionales para el hogar, 126 Uds.",
+      "precio": "24.59 €",
+      "precioAntes": "98.36 €",
+      "valoracion": 4.8,
+      "ventas": 1173,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sdbf99070fa2140a0976749c52569674fm.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006131590636.html?pdp_npi=6%40dis%21EUR%2198.36%2124.59%21%21%21111.25%2127.81%21%402151fd3a17870436960355403e0f32%2112000045655064480%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4Fl1feQJBbrrYAv4kYqZoFMQ3skCPltz7K3dHZNSCN16gIHMMnS0f6fVAOhy5ftZe3HV8z0PKXWlZLhaQfQTByy0gUIrYAeBr7gpFais7DxcQd8rXZqVkikS1UsuNsmRmE6lvhdjqECnHZGngzr5b50Z0XGo8IHmXPBQrjLiVKrztrTAcyM0v8w6DBr4D4r3hHhiDZVS3lO5XWcqqFmbCJ1Ay5E3n6xuqMCEh58qLnuWTTuvfXXGZ6fg12tyUHfltYg21wSTmgv24O1BzGomLglz6DghQyXc6Tfl1yNqlbgkJjZVnEhK6ucpftGkES7ipmkGpLmvCNmvfNDcOoVsrLQ3LWyPZL2MFDqF86u6SuSeTzVSgS4whX3qaAxLbluyEz9OAXxxxKpIvmRT1kTXuZ2kupl3XLIyRm61QYrY0hzZYCqoSnCheHNnSzB1UJhNvly8ydkBLB7QrjN2xRNNezmYAAk6j8GXr1fVyG1L7a3fOhMWaHHZFmW0Drqb6lDZcaqZjgjxHHGoun4Pamy08IVZC10p5xByDuOHjJL9VdBRpPUisCdRZJDYzc97NXNBX0hK757NJRoEb8fgzT6bTXAdh6YUnke27SuTnhGjeOsZOtVpCNAvh2pJ4o5lnGQ6I4o9DwiNrt8XChkepXu70vomVlSFXCoWe1LYzPb7n1bjEIOr2jotw53Nw4Lq4y2t8dijLDrf7KzN1L",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (1173 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "1173 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-18T09:01:36.463Z",
       "origen": "radar-auto"
     }
   ]
