@@ -1649,7 +1649,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-04T11:01:19.579Z",
       "origen": "radar-auto"
     },
@@ -1672,7 +1672,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-04T11:01:19.579Z",
       "origen": "radar-auto"
     },
@@ -1695,7 +1695,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-04T11:01:19.579Z",
       "origen": "radar-auto"
     },
@@ -2341,6 +2341,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-18T09:01:36.463Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "herramienta-de-rectificado-de-diamante-para-discos-de-amolad",
+      "categoria": "corte",
+      "titulo": "Herramienta de rectificado de diamante para discos de amolado, herramienta de pulido de piedra, lápiz de rectificado, cortador de punta cónica, piezas de reparación, herramientas abrasivas, afilador, 1 unidad",
+      "precio": "3.29 €",
+      "precioAntes": "3.68 €",
+      "valoracion": 4.8,
+      "ventas": 245,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S64ab18c4de134059a76f35feec618925t.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/4000182513979.html?pdp_npi=6%40dis%21EUR%213.68%213.29%21%21%214.16%213.72%21%40210152bd17871301365974556e0eca%2110000000668797902%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gVFiyMmn1MUHDLokf8IonzIfGI9kiiVYBuWn7glQGNeYXhX5kI0mSW9JDz1CgB9m38iszDB3D8OxQXVOIJTiWu1G6MZRkVxpXO1Idze0JYrfFh4C5GDLVvINxRB0rxUnDYWVybG38hPIN8hJwdXQrhNiDDcMj4dRd6mvRf0UPjHxKsfIfZ7dW0qV8GISFkHaiTKeOqEhm52fYnVvBKYleVumJTu7mLDo5t37VhBCKmOEutUnaZfZKusFrUkpeICNr5JklspepnHlWXdVmjNOAxqOCcZ8D5T5tTIMv0mhgBzV37HGCqEwGGVdRkGTbgsywjVPGQdkXmik18gJLmLpA2TDzIzN2DUWtHOtBBUkaxUaMoBF2Fo91yz5IlYHKFE8TZnW6EyO1HFUMRPpWrHrwZCBXw5pg575AOCeqlNbkpb1o5Z9xHa2kS0vvvmyXjz94NJGGjtFnHowasc5kgb69IcGqVQNadVNnWAnUJI9AE1kqwq2SbZrwJWnKTonnxuOaOWPYSXoC8k99zhF3wNbI7s7h76Df1qtMCmCE0mBfZCe4wItqvkqsOLNDg0cKSKtB5krTfxhpwjfdWMm8bzTPVnABrykJAtly5SpOIbKPfSwqaDA09lwxe7m75PhXdcz2iZCkTYsQRAtS1uK87eiF45KjCzAIUkLlnCJO46FiMCWt8GkfIsNeFR1o8zg60eDv9aK1aspsiMR0j67",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (245 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "245 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-19T09:02:17.989Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "disco-de-rectificado-y-afilado-tipo-t-de-diamante-sinterizad",
+      "categoria": "corte",
+      "titulo": "Disco de rectificado y afilado tipo T de diamante sinterizado engrosado con cabezal de mango para pulido y rectificado, herramientas de amoladora",
+      "precio": "7.29 €",
+      "precioAntes": "",
+      "valoracion": 4.7,
+      "ventas": 209,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Heecb26e927b948ac91b4c7c65816ff11f.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/4000304453619.html?pdp_npi=6%40dis%21EUR%217.29%217.29%21%21%218.24%218.24%21%40210152bd17871301365974556e0eca%2110000001265590082%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gVFiyMmn1MUHDLokf8IonzIfGI9kiiShwPxZI77DXQ7daCT6bMa2c5fuZsnbzOL5fLw5FZLFxbuhDagY4jjtqAGlxRs31NCFCybejrvUrjbGJBUFopRMspA4yDrTzz7d8ZKBAGWxHGBsEOzBYsBwVh1BqRPuUENwursQ3iSAEgpPymt3rzjA9KetTBn7INRYATOo0sz7OrYzJ1Pbqv2RRtKOHUhqxsqFVoRhjq6NM0XFfV38snyGLXASN71EWPSuOYMzpqYRNRVBA3lOLh3wOuReW9rstKPSFDDfq70gqyY9BE4bg4Wuga1RUOe04GrhLAgpRTzp7OaAsMnHUIgYdL5955vqWTUIo8B2ahgVxbKwPxXZBIKS1D61rOECGr3fwq9oyvsUIvvTB8ryd2xCtYgZRNq0WBBTvRqgKXpe892K81nFSuGgL2QbxZ4RXEyiQGbkg0jDN3onovUHzKUSv5FsfGS9uncRRMWyEUW80NWGGTm9uPsoFV7enA3WsjFDumCBboT1UQcn6tROScq2vlW0cJZzpbWIsFoPLwhwAwCTeVB6drxKttY6VEBxWNf0WACzKKHFMJGD6cj6RmDoPEtkQb2KzHVuk9YEKkf0Fo5XpTmWlD9r95nrrjiRWIRACCTUSdUrYLk1wyVlekMeKIqtUr0laR9qjf6CxE8rYvkQ3GXaDcxo8ZTafBOohNwnQKDdQxV1ghrvMYWf",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (209 ventas recientes, valoración 4.7/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "209 ventas recientes",
+        "Valoración 4.7/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-19T09:02:17.989Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "afilador-de-mano-de-doble-cara-piedra-para-afilar-cuchillos-",
+      "categoria": "corte",
+      "titulo": "Afilador de mano de doble cara, piedra para afilar cuchillos plegable de grano 400/600, para cocina, senderismo al aire libre, Camping, portátil",
+      "precio": "4.54 €",
+      "precioAntes": "5.48 €",
+      "valoracion": 4.6,
+      "ventas": 95,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Se5f6a9f7d2c44a32be4886800fb85b60z.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005009033824866.html?pdp_npi=6%40dis%21EUR%215.48%214.54%21%21%216.20%215.14%21%40210152bd17871301365974556e0eca%2112000047655910970%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k08m3WAo3f0N6bO4HKuhEc7SkNvkfUbn0UYeeHEeBiqQTFeDzxrB0pBr5wWYbBpfsdttIc2VsaG1FsWaLKZVi4z5ZKd8LPJgGSQXst18MEwYBEQCf1pSmrLmyNtBCwkHs99ssjkUNSHFWnnRMZ8SK1A2qOKMTse8KnjLri2DKPi4eGK7a9tHHH2HR7wscBNWCIWik4l1urVHprY8hynN6S7txvziluHbzCRr7VC9ksGrovjyFDZaXgF2DBO9YpeIHXRhyNodmSFoyMNDGDQ9ijOKEkQ955nwGUpwmtCsioWjhx4mrBhFse1HpEqXurynvq96qAMJpzxnXQ9pmpkazvF60o7TxdYbZI6T4VlXm1UMGQC6VWL8J4wNtLwVu3RIhCOYoqOIPfOHetfF3TczwQEfnr2BXUHFZthJE5KyuQx2f1DAnmXrgUjPprO213jVwwpHOVm6Bc7EkIVpIoV9rMc8fD27dO5yDIuitaKYA4zAyyksWVRy3SQE70QG7PMA2uyAJfI2CTe2jlqLYhONulJ6goTDrS00B8UiJLyUEH964AdorFldfFGu78YqiaTlccE5gPX2YUREGcbvoAcZL78IvCAqFymNw1FBrRqWgQRUnJjiPoPkCrMknDyvuckXnTQueTzheqLvo4u9UbaCpa88A47VlqsUfQBWFrOSCkeHEMDwrMkz1fe1ANsW3ZZeC0is5SovujjuU",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (95 ventas recientes, valoración 4.6/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "95 ventas recientes",
+        "Valoración 4.6/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-19T09:02:17.989Z",
       "origen": "radar-auto"
     }
   ]
