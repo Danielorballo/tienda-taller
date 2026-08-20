@@ -14,12 +14,12 @@
     "tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de"
   ],
   "ultimo": {
-    "fecha": "2026-08-19",
+    "fecha": "2026-08-20",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "sierra-japonesa-tirar",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-08-19"
+    "tipId": "escuadra-comprobar",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-08-20"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -56,6 +56,7 @@
     "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
-    "sierra-japonesa-tirar"
+    "sierra-japonesa-tirar",
+    "escuadra-comprobar"
   ]
 }
