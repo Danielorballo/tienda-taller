@@ -1718,7 +1718,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-06T10:58:51.977Z",
       "origen": "radar-auto"
     },
@@ -1741,7 +1741,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-06T10:58:51.977Z",
       "origen": "radar-auto"
     },
@@ -1764,7 +1764,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-06T10:58:51.977Z",
       "origen": "radar-auto"
     },
@@ -2410,6 +2410,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-19T09:02:17.989Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "medidor-de-profundidad-de-la-banda-de-rodadura-del-neumatico",
+      "categoria": "medicion",
+      "titulo": "Medidor de profundidad de la banda de rodadura del neumático de coche, pluma de medición de detección de desgaste de neumáticos automático, sistema de monitoreo de calibrador Digital codificado por Color",
+      "precio": "1.99 €",
+      "precioAntes": "2.03 €",
+      "valoracion": 4.6,
+      "ventas": 47,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S282dbd2d05784cfb91bfaa05fdbe5fe5g.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005007920877657.html?pdp_npi=6%40dis%21EUR%212.03%211.99%21%21%2115.58%2115.27%21%4021013cc617873031605614650e105f%2112000042852562574%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FFbvtDxCfkpsg5SSXvpryUMeTIMCUgnPWEcFZQkA7YU4LgA4MH9d2gJ9yfRpwgZJrb9qA1a6HpdeFhyiO5cvLzOVZ0St9maC2YFXWlxvEwgM5q02q3kICBd4oXYwGzAbsA8WArYryDGhGCm3lRC6NKXiNvQIhRHyNHcCPN2Ar0NPHr5VhMMn4fO9cFkTwbBZkptDI6HgZ0S9JRECJj5Yw1Iqa9dOLEcHyZXAxn6yqAbg2r9zjEamehkDpuYe8SMg1vEx0TMjhml2MwK5XsKngxER5iE5h3vhvD81nn7vgYt9Yj5ZB3T5QnDnXQjWBmTUO47SqXVTJOr9BLMmr2atTSLT9HXM76a9o2d774DQjZ4lW3jdriOiLufoDvj275e21iLMouSU32eHXVp4mSko0JArv8l9TjKvwWuvseng1PdSlvJY3dMErMQ1JLYGF5CAxmOdq11XVOnRXJmJZzqqz1ncPMcbVJk1aQ0hBhspZ4hBY0uHhphPpK4pc5ehY1BhzZhSJmk9SyVV01RCLoO5ZEgcvKsMRnfP3M95wJFq3EDy9S8XYJyHIL1yn2C6i83RhC9lR97agHFoUmsiaLt7XyYTSTluGZu33uL7WydkELnLRw6Y1Yvdpzq7y9fmtOmnE0M95F3KUDGwN4jJGrCe3aWuT9Zwcq9CCOIQDQT5CjXNWCZJCLHas76LFqS5Zzrpm1slCPn8aplju",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (47 ventas recientes, valoración 4.6/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "47 ventas recientes",
+        "Valoración 4.6/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-21T09:06:01.058Z",
       "origen": "radar-auto"
     }
   ]
