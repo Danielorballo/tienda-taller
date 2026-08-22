@@ -1787,7 +1787,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-07T09:30:03.051Z",
       "origen": "radar-auto"
     },
@@ -1810,7 +1810,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-07T09:30:03.051Z",
       "origen": "radar-auto"
     },
@@ -1833,7 +1833,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-07T09:30:03.051Z",
       "origen": "radar-auto"
     },
@@ -2433,6 +2433,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-21T09:06:01.058Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br",
+      "categoria": "electricas",
+      "titulo": "LAVIE, 1 unidad, vástago de 6mm, 60, 90, 120, 150 grados, tipo V, broca cortadora de ranuras, grabado CNC, broca enrutadora sólida, fresa de carburo C06027",
+      "precio": "4.64 €",
+      "precioAntes": "4.83 €",
+      "valoracion": 4.8,
+      "ventas": 187,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S1ba5795d03bd46d69720bf2dae875b21b.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005007137861626.html?pdp_npi=6%40dis%21EUR%214.83%214.64%21%21%2137.09%2135.63%21%402140d36117873888914161317e0c76%2112000039536949176%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4k0geSq06RlnrNma4g3JLA7Yn3KAHqshFUn6YWXX70dAlJ5dOhvbbtRtikZr3HAFbamexkBQB9JpVnvNxXxOHcb9HaB8LNrEDFGs4bBL20eHpGRX7uPmKSjPYorQ34DVqnvBkYERArt4Funw8AnQXfKXJmlydAruyHPxYi6daiMdp6WX49yeVhE7ZCRUIGiLmHv0PzkffjSSNYJuU1kaTsvrCdWrzllk29FcV3yhYhP6bpo8eQPJAINCaON0p4AU3Wx4griYAsPLEyz5yJ5feUlVwX4NLxMXCbudp1lkD7CU2BMFpTbqVLRwKwjD0Sf02LgWVJaxuzAFoe3cMUYQFVoAlvvozFRTVfCu3teGt4cJLpJQJx7g4qAdqefzpYEnjpqtIsXmNMRFSqaT67d8KYKJ78e0KapGmWH07Kh1mGJ5vvQnCojzI7mAbZDey11KX2DPgQDrmnwr13dTsDZQTtCwo5a2J6oHOXCYIMDm9E8zTP5YhPMymrQIwmrcmtzMhD78jrWbJRZUN2t5PNCVaU8N10hSaVNlRf4xeI1daG1ywcxzOzYcrPlYsN8kFqfpiUOiCMfzCbx6CJoQVLX9TxbsSjkTJujO3AFs7Wz0l1L5OMoEVDYkhORhiWuKdHAgMZ1hFpRePhw7O57qJuyYlUTSnz8xNLP3SsvTHrQUqVBkom6vcs5vKEKyilqWY93OffPWKoDwrBhF1K",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (187 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "187 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-22T08:54:52.198Z",
       "origen": "radar-auto"
     }
   ]
