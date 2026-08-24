@@ -15,12 +15,12 @@
     "varilla-de-afilar-profesional-de-ceramica-rubi-de-10-pulgada"
   ],
   "ultimo": {
-    "fecha": "2026-08-23",
+    "fecha": "2026-08-24",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "cola-menos-es-mas",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-08-23"
+    "tipId": "no-compres-maquina",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-08-24"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -60,6 +60,7 @@
     "sierra-japonesa-tirar",
     "escuadra-comprobar",
     "grano-madera",
-    "cola-menos-es-mas"
+    "cola-menos-es-mas",
+    "no-compres-maquina"
   ]
 }
