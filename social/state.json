@@ -12,15 +12,16 @@
     "cuchillo-de-tallado-electrico-inalambrico-usb-de-40w-herrami",
     "5-uds-hojas-de-sierra-oscilantes-de-dientes-japoneses-cuchil",
     "tolesa-2-4-uds-juego-de-abrazaderas-manuales-de-trinquete-de",
-    "varilla-de-afilar-profesional-de-ceramica-rubi-de-10-pulgada"
+    "varilla-de-afilar-profesional-de-ceramica-rubi-de-10-pulgada",
+    "plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin"
   ],
   "ultimo": {
-    "fecha": "2026-08-24",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "no-compres-maquina",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-08-24"
+    "fecha": "2026-08-25",
+    "modo": "producto",
+    "productoId": "plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin.html",
+    "dir": "social/out/2026-08-25"
   },
   "tipsRecientes": [
     "linea-cuchillo",
