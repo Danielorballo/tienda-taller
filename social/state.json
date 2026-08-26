@@ -16,12 +16,12 @@
     "plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin"
   ],
   "ultimo": {
-    "fecha": "2026-08-25",
-    "modo": "producto",
-    "productoId": "plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin.html",
-    "dir": "social/out/2026-08-25"
+    "fecha": "2026-08-26",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "banco-altura",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-08-26"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -62,6 +62,7 @@
     "escuadra-comprobar",
     "grano-madera",
     "cola-menos-es-mas",
-    "no-compres-maquina"
+    "no-compres-maquina",
+    "banco-altura"
   ]
 }

@@ -1994,7 +1994,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-11T09:28:36.015Z",
       "origen": "radar-auto"
     },
@@ -2017,7 +2017,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-11T09:28:36.015Z",
       "origen": "radar-auto"
     },
@@ -2040,7 +2040,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-11T09:28:36.015Z",
       "origen": "radar-auto"
     },
@@ -2525,6 +2525,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-23T08:55:42.372Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora",
+      "categoria": "corte",
+      "titulo": "Afilador de cuchillos de cocina profesional, piedra afiladora de cerámica de tungsteno y diamante para todas las cuchillas, incluida tijeras de jardín",
+      "precio": "1.89 €",
+      "precioAntes": "1.93 €",
+      "valoracion": 4.8,
+      "ventas": 52,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sb448a23cd5bc4788a9c6a458ba6d2d74j.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008689626093.html?pdp_npi=6%40dis%21EUR%211.93%211.89%21%21%2114.78%2114.47%21%402141315917877353333726028e0f4a%2112000046253222414%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mXvsuUcm11zEQiIdxBfOvE5QAw99qgI3sTea4zLRubM604GoogmRzy16gl1RHD29dWj90hBNPiEOmbXVH9ZCWYXxPLUqst7sC3CfLt8LT7MebAWsxu7sisN3udmu5ukduGbQogc5tSNWoNBvJ2gI3mO4U3cYx3UfeH72TcNgokkM1CMDdjbYWh9EBPTUIDCZ1vtigV65SMdfqUQvfdYJq4UdWsg23r7bgcocFXyNE2i9sD30NYWAuh2ajlH8AiwdfJu6310WVSb3ALhk5G0xQCa3SKBlWJeW73LdCUVn2bFKdRwwSkBENCL8Hcn2KRDCkbpdrBjIhx2iA3mZUX5RV730X0fVMf2kNifZCIXYLxl3XDFx8tgW5J8jnqnoReJGTP5xvvwmBD90n9WCskboaXL4AbNPlYwhgjcfhVitsfTsSzIUFOUgqPm4U0EE5joCm3BVdtStDzXChvNVvZmt2yjFaFiEVi6ZX5P6obnVguKiSwGhkhMWQyxBPjJuozbLh9UHv7QMQgOZCAEaalJWdbRrnG04IXy9rPm8VlPTlM4JfWbvlt7ozSFmpBIh76zYwvbedf7encbJOVmMZFCJODxHchEmTNn557d4hLfBXfAgchv19ftdpUSVUhM9M0xxckILq3WgynlfDnHzNXH9GEF1DS1Gpf6ELOGB5wKpx0XwGnHnIDfZoXZS24H9oM0vIyksDemlUmSb8",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (52 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "52 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-26T09:08:54.725Z",
       "origen": "radar-auto"
     }
   ]
