@@ -2178,7 +2178,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-15T08:52:09.330Z",
       "origen": "radar-auto"
     },
@@ -2201,7 +2201,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-15T08:52:09.330Z",
       "origen": "radar-auto"
     },
@@ -2224,7 +2224,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-15T08:52:10.287Z",
       "origen": "radar-auto"
     },
@@ -2594,6 +2594,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-28T20:17:22.759Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "tornillo-de-banco-de-precision-gt100x100-y-gt125x150-de-4-5-",
+      "categoria": "sujecion",
+      "titulo": "Tornillo de Banco de Precisión GT100x100 y GT125x150 de 4/5 Pulgadas para Centro de Mecanizado CNC, Torno y Fresadora",
+      "precio": "256.99 €",
+      "precioAntes": "407.92 €",
+      "valoracion": 4.8,
+      "ventas": 49,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/A905d7ff7cd614d1a842f8ab3a6a25ec5r.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005007075570657.html?pdp_npi=6%40dis%21EUR%21407.92%21256.99%21%21%213118.65%211964.75%21%4021013cc017880116350043460e0fc7%2112000041058440357%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EH2xbIzhpediTpeR2YJp0ePvzxVYjSENXQVjaEu3cDT8mOeNqMW7hwRZQsUY1oyxj6qQZXyMZcKHYM3zLXgr6hWtP2E4etF4S3ETiGlGMWR6qlkYY82vJhAqJO6Ye3d41MvAya22H9T2j2J5GJ3Hsvggf1ro0gaip9FO3BPUpaaOc7dGT7CN0rrTQhoyYfJmAdP4hAyioveQOD3oBMbx35ApIMjpyWPZD9q0amNBstfTzUcZy9Qkr98yEomjh7iZpqyTsgXS6UKgl7ROWI1vclpAn3oUxJoSZfRktgdYUTTyteEtanthgHdXOiaSAUsmgIkLHscJkMNjETog5U0V85qgMTYCJlDsAM2MmVH7UMdSESRbXtyFnDCDwlkgvMB4LRJI8VPL1ho8r1NqRlvK5viHcp4834RjAUvwZqc1WaBvSzIETEkIQ4ktzi0cjO7XOxtEA0a3CDfVv9FkwD07oDevy7JTIriZAQOz1u2HdyhThQ6dHLW4AE31zCcMDGD1GMMPfVDW2ISMzTEO9XhDvQxkhO05lobvVHkshzbR3CHgIr6iHeyn6HKRLfXq5LZkT8o3dZgrPA4CpFIUGTvrZFVcDrjgygqN7ngf0vBa5x6ny9BGpExRsbgHt7XYXcnC1N0kbbpH4adyVJMQHChTBFKE8PDTfmvpuusyjgMTb7Gj0RUu7CYVxavojyuC2OkFNpyCrqnmMQfuW",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (49 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "49 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-08-29T13:53:55.858Z",
       "origen": "radar-auto"
     }
   ]

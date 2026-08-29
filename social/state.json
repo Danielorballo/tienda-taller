@@ -17,12 +17,12 @@
     "brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada"
   ],
   "ultimo": {
-    "fecha": "2026-08-28",
-    "modo": "producto",
-    "productoId": "brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada.html",
-    "dir": "social/out/2026-08-28"
+    "fecha": "2026-08-29",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "luz-rasante",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-08-29"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -65,6 +65,7 @@
     "cola-menos-es-mas",
     "no-compres-maquina",
     "banco-altura",
-    "cera-tornillos"
+    "cera-tornillos",
+    "luz-rasante"
   ]
 }
