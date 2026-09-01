@@ -2339,7 +2339,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-18T09:01:36.463Z",
       "origen": "radar-auto"
     },
@@ -2686,6 +2686,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-08-30T13:52:47.966Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "panel-de-enchufe-israeli-blanco-86-146-16a-marcado-con-calib",
+      "categoria": "medicion",
+      "titulo": "Panel de enchufe israelí blanco 86/146 16A marcado con calibre con USB tipo C Panel interruptor de alimentación enchufe oculto",
+      "precio": "4.19 €",
+      "precioAntes": "4.23 €",
+      "valoracion": 4.8,
+      "ventas": 49,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8483c1e161a4b5bacef029137b6080cD.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005010393701754.html?pdp_npi=6%40dis%21EUR%214.23%214.19%21%21%2132.22%2131.92%21%402151fce817882697240212891e0cec%2112000052262595238%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mkROjJOzlSqBzK4EF3rdGFnYVEcck6gkX2ZOMYRbfpNkXQohrFqxVc6ynTieLQFCyvtQD5weoHYxPtLHGv9rowqYuuBqNjnjvJrDjdLlnf5o5DbgfF14zIq02kwb84k8a0oLiIVTPwtKRIjOwXrukb5HtLUEfjOtH9JmUzO7YXeTjtWxsyWI9sGC9sAZFjGhyli2z9CgkL2kIfTzDEPq0tsAmTZEZO4KK76YuMspqlgSYYINAwqxM7donCM1YBReTnwvng4DmLghk6Fo53BhJ0TLbAGa1Php23PVJXRPmJpEFf1JdRQCLanwJznQoWUbcBWzy6gpdnIvikwfFLTHIQfVw5FINiTpLVJT9E3Epdv1Z2Z6rurQzwW1zmhF9moLWYn9WzgSbRgzvBSgb72VKEqed8ejPXkVBWm9ItN6anbxGcfv2zT7YmJ0eQZR6TpGmYuRS99KpzxlTyaDg4TbqptULm1Ggf79gainp3PjTnVrkUmUTXaySfnIBB4ebqGR3ekjtd23FHsMbx2zhrzGoYJNrepaNH2825UGlCYRwutlHM7MluZ35H2JwNRKhYgZvmJ7lsFZxAoXHKHSn2GyLEXuJ5hZx7RR6I3EJIKX6nEJOJJxGjQFXGH8Vjo17rKwWJfGSKfu9OJBiVPalkUezlhkknL221lTOjC67yRBhJJb7WVKPXDYHjXHUkCGXVhvnhm0L2RHQsKK6",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (49 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "49 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-09-01T13:35:25.432Z",
       "origen": "radar-auto"
     }
   ]
