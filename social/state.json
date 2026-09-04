@@ -15,15 +15,16 @@
     "varilla-de-afilar-profesional-de-ceramica-rubi-de-10-pulgada",
     "plantilla-de-instalacion-de-puertas-de-gabinetes-para-carpin",
     "brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada",
-    "herramienta-de-rectificado-de-diamante-para-discos-de-amolad"
+    "herramienta-de-rectificado-de-diamante-para-discos-de-amolad",
+    "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br"
   ],
   "ultimo": {
-    "fecha": "2026-09-03",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "linea-cuchillo",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-09-03"
+    "fecha": "2026-09-04",
+    "modo": "producto",
+    "productoId": "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br.html",
+    "dir": "social/out/2026-09-04"
   },
   "tipsRecientes": [
     "linea-cuchillo",
