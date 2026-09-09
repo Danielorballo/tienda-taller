@@ -20,12 +20,12 @@
     "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora"
   ],
   "ultimo": {
-    "fecha": "2026-09-08",
-    "modo": "producto",
-    "productoId": "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora.html",
-    "dir": "social/out/2026-09-08"
+    "fecha": "2026-09-09",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "sierra-japonesa-tirar",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
+    "dir": "social/out/2026-09-09"
   },
   "tipsRecientes": [
     "linea-cuchillo",
@@ -76,6 +76,7 @@
     "linea-cuchillo",
     "afilado-barato",
     "medir-dos-veces",
-    "sargentos-nunca-sobran"
+    "sargentos-nunca-sobran",
+    "sierra-japonesa-tirar"
   ]
 }
