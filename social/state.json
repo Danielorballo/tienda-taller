@@ -17,15 +17,16 @@
     "brocas-de-fresado-lavie-de-8-mm-con-vastago-de-2-1-4-pulgada",
     "herramienta-de-rectificado-de-diamante-para-discos-de-amolad",
     "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br",
-    "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora"
+    "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora",
+    "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg"
   ],
   "ultimo": {
-    "fecha": "2026-09-10",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "escuadra-comprobar",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-09-10"
+    "fecha": "2026-09-11",
+    "modo": "producto",
+    "productoId": "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg.html",
+    "dir": "social/out/2026-09-11"
   },
   "tipsRecientes": [
     "afilado-barato",
