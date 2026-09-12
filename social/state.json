@@ -21,15 +21,14 @@
     "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg"
   ],
   "ultimo": {
-    "fecha": "2026-09-11",
-    "modo": "producto",
-    "productoId": "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg.html",
-    "dir": "social/out/2026-09-11"
+    "fecha": "2026-09-12",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "grano-madera",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-09-12"
   },
   "tipsRecientes": [
-    "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
@@ -78,6 +77,7 @@
     "medir-dos-veces",
     "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
-    "escuadra-comprobar"
+    "escuadra-comprobar",
+    "grano-madera"
   ]
 }
