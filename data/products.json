@@ -2615,7 +2615,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-08-29T13:53:55.858Z",
       "origen": "radar-auto"
     },
