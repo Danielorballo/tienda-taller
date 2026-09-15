@@ -18,15 +18,16 @@
     "herramienta-de-rectificado-de-diamante-para-discos-de-amolad",
     "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br",
     "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora",
-    "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg"
+    "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg",
+    "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c"
   ],
   "ultimo": {
-    "fecha": "2026-09-14",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "no-compres-maquina",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-09-14"
+    "fecha": "2026-09-15",
+    "modo": "producto",
+    "productoId": "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c.html",
+    "dir": "social/out/2026-09-15"
   },
   "tipsRecientes": [
     "sierra-japonesa-tirar",
