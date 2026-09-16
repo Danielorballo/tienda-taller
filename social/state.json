@@ -22,15 +22,14 @@
     "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c"
   ],
   "ultimo": {
-    "fecha": "2026-09-15",
-    "modo": "producto",
-    "productoId": "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c.html",
-    "dir": "social/out/2026-09-15"
+    "fecha": "2026-09-16",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "banco-altura",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-09-16"
   },
   "tipsRecientes": [
-    "sierra-japonesa-tirar",
     "escuadra-comprobar",
     "grano-madera",
     "cola-menos-es-mas",
@@ -79,6 +78,7 @@
     "escuadra-comprobar",
     "grano-madera",
     "cola-menos-es-mas",
-    "no-compres-maquina"
+    "no-compres-maquina",
+    "banco-altura"
   ]
 }
