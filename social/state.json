@@ -19,15 +19,16 @@
     "lavie-1-unidad-vastago-de-6mm-60-90-120-150-grados-tipo-v-br",
     "afilador-de-cuchillos-de-cocina-profesional-piedra-afiladora",
     "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg",
-    "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c"
+    "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c",
+    "base-ajustable-para-sierra-electrica-de-carpinteria-soporte-"
   ],
   "ultimo": {
-    "fecha": "2026-09-17",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "cera-tornillos",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-09-17"
+    "fecha": "2026-09-18",
+    "modo": "producto",
+    "productoId": "base-ajustable-para-sierra-electrica-de-carpinteria-soporte-",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/base-ajustable-para-sierra-electrica-de-carpinteria-soporte-.html",
+    "dir": "social/out/2026-09-18"
   },
   "tipsRecientes": [
     "grano-madera",
