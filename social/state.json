@@ -24,15 +24,14 @@
     "1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul"
   ],
   "ultimo": {
-    "fecha": "2026-09-22",
-    "modo": "producto",
-    "productoId": "1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul.html",
-    "dir": "social/out/2026-09-22"
+    "fecha": "2026-09-23",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "piedra-plana",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-09-23"
   },
   "tipsRecientes": [
-    "banco-altura",
     "cera-tornillos",
     "luz-rasante",
     "primera-pasada-sierra",
@@ -81,6 +80,7 @@
     "cera-tornillos",
     "luz-rasante",
     "primera-pasada-sierra",
-    "retales-pruebas"
+    "retales-pruebas",
+    "piedra-plana"
   ]
 }
