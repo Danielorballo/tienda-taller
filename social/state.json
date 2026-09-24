@@ -24,15 +24,14 @@
     "1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul"
   ],
   "ultimo": {
-    "fecha": "2026-09-23",
+    "fecha": "2026-09-24",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "piedra-plana",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-09-23"
+    "tipId": "linea-cuchillo",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
+    "dir": "social/out/2026-09-24"
   },
   "tipsRecientes": [
-    "cera-tornillos",
     "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
@@ -81,6 +80,7 @@
     "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
-    "piedra-plana"
+    "piedra-plana",
+    "linea-cuchillo"
   ]
 }
