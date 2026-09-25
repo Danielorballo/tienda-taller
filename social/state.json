@@ -21,15 +21,16 @@
     "tolesa-juego-de-abrazaderas-manuales-con-trinquete-de-5-pulg",
     "nuevo-plantilla-de-tornillo-con-agujero-de-bolsillo-kit-de-c",
     "base-ajustable-para-sierra-electrica-de-carpinteria-soporte-",
-    "1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul"
+    "1-5-10-20-piezas-de-abrazaderas-de-plastico-y-nylon-de-2-pul",
+    "fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr"
   ],
   "ultimo": {
-    "fecha": "2026-09-24",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "linea-cuchillo",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-09-24"
+    "fecha": "2026-09-25",
+    "modo": "producto",
+    "productoId": "fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr.html",
+    "dir": "social/out/2026-09-25"
   },
   "tipsRecientes": [
     "luz-rasante",

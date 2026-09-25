@@ -2868,7 +2868,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-09-11T12:54:40.534Z",
       "origen": "radar-auto"
     },
@@ -2985,6 +2985,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-09-21T15:13:55.669Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "medidores-triangulares-de-aleacion-de-aluminio-para-carpinte",
+      "categoria": "medicion",
+      "titulo": "Medidores triangulares de aleación de aluminio para carpintería, herramientas de medición, marcador de alta precisión, regla angular métrica e Imperial",
+      "precio": "12.19 €",
+      "precioAntes": "12.57 €",
+      "valoracion": 5,
+      "ventas": 39,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S364bcfb689f0438ab55b12c849133abfd.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006187164742.html?pdp_npi=6%40dis%21EUR%2112.57%2112.19%21%21%2193.81%2190.97%21%402140d36117903448298652495e104b%2112000036186726744%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4FcAumO6CqJZe7mRtmvQFKw4rX8iMJ8x0jLq9dlwIePUY6wjmhfi4ankXyHj6jFp0UnLz2Xx0JtIgFV5nTBBGZE4Sz1BVlyJxbC7VG7djwPeIm1WWo1gmuQg8EXGJ7vhhtl67cEtRte8S28TZMe0ruBtk8f2j38lTWqLvcT7NbZvWtID4Cdo3XHKfwDmbuSxht1NjOeG6jEmV5rbCZb4sCHwb8JDM877MSIWhT5rgHUz10WRnHo3SNf0Zl6G2ZB8zxxOWGj57k7k870p5jr8uQgT4inCkfctkB5p00q1ZCraPep1WP47LNMgDtKQEAanoaP9MSHJOLrqHpAQpuKvG9epkwS295l0aakpm3fS8yXUqxNgmmcdBqm9TIDTbEp2cd9COVpN8DkTBxRQTCdJSotPCveod1912l4mvLcYQ1xtnCGwEHsVCORaEt7cZ5vgwKVCnV1W2mfpZdVsbPdeFkj9Z5mfHDLAmg8IlrdZxkFZ490O9vdpUyTTsAT7TtJHfmRbrwKhTV6iUx5DdPZe8032q3SGrXplLeXuBXkeDItNb1mdRadvIeVWMS2k9INyy4jsI6px6tJ3ag4UwoDHVwR97zw8JIosV1N9sxRPxMmR6ztxrm3DQnuVDeZWXvy0ufJCXkt3zNZlwyp7A121ZnQT8OVDn2hHicVSVpifQTRjKntT6N6twQc0YpFoSJy1gcpzJuNz8uhEgV",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (39 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "39 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-09-25T14:00:31.287Z",
       "origen": "radar-auto"
     }
   ]
