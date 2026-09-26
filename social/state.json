@@ -25,15 +25,14 @@
     "fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr"
   ],
   "ultimo": {
-    "fecha": "2026-09-25",
-    "modo": "producto",
-    "productoId": "fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr.html",
-    "dir": "social/out/2026-09-25"
+    "fecha": "2026-09-26",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "afilado-barato",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-09-26"
   },
   "tipsRecientes": [
-    "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
@@ -82,6 +81,7 @@
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
-    "linea-cuchillo"
+    "linea-cuchillo",
+    "afilado-barato"
   ]
 }
