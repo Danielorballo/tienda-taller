@@ -25,15 +25,14 @@
     "fresa-cna-para-fresado-cnc-fresa-para-acabado-de-tableros-fr"
   ],
   "ultimo": {
-    "fecha": "2026-09-30",
+    "fecha": "2026-10-01",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "sierra-japonesa-tirar",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-09-30"
+    "tipId": "escuadra-comprobar",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-10-01"
   },
   "tipsRecientes": [
-    "linea-cuchillo",
     "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
@@ -82,6 +81,7 @@
     "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
-    "sierra-japonesa-tirar"
+    "sierra-japonesa-tirar",
+    "escuadra-comprobar"
   ]
 }
