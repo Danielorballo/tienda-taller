@@ -3006,7 +3006,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-09-25T14:00:31.287Z",
       "origen": "radar-auto"
     },
@@ -3215,6 +3215,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-10-08T15:45:15.697Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat",
+      "categoria": "sujecion",
+      "titulo": "Mini tornillo de banco multifuncional, 3,5 MM, aluminio, miniatura, pequeños joyeros, Hobby, abrazadera en mesa, alicates planos, herramienta",
+      "precio": "0.96 €",
+      "precioAntes": "0.97 €",
+      "valoracion": 4.6,
+      "ventas": 90,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1d2de11eca14ff68140df0c70e97b93M.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008089107142.html?pdp_npi=6%40dis%21EUR%210.97%210.96%21%21%217.10%217.09%21%4021013cc017915595225963204e1005%2112000044899774233%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4oEsMudzjMv6iuoUJ4OP8iCzJoQDmHNbJkLD6dwBUA4RxBeu3r6Qo5gVmaT6vh3tZsT20yyBsG7UvxX16wDsqBDbQdeC4Wa7JO8ICznwq0ENjgcn36Owo3uDJOae5EXccsfTWCoqb7Cs03rPsC86Dcg3OJBgEYe4cALDKzOmhLw1SSj7BXF3cr1j3zQ2jBkaG2lShVGYYQsuO0VEjEK9waMXr6YoOoc7t2f7tIYMJuaaATefBdQrdctJhBhgUK4zoYhfvm6YI0QT0BDIn78MqTSdqKlHBD6MWTty9H2Jbey0rl5z8mpzrQP0YxpsJIJX4KlbfkmXk94rIi2Ol2DGtAsH46an8WAYPTxIX49LRToIB9zBTZYzYTA1dIiEayTKT54VS7knsf8xGMLJSl2kbJDS1kjgEJHEltlKUiRFJNg4BC8lnC88R8hPlS6KB0qOOyTRXCn9Umn0JrZC6jStcT6sdn141ll3dc2DIhhazCUwUpm8hbiAEuzlLCTD7HeLN5iXWPaRCzia0Ktcg8LLnDVexHJIrCKpNf4P6cjESLzDvnnvqDHZM8ocE5TwymnQPQMSjDFNgmaOuoelGl2ehSabUi4Jt63xjlkTbLIwEO3BKe5noKmz2o8tIsMnIWMOAbPwyZRPMs20MymqCQJPYFxcnOMuO68eQCqnXSS0omIekcXJmCcswzZFN8RbgUH0N2twXm6gmxZvUc",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (90 ventas recientes, valoración 4.6/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "90 ventas recientes",
+        "Valoración 4.6/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-10-09T15:25:24.150Z",
       "origen": "radar-auto"
     }
   ]
