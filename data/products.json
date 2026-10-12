@@ -3098,7 +3098,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-09-28T16:51:28.376Z",
       "origen": "radar-auto"
     },
@@ -3121,7 +3121,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-09-28T16:51:28.376Z",
       "origen": "radar-auto"
     },
@@ -3261,6 +3261,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-10-10T14:33:57.249Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "regla-triangular-de-aleacion-de-aluminio-para-carpinteria-tr",
+      "categoria": "medicion",
+      "titulo": "Regla Triangular de Aleación de Aluminio para Carpintería, Transportador de Ángulos, Herramienta de Medición de Alta Precisión para Ingenieros y Carpinteros",
+      "precio": "15.99 €",
+      "precioAntes": "19.99 €",
+      "valoracion": 5,
+      "ventas": 114,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S36733549cf4b471cbacf5b1ebf995a77c.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005012588442318.html?pdp_npi=6%40dis%21EUR%2119.99%2115.99%21%21%2121.90%2117.52%21%40214114e317918282987742120e1006%2112000058755021671%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EH3ZFZMrOpwYgI0afGxlCpZKPvkxGvJFElZYo0x0roWdVG9F9hnhaHIyT8FvFIvbHGcumgyVvWIbtV5QFYGp5nqX5wkieGfXInCqUXSCJ1PMvDZD0YkxMDcYr5gwAhR5imqZ0bewwixLNIrk1jtkx4ahF2EzerpKlTLOGX3BShKh4sf9gXf7EXTxuHEgINFucm0Tk2Vfn6wpBlELzYRkfOM8DGLAStd5YH3vTaaVJPX4mcGyLe4VnqEZNDrkQSuVG6AnsBlUmzPPWN5bnnjuGOLH3sN7OkrS7xyxnFkUEUZV8pEJNZDwovsyxiYeAV4ol0klvZWvrlOUPrxaMPUsZctfg3rgqadXdiQHBfMjc8J1UZW9axnjYaa3FUuxR0Q9yuDMamig0LRqRd6zueURbYKUkiKv7SXTdM6odhc7B3VeL6lYZWErwAymPTcx34whtyXULlbcKBySKJbZ3lk3XCTE50RTW8ongU1enLXkUxZfxYky0Kp6oPxaXpTknaBUmZzvntGh3QQ5heO1KHp9SfGddhgEBzpkgPi5HC00LTmfGP1cc463lfNHALJ7o3xelmLsQ56fXVIZMvXzbTuinRcPIW3YpC5CuqMIvSqeU9IS6xkl3ovHHfDYfrCmfDrm8EHeyIZq6G1H5VYJHOwC2wCRLq6y6meZnmp7GBccX08gXB609M2G1bMAJB22pfugQotmmcDdBhza9",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (114 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "114 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-10-12T18:05:00.331Z",
       "origen": "radar-auto"
     }
   ]
