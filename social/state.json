@@ -26,15 +26,16 @@
     "lavie-1-unidad-broca-de-ajuste-al-ras-con-patron-de-vastago-",
     "medidores-triangulares-de-aleacion-de-aluminio-para-carpinte",
     "1-pieza-6mm-1-4-rodamiento-de-vastago-broca-enrutadora-recta",
-    "lavie-1-unidad-3-uds-juego-de-pinzas-6-35mm-8mm-6mm-portabro"
+    "lavie-1-unidad-3-uds-juego-de-pinzas-6-35mm-8mm-6mm-portabro",
+    "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla"
   ],
   "ultimo": {
-    "fecha": "2026-10-15",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "linea-cuchillo",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-10-15"
+    "fecha": "2026-10-16",
+    "modo": "producto",
+    "productoId": "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla.html",
+    "dir": "social/out/2026-10-16"
   },
   "tipsRecientes": [
     "luz-rasante",
