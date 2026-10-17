@@ -30,15 +30,14 @@
     "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla"
   ],
   "ultimo": {
-    "fecha": "2026-10-16",
-    "modo": "producto",
-    "productoId": "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla.html",
-    "dir": "social/out/2026-10-16"
+    "fecha": "2026-10-17",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "afilado-barato",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-10-17"
   },
   "tipsRecientes": [
-    "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
@@ -87,6 +86,7 @@
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
-    "linea-cuchillo"
+    "linea-cuchillo",
+    "afilado-barato"
   ]
 }

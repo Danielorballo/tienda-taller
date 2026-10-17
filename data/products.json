@@ -3144,7 +3144,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-10-02T14:50:23.518Z",
       "origen": "radar-auto"
     },
@@ -3422,6 +3422,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-10-16T13:23:12.505Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "fresadora-de-aluminio-hss-10-piezas-2mm-3mm-4mm-5mm-6mm",
+      "categoria": "electricas",
+      "titulo": "Fresadora de aluminio HSS, 10 piezas, 2mm, 3mm, 4mm, 5mm, 6mm",
+      "precio": "11.39 €",
+      "precioAntes": "13.89 €",
+      "valoracion": 4.8,
+      "ventas": 394,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/HTB1D9U9OmzqK1RjSZFHq6z3CpXaY.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/32996402367.html?pdp_npi=6%40dis%21EUR%2113.89%2111.39%21%21%2115.21%2112.47%21%402141149b17922394549111607e0d3b%2166982800686%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/NdpwztbAIgDMmxGbP8fFks7yUFfsHjzlImSYmA68h7xlMRgzueFsRgokQ9f9hcpVKttxtQE2VzIoqkXJXrpOr6uR3zv7mP4CDO9CddoFf4t0QE5DXPy8Pgjhz4irfQSEjEGUmy5yF3A5gJ9h3NYjLMgqIMqa3zcpq5E2BC3W5EbV40Dm9buQxWpZzw1lbX8Zm2kZtNIa4KyDieNjsH7IU6Yv8StELKVvT9r4eFAaXPGhwHsgaDqdNcmY116r3GC2YvsOopeiiZPhJrV0cwgOQDSkW93v7gVzJwZHYJLElVY4JTwu1PL3tXwr2LlScwiNmRQtA44jJimnqQzV1hiznUascweLJI9PKxMdbBrweSsTDKLt9xpoIURTsw0sdAIuwDcO4v4wvHXLBxJwdGjCxBKF0UHxCORF5zYyBjnAFcjNvYvU16ytRj6NUuM4tk2rSq3fG2rdCOdPN0kQKxt7uabshAmsKqqIWfOOb2ArmFTZn1jFoORVJbG9dWyYHbC9Le2gTNS3uUDtdx03OGsfPtbJfQAnDYNA81Lq0q8SwUETBe0XCkMQdVGrP51KsjdH5HDAiXhluD4R1ET9tk5VENDB7Q40Km6Oamgp0T9u23jEQIGujS20O75SybpZfMLodSQSy5LdNoCtwyYzE8gK6gkWlMUGH3ijdFijK5ydZVybStHZDe74A4ewimGEJiLjj8nnycqppvkScFOTPip6s5pKSEccnDHufKMAREWJ0BTRXg7miShOSwuPUDc95msweGVzLpPasjTpzpfquh3l040NVxu4ocxyL49Yj4ys2CIGYTAV20gYPsCDpMCnKN8Gw70XTsBnT9SrLb5EDuwObmd8EGlr4RHrvDO5r3lXWJEMQ69CZrCf6mxVevlkr9x2u6wUNVUO6jmgxa8BFNZ83J5ONLny2UzIhjtUfbe9hk2WfqcEaaOPxXdfILshyMyIs8q4zA9I72vYsjjNlt5hEd22feu04n16l4N9rhXy11Aub",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (394 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "394 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-10-17T12:17:35.277Z",
       "origen": "radar-auto"
     }
   ]
