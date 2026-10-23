@@ -28,15 +28,16 @@
     "1-pieza-6mm-1-4-rodamiento-de-vastago-broca-enrutadora-recta",
     "lavie-1-unidad-3-uds-juego-de-pinzas-6-35mm-8mm-6mm-portabro",
     "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla",
-    "juego-de-4-8-cuchillos-para-tallar-madera-cuchillo-multifunc"
+    "juego-de-4-8-cuchillos-para-tallar-madera-cuchillo-multifunc",
+    "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat"
   ],
   "ultimo": {
-    "fecha": "2026-10-22",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "escuadra-comprobar",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-10-22"
+    "fecha": "2026-10-23",
+    "modo": "producto",
+    "productoId": "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat.html",
+    "dir": "social/out/2026-10-23"
   },
   "tipsRecientes": [
     "afilado-barato",
