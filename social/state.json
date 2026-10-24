@@ -32,15 +32,14 @@
     "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat"
   ],
   "ultimo": {
-    "fecha": "2026-10-23",
-    "modo": "producto",
-    "productoId": "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat.html",
-    "dir": "social/out/2026-10-23"
+    "fecha": "2026-10-24",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "grano-madera",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller",
+    "dir": "social/out/2026-10-24"
   },
   "tipsRecientes": [
-    "afilado-barato",
     "medir-dos-veces",
     "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
@@ -89,6 +88,7 @@
     "medir-dos-veces",
     "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
-    "escuadra-comprobar"
+    "escuadra-comprobar",
+    "grano-madera"
   ]
 }

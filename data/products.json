@@ -3236,7 +3236,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-10-09T15:25:24.150Z",
       "origen": "radar-auto"
     },
@@ -3491,6 +3491,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-10-23T13:39:46.725Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint",
+      "categoria": "sujecion",
+      "titulo": "Brocas de barrena de 9 pulgadas de largo, brocas para carpintería, vástago de 6/8/10/12/14mm, herramienta de martillo de carpintero, 1 ud.",
+      "precio": "3.69 €",
+      "precioAntes": "3.73 €",
+      "valoracion": 4.9,
+      "ventas": 62,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S124083ea5a494ae0a50185f4e136a879P.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005997338031.html?pdp_npi=6%40dis%21EUR%213.73%213.69%21%21%214.08%214.04%21%402140f89017928461617186133e0e74%2112000035233267118%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4nuKm3JaSCkg3kY053tajmmeQzwOEWGWzQNvvZqTQvk4R3HFySAN4NjBByRXETzlURMAoyWIbsOMpjqYdFPHtRx3FpUEy0WFFrS5Blh82bpO6mX0j38SFXEX8FmwfD8VXj8sX7XIP6kdsNkrfFMjU8XSQ4yOc6QI9SLQ2ORJFOJaKx2jSDv4j5M3hqQgmAnKGQ0hzyM1STQXM32jIf4gKRofk5Sd9kRYOmXPZOvLhNmUdRFSGN7f6RpRI8DFTuNXKMxhAJzuTKbZ4EHOAU4VZVaTqn8kfgI85UwHFXEI6f8vp5VusOnI35NSwesFly9XCPgYz7Gt8ZUjo2idlTVlqHmJ3NUybcWz10VKOGUuxFBPhABzmzymQ8kJpkWCWskrue70OEQNZADVPsm7J8qDA48YQYSTyxCp5m3kKskTCmtkVCTjJ21EgWTJGQZIo5JGfmDO1pr8G6uJADXhmenkXPDgDgG9sCyTKWqg9sQQbj8ZqEkpuc8G5gbAOPkf4p7pGRFRgKuf3AvyWB74lwgYm0Gw59xjCnEPrbKECvRRCDSmgSc5FBbc1wGnyadOmmOSn79b7i5GkDEkgysD47BcKKmPPJw9VYqzAzlsBlduFNoJiKR3O5BXAElKJKSXjmAqj8s12FuWs3YigD296p3GobKLMb2HgGmzxezF9ohgsTbRkn1tRbuRzLJ8ZeMjhbdpje6ya9fPJo3Z3K",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (62 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "62 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-10-24T12:49:22.702Z",
       "origen": "radar-auto"
     }
   ]
