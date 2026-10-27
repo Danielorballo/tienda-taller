@@ -3282,7 +3282,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-10-12T18:05:00.331Z",
       "origen": "radar-auto"
     },
@@ -3514,6 +3514,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-10-24T12:49:22.702Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "maneta-de-sujecion-ajustable-con-cabezal-esferico-mango-soli",
+      "categoria": "sujecion",
+      "titulo": "Maneta de sujeción ajustable con cabezal esférico, mango sólido en forma de 7, M6 M8 M10 M12 para máquinas herramienta",
+      "precio": "3.39 €",
+      "precioAntes": "4.13 €",
+      "valoracion": 5,
+      "ventas": 61,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/See5887bf108143e4a026586b5a91c449g.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005012072644423.html?pdp_npi=6%40dis%21EUR%214.13%213.39%21%21%2130.04%2124.66%21%402140da8b17931123410132792e0f82%2112000057434443422%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mSLc6RAX6EYiR0bFlx0V3hLnqjQViGWYqF3RbDk3ziRqWMehlvG12Kys83QPRSeLXy9PpqVS0C5FWQNDVsvnHowHWXoTlFkSDFzgrB4AcSREwnK3sWtLikVD3Q0QthIYFgLw061fhE7CiNU0rM1OLKejJn7RVC4tO1U7zrFaLaRIqrvREKP9Xj1Y6EUjLvEpDIlXyeFRIxTGH9fqj92xZxslRfRd7gFxSnAzxu6ZAfLEwUMpz44Pk0jhzlq4hs8te4ZXmS1i1cmF3qIYUmzC2wYijAaO0S93ijerNc3t9eanCYRk04JY4ltfHYh1SdpSVQkTodTNeKuAlDchAVrWR1rHxXpwV6PE1yn2gZLCzUO8w9xmUKcNHRDvrT2cb5ERSojIrxRbUOr6vpXELaIdtQsGlfzuQ2eAFpjQHINThkNjhpUQUMpy6MdOPVlnuenXUctIzH2HoiPvD6hNT88YX8RaVlXbpeiBUAzwj71MZ7ECw3NnagIBSO67xFUUeZJhKpjIILJkx0lw10ZJRq061GaYPXq83IhpDu5wfq4PM1E8U1mTwQl32ALeoF7yDKly8RuayC3B9k8Y87QGrRvfyQb0RQsu7qZ0kzEn50732X69tor2k0Ub2jX5QSFyC2vOADBFYfnf9Jv59r4n6ETQ74dBN1tMppm0nXzgd97DHgt2wUwJ2ZdW2JgcSBYPrz3PDN9zxFIM44CbU",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (61 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "61 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-10-27T14:45:42.376Z",
       "origen": "radar-auto"
     }
   ]
