@@ -30,15 +30,16 @@
     "posicionador-de-instalacion-de-puerta-de-gabinete-2-en-1-pla",
     "juego-de-4-8-cuchillos-para-tallar-madera-cuchillo-multifunc",
     "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat",
-    "disco-de-rectificado-para-afilado-de-herramientas-de-rectifi"
+    "disco-de-rectificado-para-afilado-de-herramientas-de-rectifi",
+    "fresadora-de-aluminio-hss-10-piezas-2mm-3mm-4mm-5mm-6mm"
   ],
   "ultimo": {
-    "fecha": "2026-10-29",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "cera-tornillos",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-10-29"
+    "fecha": "2026-10-30",
+    "modo": "producto",
+    "productoId": "fresadora-de-aluminio-hss-10-piezas-2mm-3mm-4mm-5mm-6mm",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/fresadora-de-aluminio-hss-10-piezas-2mm-3mm-4mm-5mm-6mm.html",
+    "dir": "social/out/2026-10-30"
   },
   "tipsRecientes": [
     "grano-madera",
