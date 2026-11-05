@@ -35,15 +35,14 @@
     "juego-de-plantillas-para-clavos-de-estanteria-de-aleacion-de"
   ],
   "ultimo": {
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-05",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "piedra-plana",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
-    "dir": "social/out/2026-11-04"
+    "tipId": "linea-cuchillo",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
+    "dir": "social/out/2026-11-05"
   },
   "tipsRecientes": [
-    "cera-tornillos",
     "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
@@ -92,6 +91,7 @@
     "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
-    "piedra-plana"
+    "piedra-plana",
+    "linea-cuchillo"
   ]
 }
