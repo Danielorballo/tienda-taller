@@ -32,15 +32,16 @@
     "mini-tornillo-de-banco-multifuncional-3-5-mm-aluminio-miniat",
     "disco-de-rectificado-para-afilado-de-herramientas-de-rectifi",
     "fresadora-de-aluminio-hss-10-piezas-2mm-3mm-4mm-5mm-6mm",
-    "juego-de-plantillas-para-clavos-de-estanteria-de-aleacion-de"
+    "juego-de-plantillas-para-clavos-de-estanteria-de-aleacion-de",
+    "brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint"
   ],
   "ultimo": {
-    "fecha": "2026-11-05",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "linea-cuchillo",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/como-elegir-sierra-japonesa.html",
-    "dir": "social/out/2026-11-05"
+    "fecha": "2026-11-06",
+    "modo": "producto",
+    "productoId": "brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint.html",
+    "dir": "social/out/2026-11-06"
   },
   "tipsRecientes": [
     "luz-rasante",
