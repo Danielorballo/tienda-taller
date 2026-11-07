@@ -36,15 +36,14 @@
     "brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint"
   ],
   "ultimo": {
-    "fecha": "2026-11-06",
-    "modo": "producto",
-    "productoId": "brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint",
-    "tipId": null,
-    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/brocas-de-barrena-de-9-pulgadas-de-largo-brocas-para-carpint.html",
-    "dir": "social/out/2026-11-06"
+    "fecha": "2026-11-07",
+    "modo": "consejo",
+    "productoId": null,
+    "tipId": "afilado-barato",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-11-07"
   },
   "tipsRecientes": [
-    "luz-rasante",
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
@@ -93,6 +92,7 @@
     "primera-pasada-sierra",
     "retales-pruebas",
     "piedra-plana",
-    "linea-cuchillo"
+    "linea-cuchillo",
+    "afilado-barato"
   ]
 }
