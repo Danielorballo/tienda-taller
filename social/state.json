@@ -38,15 +38,14 @@
     "broca-recta-de-vastago-de-3mm-20mm-de-diametro-y-8mm-broca-e"
   ],
   "ultimo": {
-    "fecha": "2026-11-15",
+    "fecha": "2026-11-16",
     "modo": "consejo",
     "productoId": null,
-    "tipId": "cola-menos-es-mas",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-11-15"
+    "tipId": "no-compres-maquina",
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/guias/kit-basico-taller-100-euros.html",
+    "dir": "social/out/2026-11-16"
   },
   "tipsRecientes": [
-    "sargentos-nunca-sobran",
     "sierra-japonesa-tirar",
     "escuadra-comprobar",
     "grano-madera",
@@ -95,6 +94,7 @@
     "sierra-japonesa-tirar",
     "escuadra-comprobar",
     "grano-madera",
-    "cola-menos-es-mas"
+    "cola-menos-es-mas",
+    "no-compres-maquina"
   ]
 }
