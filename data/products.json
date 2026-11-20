@@ -3696,7 +3696,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-06T16:04:11.964Z",
       "origen": "radar-auto"
     },
@@ -3719,7 +3719,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-06T16:04:11.964Z",
       "origen": "radar-auto"
     },
@@ -3742,7 +3742,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-06T16:04:11.353Z",
       "origen": "radar-auto"
     },
@@ -4204,6 +4204,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-11-19T17:30:12.941Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "abrazadera-de-tubo-cuadrado-de-acero-inoxidable-304-abrazade",
+      "categoria": "sujecion",
+      "titulo": "Abrazadera de tubo cuadrado de acero inoxidable 304, abrazadera tipo U engrosada para barandales y pasamanos",
+      "precio": "3.09 €",
+      "precioAntes": "3.12 €",
+      "valoracion": 5,
+      "ventas": 57,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S8ff46800c00d4e84837fa6c6874eb83bY.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005012522354673.html?pdp_npi=6%40dis%21EUR%213.12%213.09%21%21%2122.28%2122.09%21%4021013cc617951942691307524e1021%2112000058588007066%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUT33C84fwpYVGXw0j0Hd1p6JmR8lUXHZFOuOaGw9HvxUtGtFS1qlAp9LDcqozRzZJpz9bm6ISZVPyDugLknTC5hjsRCEcOy84yWFA4xbL2eHelcwB631clodPeqNBz3NVCkYejyS76Z2uE0j9fYWmL8MzY4z38pYpLKMPYYvCxHuuWvF70u3SJK3TpveJid5uCGrXeIFxRm4FUxeMAU5oxWwjl6F2gj6edWGwJyqWDxHhpHiK2ueanUF2masApLSM1V24XzQDd4NxOC0I0Xcm9cwLnpl6pV1zsIRnkFmcvuITI6bDh9Y6LIBbHulFPrAnR6NXIfLoK2NmVhtEXJVcZnO39ERR81yg5kUCKqKRCidGjuMHEPWM15cx0NFsEQq5211PTNeGY29aoZbRAeW2LUKlbjUJnnix5IckA963JdVDo1vgdsAToHICVT8Dii7kn0iJH45AyNTQTjuWhOocQ8t5HPANPl1u0gJu6fQha5s2G9jH18mCtWSijfGPF6h9txRHU0UhhVmpWEJ7ToMj4K8jR1BfDr7mMsZtnSj0eQE6gm2Szo3B3wORSaxlDdQmXsqF0KzmtpWtKHcnwaN9X10yvKvEiF81aFJy2P9JiV3FCE7LfVGwU4qcg4rGaZxTBEvtVLuaQYsy98l9I1cCqSTHUJE5EvzD02ALuV6IL3gF1FQY59evrTSY1CsaeUaHLXMYgxIlaaa",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (57 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "57 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-20T17:04:30.307Z",
       "origen": "radar-auto"
     }
   ]
