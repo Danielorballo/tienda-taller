@@ -3765,7 +3765,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-07T14:58:42.918Z",
       "origen": "radar-auto"
     },
@@ -3788,7 +3788,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-07T14:58:42.918Z",
       "origen": "radar-auto"
     },
@@ -3811,7 +3811,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-07T14:58:42.918Z",
       "origen": "radar-auto"
     },
@@ -4227,6 +4227,52 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-11-20T17:04:30.307Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "allsome-plantilla-de-mortaja-para-carpinteria-localizador-de",
+      "categoria": "sujecion",
+      "titulo": "Allsome-Plantilla de mortaja para carpintería, localizador de ranurado, accesorio de enrutador compacto, máquina de recorte de guía de borde",
+      "precio": "51.39 €",
+      "precioAntes": "53.63 €",
+      "valoracion": 4.8,
+      "ventas": 50,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Se20fc2b9165a468caa8e19c616aa8482d.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005005166611516.html?pdp_npi=6%40dis%21EUR%2153.63%2151.39%21%21%2157.43%2155.03%21%402140da8b17952778179032645e0d73%2112000032228164443%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mlgW11qljUkPGVEH46rWXruxxTSKWWBO3GbopK0JY0FMHQS9LiPcaoBBDF3kLrOfCbahxSTH8QayJdsxIl0jWPheto22xqc6VsQ28WjJMkDhlG7DahnabAfJKVHkqypFI2Q6aAUtI5HeJdp6swFNI6LM000OfkF3veMEQ89FJsKCVEMQdMbMrALonRnvSujYPbMGUXfiC3IjnpI0OQzIwchc569kXJMnIy3hLkDdgZ968Fwj7WRwVIs50GwxmgFsh4veZRR3tsNQuIPWeI1nvM5HiM0h0KWjIM7c3dHOU8DDbEtzBHwO8psEyENb7VkfqihnngDH3toxiqe8oM6xyvPUGOkbRmpcRdQdeTKk1GJXGm6hGiFgyAPdvqB3FYwpGWKoS1Vpc0IQWylKA0Fsxap57aVez49K91mDLI30cpACEnkOAJ08j1Vusq607zMRhhfjjYtkYFQArp5wdGdSp279wNroogvdBLxFYUXtRusqvTXA7BhCyBDZfMLOjAjCTf9o7nqJMhm0FVD8BEadXWe9pSZYYY3YpRyrsUDIIi9u7vrmRBZ1TnfVZRxPMgPS5M0hxUIcCPR0nEwF6XrysQnZGRrCmgfGrCowg2OTcKTV7pszu2t2kUDBih3YdomfvtO5fR4gR5Zcgp5znsqbpjNzpcQ3U5dbaIuegZ5KuyRmLspoAC8P1UGo25f32tHOp0EhadimitgFy",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (50 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "50 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-21T16:16:59.746Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "localizador-de-perforaciones-para-carpinteria-herramienta-aj",
+      "categoria": "sujecion",
+      "titulo": "Localizador de perforaciones para carpintería, herramienta ajustable de última generación para perforar en forma de T en puertas de armario, tiradores y pomos.",
+      "precio": "30.53 €",
+      "precioAntes": "38.74 €",
+      "valoracion": 5,
+      "ventas": 36,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S4eccca8f35d24cfcae5a2cf9618bfef0M.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005006140853981.html?pdp_npi=6%40dis%21EUR%2138.74%2130.53%21%21%21276.88%21218.27%21%402140da8b17952778179032645e0d73%2112000057495485246%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mUMJVqsZPcKttAqnDAuslptyqQgeqqtNNZhmKUMDMw5hO18pjQ5b23jn4hnfPT1rwMewujSgWRE3cDsk2phgPg2npS4nYcNpOx31v6uaBVwEjBEN1X9145FAEx6dyu6zFMrXftUzP89foWkLlvSqtE1DLLptWl7E7vAU8ql8vjCy3tw20RTaU0CtPPcaorolriSEFq0wWSGYD8vXhD4pGTWN3WvNDHysqI2jPjpA8ySEcosPC6WY69KXl9SixJnFNk44e97fTzPYemASsUoHpu2q0t2Ly0ZpXWJPgPVmO1NY0YtQ8PVIbIw8rWU8htewj7hBdw1b1E3vHb0pwcP1nv49AwPejjHPA5CTv4wHrbxSPiY6FCFIqGvCv5GkGDb2NmKS9s8qiBGVDa1YrB5SE22RArl2B2Wa2sdkGnfnSwmsh8uenCiAAlNFsRF5RNc5MUTsBqOOk29pWje3hYD7Fx9uTikOLlx1jz03rgWto77yp066yIZm1WqX70gD5VFCiuDAFpbzc6kSFf8ZOXUL7zhf2bZwzCpnFnUc01zASHMm5UamSYA4Q74R1zAAnh4Ut5vSvPWD17gpzlAmH7xpup5wnIuSCopSvW7M8GAeX0T4IHZAGFnvNOLBp3H5wRq1vQKBVO7Yqo5ktIKNhvBnzmCydxsDEJPFkkcFljQSqNqR06S28niBNUpvGRaCWrbSD4noxTwfjjwnE",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (36 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "36 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-21T16:16:59.746Z",
       "origen": "radar-auto"
     }
   ]
