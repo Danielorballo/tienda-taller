@@ -3834,7 +3834,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-08T15:27:23.634Z",
       "origen": "radar-auto"
     },
@@ -4273,6 +4273,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-11-21T16:16:59.746Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-herramientas-de-desbarbado-ng1000-con-11-hojas-gira",
+      "categoria": "electricas",
+      "titulo": "Juego de herramientas de desbarbado NG1000 con 11 hojas giratorias de acero de alta velocidad, cabezal giratorio de 360 grados para resina metálica, Alu, cobre, plástico, PVC",
+      "precio": "3.39 €",
+      "precioAntes": "3.66 €",
+      "valoracion": 5,
+      "ventas": 411,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S4fbcbfb6dd0b48608b20e9301466f9aaN.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008767251868.html?pdp_npi=6%40dis%21EUR%213.66%213.39%21%21%2126.18%2124.23%21%40214114e317953650039036753e1012%2112000046581909884%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4EfI7y76AixKAj11LylCVm5JpA6Vd6Hme7sZ6pzlwCgJhGMIV10qkrDzTx40qOBriMZabHeGhGbeGtSBlOHBMz5zAunoZe4rAVE1AiTHYOcx9LMs1nz2BMrbjpnrksnkIDo2BSKpW1N9tCwn0wyaGuS70nILi2O6v6SXBZFjJvq7ivE0OwMIhRV6JS9zIllevK3uscPazCTerB5QKBqdYdxzgJepV8kWbwxjoC8bJRiVQD2YlMgnAzPuRJSu4i6i4qy3POB2oBDemyQAPu46Vl2oatduvfGFHfMu6DsT928kVdz7FP6VlPGgBEJzYQeP6LRqq0nt6BuHzcDASZYYDH4IYKPEvOVpyFtOn3vXlbfoYqrXc4dwCsAQy1rfdE2E3KiDt4sRGdsyurCRRAM11gB4ismjeMYQQyw8w3cu19CvsoKGaw7nnLcNBOsxlskddgLMnvZqLazmoykd09dCuOZs7bnwoYfXytM0VkAZPTr0yVR2gpjWfnYrUM9QhLYQPZG6Zmlp0dzsh8n4IIp2LJ42nqUql65e8OTCSzbQ2awkNnut9pWz5X5BXRrFEGvNbHDWb31y224vSXj5YLP31q3ZRtzyw5FWFo8kIwCUMbmVywnjaDyo3vvxNaJlLMHNdl01mAp61O9oSnqDMluwrXXrw3xaK6P2ybJpsUu9jhINO7fC6fmm00PTauzV5z9zpErFx49RTVeevu",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (411 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "411 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-22T16:30:05.360Z",
       "origen": "radar-auto"
     }
   ]
