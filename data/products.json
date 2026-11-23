@@ -3857,7 +3857,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-09T18:58:18.322Z",
       "origen": "radar-auto"
     },
@@ -4296,6 +4296,29 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-11-22T16:30:05.360Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "tolesa-1pc-hojas-de-sierra-reciprocas-de-9-12-para-cortar-ma",
+      "categoria": "corte",
+      "titulo": "TOLESA 1PC Hojas de sierra recíprocas de 9\" / 12\" para cortar madera, hojas de sierra para podar madera, hojas de sierra recíprocas con dientes japoneses",
+      "precio": "4.66 €",
+      "precioAntes": "5.12 €",
+      "valoracion": 5,
+      "ventas": 30,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/Sce113b527e0b49fd98c2c914c0069e4ab.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005012982437786.html?pdp_npi=6%40dis%21EUR%215.12%214.66%21%21%2136.65%2133.38%21%402151fd2c17954655325401612e102b%2112000059997849515%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4kZVQELviii9Am2sjNSqQp1qpeOl2UNln6YLJshn9KXG5XmtuCjIDtMOoRv2FEX5Vdoucka2iXiMyrnapB0Ot6YDegUNC2HMSaeNsRTJOyoscOBPSLqj8qB3fsx4xoo2MmCyAnCyBs8MpHvFSnU7y1yaTeLq30jOmygkvdkxpdk7HVhMfaa8i7XHj5HghOfLWZpyTFdYkqvykdxFUSXRJSJkUNxkQzXvOk2VKH1yZR2cAnmMLxPkicNbmOq4MsNgjrnpnqPjM0I3DwSwsmknNmHryahqZyTS3S3zFDsVmxhbzw9Jbc2gDqALEG3zvmfvt86DIWpXfYXVj77zz4PTkdiL7JKXRiEthAXxqsWFABOPhSBUWoUD7dmmRUBvPODEsJwOUnTHK8HgpkDJ8uUmSDtr65l41aczVEXdLmw80X1v92eIAf1szDUiG2cptpEDEWPoChITKshT5PBT4xQ8KTEJg4uYM7Dou0E9JcEU8tghQP8G0EPTi7vs0gOaEwYYJ0BqKyp198fU96JArXWFVW4b8Dm2cqma4inFchItOupN0To4psKGY32Gue78f3YvuowFp470ri4b86oq7Jen2n4dz3d9JFt6wjVJqjlvFtDUctoSOKVJpcBZKMx4OiEiSCBQT5syh618JLKrbbpJoIKo6sYXl0MhXBQGPu5v9MSbs7cZ9f1wY8gBBk1sSJz7kaVTHBkmpsoRn0",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (30 ventas recientes, valoración 5.0/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "30 ventas recientes",
+        "Valoración 5.0/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-23T20:25:33.431Z",
       "origen": "radar-auto"
     }
   ]
