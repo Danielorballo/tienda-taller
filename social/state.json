@@ -37,15 +37,16 @@
     "linterna-de-trabajo-portatil-con-luz-led-y-usb-para-bateria-",
     "broca-recta-de-vastago-de-3mm-20mm-de-diametro-y-8mm-broca-e",
     "1-unidad-regla-de-marcado-multifuncional-de-aluminio-para-ca",
-    "portabrocas-de-6mm-6-35mm-y-8mm-maquina-cortadora-de-grabado"
+    "portabrocas-de-6mm-6-35mm-y-8mm-maquina-cortadora-de-grabado",
+    "ezarc-juego-de-3-hojas-de-sierra-reciprocas-japonesas-de-12-"
   ],
   "ultimo": {
-    "fecha": "2026-11-23",
-    "modo": "consejo",
-    "productoId": null,
-    "tipId": "retales-pruebas",
-    "urlFicha": "https://danielorballo.github.io/tienda-taller",
-    "dir": "social/out/2026-11-23"
+    "fecha": "2026-11-24",
+    "modo": "producto",
+    "productoId": "ezarc-juego-de-3-hojas-de-sierra-reciprocas-japonesas-de-12-",
+    "tipId": null,
+    "urlFicha": "https://danielorballo.github.io/tienda-taller/producto/ezarc-juego-de-3-hojas-de-sierra-reciprocas-japonesas-de-12-.html",
+    "dir": "social/out/2026-11-24"
   },
   "tipsRecientes": [
     "banco-altura",
