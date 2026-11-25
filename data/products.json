@@ -3949,7 +3949,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-11T16:25:35.368Z",
       "origen": "radar-auto"
     },
