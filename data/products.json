@@ -3972,7 +3972,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-13T16:37:24.313Z",
       "origen": "radar-auto"
     },
@@ -3995,7 +3995,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-13T16:37:22.800Z",
       "origen": "radar-auto"
     },
@@ -4018,7 +4018,7 @@
       "contras": [
         "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
       ],
-      "tendencia": true,
+      "tendencia": false,
       "tendenciaDesde": "2026-11-13T16:37:22.800Z",
       "origen": "radar-auto"
     },
@@ -4342,6 +4342,75 @@
       ],
       "tendencia": true,
       "tendenciaDesde": "2026-11-26T18:31:40.481Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "juego-de-afiladores-de-cuchillas-para-herramientas-multifunc",
+      "categoria": "electricas",
+      "titulo": "Juego de afiladores de cuchillas para herramientas multifuncionales oscilantes. Restaura los dientes de sierra desgastados. Compatible con cuchillas oscilantes para taladros. Permite reutilizar cuchillas desgastadas y ahorrar costos.",
+      "precio": "26.99 €",
+      "precioAntes": "44.98 €",
+      "valoracion": 4.8,
+      "ventas": 565,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S6ad0a7f1a65645c18a982f0ccfbe8314D.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005013491594327.html?pdp_npi=6%40dis%21EUR%2144.98%2126.99%21%21%21321.06%21192.65%21%402151fd2c17958036072857782e0e3b%2112000061284798343%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4ms6NbuiQfWN4OGrBS1wWHnhz3Mrf0M1wYaBeNmnszxsmWqd2dJpz2UFb4bi9kdLz71ubc8ALNJHx9PPPeY8KAzUslgkZSX3IkXiKDmhKbrU1xHdkuRfzRm9DNpekVZULXmAn83qNtFXSk6svKPqywQyAKczs8SRdF4m6zJdgSsv9CoY9jslj39cXlpeiqZkOGrYQGf2OlJCmASBZRyMqRLunhD3OvzVGBUqh28IlFfX4OKSKiSTfmZ1N04InSX72miEI68V3LgJaCDs8kusXInnzPKjm1HDPbEbg16fjj3CgFa5Ehe8NmBhVJ9xp1CEvACFqn4bYrxrBx5M9mP35rsdPGPpXsNkHYx0OQYCPKigFFJuCoroo1c3vcyhuqTmx4AOV4kS1uTNUpdhdP76WoizbM3deqWPRS5aROb4keSII52iKKEUFgjmQ5bgsYxx7LVMpGyKBVRaWE7DSWql0idwEzwaECkF2X4ZON0aktEpkipVcHmP0VTxvVmy3T8AOjb5ZhaVlU2CugP4VJ80bGYttWkA55svt1Zy03SwOlF2RZuAvkIPgF15a1g3DFNYZJJZPZLTjKk9gdD4K6bWx0LwYwutuCg2MA9aOkAn73gtly8AlaqAyh62f2IOXJtEeJKt2PM8g00hC5PVrn1SwU0nIq4Ek5dLxwjr1Htq30JO5hADN7i0GidjGL2NldoOqPXuG0q4qd32Vq",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (565 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "565 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-27T18:20:08.836Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "proyan-grano-240-15000-piedra-de-afilar-profesional-de-alumi",
+      "categoria": "electricas",
+      "titulo": "PROYAN Grano 240 # 15000 #   Piedra de afilar profesional de alúmina blanca para cuchillos de cocina y carpintería",
+      "precio": "12.27 €",
+      "precioAntes": "13.91 €",
+      "valoracion": 4.8,
+      "ventas": 456,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S5cfcab61134b4edcb526f5d4764fd53es.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005004225845049.html?pdp_npi=6%40dis%21EUR%2113.91%2112.27%21%21%2114.91%2113.15%21%402151fd2c17958036072857782e0e3b%2112000032066037214%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4mnuZaH7Rcat77vgqI6NUJfYxXTTJs0oV7f0cSpGSM7gNFWHMamykb4Qgkx5m2Atqk4rYLMgQ4mU4IUrrjfAwDRgCAJbopgCszpW5cxkcdH1o96ZHz0vEfDLLz4k7PHsdffbQ0hz0inSvwu5JxkSjNZSNfWEDavTlAEkV68ptkOfMVhwNkWQyy71XXZpDNsEvbi9Ca0DgY1w2lGjby439BkWzqFOASnEWoYNh2dLtVTE9u2f6Do3FtjHgsdWd4Ucc5d4UsjP19LtcUcjtcuRMs5lQOMDEuoAkeQCj3mFIZPjn0QJNkbkBfyRL5VKZfAXzBNkjlNGndwk33dQrKWg4cA54h5adabugWcTEArwhtmd33cr58tNV57WZcBlYlE8utCrOYWKHRShcF22rbTiiKF7qFeJUSSH288oOb6h36ql2d8t6XFa1fc0UxunxPhVOMFSzbdN6TYZdBKFHSsU88QTHEGrDeIcxuAh4JFvW6BK2ekBG8M7YZPzMDE0pJgzHn2LY1OpkiFuUm7cZYez4p1hMocUIkVfW5JcYQCHB70lujXWC2Fe7QKIbeSiuyj3DMAO7Rnbx0K2akIuyh1OnxXrZsVTrTWHlKE8S9Zm0mFgCSBPplnw7oxv3FZ20zgaPrCukLxOXzCS03Kj8g2lLXlzxd5tpzSQx2BgUUlpYjGV9R8DczM3OSGX4qVwSY7xLgqStnQy82N5N8",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (456 ventas recientes, valoración 4.8/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "456 ventas recientes",
+        "Valoración 4.8/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-27T18:20:08.836Z",
+      "origen": "radar-auto"
+    },
+    {
+      "id": "herramienta-de-desbarbado-de-metal-con-mango-rb3000-con-10-u",
+      "categoria": "electricas",
+      "titulo": "Herramienta de desbarbado de Metal con mango RB3000 con 10 Uds. De cuchillas de recorte BS1010, raspador de rebabas para herramienta escariadora de plástico y madera",
+      "precio": "5.49 €",
+      "precioAntes": "5.89 €",
+      "valoracion": 4.9,
+      "ventas": 373,
+      "imagen": "https://ae-pic-a1.aliexpress-media.com/kf/S03e5e807f4a2407c9f776e1aad7d32c8v.jpg",
+      "urlProducto": "https://es.aliexpress.com/item/1005008767224572.html?pdp_npi=6%40dis%21EUR%215.89%215.49%21%21%2142.05%2139.19%21%402151fd2c17958036072857782e0e3b%2112000046581648026%21affd%21%21%21%211%210%21",
+      "affiliateUrl": "https://s.click.aliexpress.com/s/pyFri10M6ltAv61YZY9TfrxiDaaFXRreuZWJMeLtD8jig1wPxn51K2eq59ds8iT5Wl5L3w5KJyrl7SjOO3B0oJ0Xjwnc7n8AQA7gf5qnT4sCyU05LNms9JvyWQNFHNKtzBcoBpSguMg3UBR1FOODkmGTloXosMhqhnKgzzuJPYPxewVvzupiAiKSJA5SK0iQRxmaQ7UPG0AP2HC7uLitVpvXIfjMl7RnsnN7B8FrGfP9TWP7emQeaXV90Bp9fLEiLeKHsRf9R2jgKD32Axm5na4bRJdkhGVyv3GcDgMjmYrrZWinWctR9gnPwA4olsnZYUMwrYV8LE6YAIMKhR6DrGBpKXoiW4bztxVdNWrSGn0uUjww5hhVeGyqoRGzEdvDWinlmWHGnGd7akVbzYURFCZfbZGWmvBd97eIHWUQxAA0GmeVGVnOsOPeKPaTdOxWM6qLalzEr0SAWMsUIcW2VUpCFybt2jOXmvlXlnxy8xIbu07U9hOuKiqvqqAl8iHU7dxoXh8cZlXYbI1dfmtOtWe5II4aIYJQEigutI1ngRfhb0sCLN3kBlkMZbNGcPyLEWZoK932COcE7mViqcqugi1oVlokmJzTN1tikN6tZpwxdAQpTTagSXIUOoou3q82aE183YUlOgQOjWzNgjgdi9cYfqNiNnmGuZJjqLAg4GLDDWeT40o59q4MExz9TOgvVE9km0oqYZFtoae4SnSQLelP0oIyla758LzEPUBTdKptoWAzSvgWbdQXf6W3Fh0jNruwdDoQL4dVes6Zw93UiMH2QbQ4biKeEBD0Vyc1mgzc5B8MKcFAWhgjJQfm32i52LoBtIIGrjkcHmgC2VkCYTODlGdCcSObkYel3ltS4tZZXtQZFAelb5xSroZFtq780mXjUiA44TuUZpCPDgLVDRxiEz1NMFcbKuADFJKJJSpKt0yfxpLWA08rI68vFBVq0p79iv6LC0jyy5SZjoJq0JYtvwlElw968Lhbrg6ymZOlg7jtxhs0BnXBzzacGAnq4LY0LQ62",
+      "veredicto": "Producto en tendencia esta semana en AliExpress (373 ventas recientes, valoración 4.9/5). Añadido automáticamente por el radar de novedades — veredicto de taller pendiente de revisión.",
+      "pros": [
+        "373 ventas recientes",
+        "Valoración 4.9/5"
+      ],
+      "contras": [
+        "Añadido por el radar automático: revisar calidad antes de recomendarlo en guías"
+      ],
+      "tendencia": true,
+      "tendenciaDesde": "2026-11-27T18:20:08.836Z",
       "origen": "radar-auto"
     }
   ]
